@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(01_09 main.cpp)
 add_executable(P4238 P4238.cpp)
+
+add_executable(P3338 P3338.cpp)
