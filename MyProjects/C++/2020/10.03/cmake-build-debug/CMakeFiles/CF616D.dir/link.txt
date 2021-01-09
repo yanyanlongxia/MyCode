@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF616D.dir/CF616D.cpp.o  -o CF616D 

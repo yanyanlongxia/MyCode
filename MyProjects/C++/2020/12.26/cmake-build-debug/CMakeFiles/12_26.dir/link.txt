@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/12_26.dir/main.cpp.o -o 12_26 

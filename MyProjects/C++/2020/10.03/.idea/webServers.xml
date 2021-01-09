@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5fda5fa8-0c0a-469a-9653-15eb9643f841" name="Googledrive" url="http://localhost">
+        <fileTransfer mountedRoot="G:\共享云端硬盘" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

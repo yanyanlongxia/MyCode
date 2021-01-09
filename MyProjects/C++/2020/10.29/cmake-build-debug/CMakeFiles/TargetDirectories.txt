@@ -1,0 +1,16 @@
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/CF1437B.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/CF1445C.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/CF1445A.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/loj12a.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/ZR1584.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/illusion.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/10_29.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/test.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/CF1445B.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/xmasdag.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/maker.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/std.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/magic.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.29/cmake-build-debug/CMakeFiles/xmasinterval.dir

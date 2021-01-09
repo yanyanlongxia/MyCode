@@ -1,0 +1,3 @@
+C:\Users\admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.8743.17\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\P3388.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\P3388.dir/objects.a @CMakeFiles\P3388.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\P3388.dir/objects.a -Wl,--no-whole-archive  -o P3388.exe -Wl,--out-implib,libP3388.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\P3388.dir\linklibs.rsp

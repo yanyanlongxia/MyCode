@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SP1805.dir/SP1805.cpp.o  -o SP1805 

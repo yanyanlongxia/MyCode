@@ -1,0 +1,5 @@
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/huishu/T4/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/huishu/T4/cmake-build-debug-mingw/CMakeFiles/T4.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/huishu/T4/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/huishu/T4/cmake-build-debug-mingw/CMakeFiles/main.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/huishu/T4/cmake-build-debug-mingw/CMakeFiles/a.dir

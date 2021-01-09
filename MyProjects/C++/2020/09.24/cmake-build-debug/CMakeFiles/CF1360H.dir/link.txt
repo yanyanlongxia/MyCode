@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF1360H.dir/CF1360H.cpp.o  -o CF1360H 

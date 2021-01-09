@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/POJ2104.dir/POJ2104.cpp.o  -o POJ2104 

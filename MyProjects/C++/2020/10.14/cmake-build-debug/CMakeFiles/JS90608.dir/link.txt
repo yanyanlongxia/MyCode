@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/JS90608.dir/JS90608.cpp.o  -o JS90608 

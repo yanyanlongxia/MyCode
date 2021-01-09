@@ -1,0 +1,2 @@
+C:\Users\admin\OneDrive - Contra Costa Com College District\My Projects\C++\VS1\test\Debug\test.exe
+C:\Users\admin\OneDrive - Contra Costa Com College District\My Projects\C++\VS1\test\Debug\test.pdb

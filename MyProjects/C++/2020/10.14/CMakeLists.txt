@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.17)
+project(10_14)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(10_14 main.cpp)
+add_executable(CF940F CF940F.cpp)
+add_executable(maker maker.cpp)
+add_executable(std std.cpp)
+add_executable(JS90608 JS90608.cpp)
+add_executable(test test.cpp)
+add_executable(queue queue.cpp)
+add_executable(birthday birthday.cpp)
+add_executable(P3369 P3369.cpp)
+add_executable(P2234 P2234.cpp)
+add_executable(a a.cpp)

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF1417A.dir/CF1417A.cpp.o  -o CF1417A 

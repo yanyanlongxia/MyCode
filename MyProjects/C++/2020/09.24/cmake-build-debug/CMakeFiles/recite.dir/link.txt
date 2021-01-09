@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/recite.dir/recite.cpp.o  -o recite 

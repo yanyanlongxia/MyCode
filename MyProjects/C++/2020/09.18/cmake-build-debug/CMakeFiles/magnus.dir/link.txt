@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/magnus.dir/magnus.cpp.o  -o magnus 

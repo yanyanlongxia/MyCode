@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/UVA12558.dir/UVA12558.cpp.o  -o UVA12558 

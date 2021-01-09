@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/a.dir/a.cpp.o -o a 

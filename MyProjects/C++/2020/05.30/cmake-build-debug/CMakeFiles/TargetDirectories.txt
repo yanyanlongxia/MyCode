@@ -1,0 +1,9 @@
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/05.30/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/05.30/cmake-build-debug/CMakeFiles/05_30.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/05.30/cmake-build-debug/CMakeFiles/AtcoderNPC2020B.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/05.30/cmake-build-debug/CMakeFiles/cf645C.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/05.30/cmake-build-debug/CMakeFiles/AtcoderNPC2020A.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/05.30/cmake-build-debug/CMakeFiles/try1.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/05.30/cmake-build-debug/CMakeFiles/P6567.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/05.30/cmake-build-debug/CMakeFiles/CF88A.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/05.30/cmake-build-debug/CMakeFiles/rebuild_cache.dir

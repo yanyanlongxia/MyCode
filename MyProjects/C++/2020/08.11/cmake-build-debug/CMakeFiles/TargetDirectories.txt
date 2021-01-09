@@ -1,0 +1,12 @@
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/08_11.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/P1896.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/P3092.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/P3694.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/P2622.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/P2585.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/P3853.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/P1273.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/P1272.dir
+C:/Users/admin/Documents/MyCode/MyCode/My Projects/C++/08.11/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.21/UVA12558.cpp
+iostream
+-
+vector
+-
+cstring
+-
+algorithm
+-
+

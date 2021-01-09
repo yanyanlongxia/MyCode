@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.17)
+project(08_23)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(08_23 main.cpp)
+add_executable(P2680 P2680.cpp)
+add_executable(group group.cpp)
+add_executable(maze maze.cpp)
+add_executable(P2286 P2286.cpp)
+add_executable(test test.cpp)
+add_executable(easy easy.cpp)
+add_executable(kperm kperm.cpp)
+add_executable(square square.cpp)
+add_executable(a a.cpp)
+add_executable(b b.cpp)

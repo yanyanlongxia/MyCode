@@ -1,0 +1,17 @@
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/07_04.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P3811.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/c.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P3389.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P2455.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P1627.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P38651.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P1226.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P3383.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P5656.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/ac.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P2197.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P3370.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/P3865.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/f.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.04/cmake-build-debug/CMakeFiles/rebuild_cache.dir

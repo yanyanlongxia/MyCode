@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/05.30/AtcoderNPC2020B.cpp
+bits/stdc++.h
+-
+

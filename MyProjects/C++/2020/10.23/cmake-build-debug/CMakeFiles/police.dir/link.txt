@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/police.dir/police.cpp.o  -o police 

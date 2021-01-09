@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{First Part}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{beamer}{4}{0}{1}

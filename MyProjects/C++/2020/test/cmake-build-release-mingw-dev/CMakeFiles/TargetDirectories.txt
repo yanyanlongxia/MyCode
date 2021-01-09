@@ -1,0 +1,3 @@
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/test/cmake-build-release-mingw-dev/CMakeFiles/rebuild_cache.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/test/cmake-build-release-mingw-dev/CMakeFiles/test.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/test/cmake-build-release-mingw-dev/CMakeFiles/edit_cache.dir

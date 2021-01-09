@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF817D.dir/CF817D.cpp.o  -o CF817D 

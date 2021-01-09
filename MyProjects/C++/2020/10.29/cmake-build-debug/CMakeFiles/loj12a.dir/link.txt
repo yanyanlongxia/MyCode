@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/loj12a.dir/loj12a.cpp.o -o loj12a 

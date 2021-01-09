@@ -1,0 +1,16 @@
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/CF670C.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/PRICECON.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/06_06.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/USACO2020OB2.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/Atcoder169B.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/Hello.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/Atcoder169A.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/Atcoder169C.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/2.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/POJ1995.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/POJ2299.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/ACWing95.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/BZOJ3032.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.06/cmake-build-debug/CMakeFiles/rebuild_cache.dir

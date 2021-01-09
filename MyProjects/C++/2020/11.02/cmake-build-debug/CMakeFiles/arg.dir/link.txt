@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/arg.dir/arg.cpp.o -o arg 

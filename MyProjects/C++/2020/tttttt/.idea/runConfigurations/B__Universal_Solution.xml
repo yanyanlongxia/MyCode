@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="B. Universal Solution" type="name.admitriev.jhelper.configuration.TaskConfigurationType" className="BUniversalSolution" cppPath="tasks/BUniversalSolution.cpp" inputType="STANDARD" outputType="STANDARD" testType="SINGLE">
+    <tests>
+      <test input="3&#10;RRRR&#10;RSP&#10;S&#10;" output="PPPP&#10;RSP&#10;R&#10;" active="true" />
+    </tests>
+    <method v="2" />
+  </configuration>
+</component>

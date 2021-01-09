@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.17)
+project(09_28)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(09_28 main.cpp)
+add_executable(CF1363E CF1363E.cpp)
+add_executable(CF1328E CF1328E.cpp)
+add_executable(P2044 P2044.cpp)
+add_executable(P4159 P4159.cpp)
+add_executable(CF1408A CF1408A.cpp)
+add_executable(CF1408B CF1408B.cpp)
+add_executable(test test.cpp)
+add_executable(P1932 P1932.cpp)
+add_executable(pebble pebble.cpp)
+add_executable(village village.cpp)
+add_executable(pancake pancake.cpp)
+add_executable(ZR1584 ZR1584.cpp)

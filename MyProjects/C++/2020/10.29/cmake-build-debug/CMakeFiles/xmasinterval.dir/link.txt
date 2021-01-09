@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/xmasinterval.dir/xmasinterval.cpp.o -o xmasinterval 

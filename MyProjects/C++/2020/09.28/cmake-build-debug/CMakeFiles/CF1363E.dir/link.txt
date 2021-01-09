@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF1363E.dir/CF1363E.cpp.o  -o CF1363E 

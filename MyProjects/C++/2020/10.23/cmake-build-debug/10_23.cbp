@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="10_23"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CF1435B">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/CF1435B" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 CF1435B"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CF1435B/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/CF1435B" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 CF1435B/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CF1435A">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/CF1435A" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 CF1435A"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CF1435A/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/CF1435A" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 CF1435A/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10_23">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/10_23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 10_23"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10_23/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/10_23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 10_23/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="math">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/math" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 math"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="math/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/math" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 math/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P3431">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/P3431" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3431"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P3431/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/P3431" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3431/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thief">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/thief" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 thief"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thief/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/thief" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 thief/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 a"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 a/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="noname">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/noname" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 noname"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="noname/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/noname" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 noname/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="building">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/building" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 building"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="building/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/building" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 building/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P2163">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/P2163" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 P2163"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P2163/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/P2163" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 P2163/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="police">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/police" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 police"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="police/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/police" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 police/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="node">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 node"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="node/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 node/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P5658">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/P5658" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 P5658"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P5658/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/P5658" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 P5658/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 b"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 b/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="and">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/and" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 and"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="and/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/and" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 and/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rectangle">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/rectangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 rectangle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rectangle/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/rectangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 rectangle/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leader">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/leader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 leader"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leader/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/leader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 leader/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trip">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/trip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 trip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trip/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/trip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 trip/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byethree">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/byethree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 byethree"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byethree/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/byethree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 byethree/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="castle">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/castle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 castle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="castle/fast">
+				<Option output="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/castle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 castle/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/CF1435A.cpp">
+			<Option target="CF1435A"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/CF1435B.cpp">
+			<Option target="CF1435B"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/P2163.cpp">
+			<Option target="P2163"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/P3431.cpp">
+			<Option target="P3431"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/P5658.cpp">
+			<Option target="P5658"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/a.cpp">
+			<Option target="a"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/and.cpp">
+			<Option target="and"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/b.cpp">
+			<Option target="b"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/building.cpp">
+			<Option target="building"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/byethree.cpp">
+			<Option target="byethree"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/castle.cpp">
+			<Option target="castle"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/leader.cpp">
+			<Option target="leader"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/main.cpp">
+			<Option target="10_23"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/math.cpp">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/node.cpp">
+			<Option target="node"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/noname.cpp">
+			<Option target="noname"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/police.cpp">
+			<Option target="police"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/rectangle.cpp">
+			<Option target="rectangle"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/thief.cpp">
+			<Option target="thief"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/trip.cpp">
+			<Option target="trip"/>
+		</Unit>
+		<Unit filename="/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.23/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

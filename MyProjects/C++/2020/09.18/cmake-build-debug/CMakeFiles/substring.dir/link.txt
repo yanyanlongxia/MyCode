@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/substring.dir/substring.cpp.o  -o substring 

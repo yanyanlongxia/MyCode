@@ -1,0 +1,5 @@
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug/CMakeFiles/U140686.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug/CMakeFiles/CF245H.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug/CMakeFiles/11_14.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug/CMakeFiles/edit_cache.dir

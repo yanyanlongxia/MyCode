@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P6282.dir/P6282.cpp.o  -o P6282 

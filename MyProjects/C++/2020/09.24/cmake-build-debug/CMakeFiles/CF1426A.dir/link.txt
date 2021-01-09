@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF1426A.dir/CF1426A.cpp.o  -o CF1426A 

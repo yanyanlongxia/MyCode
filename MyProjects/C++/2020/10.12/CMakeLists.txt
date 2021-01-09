@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.17)
+project(10_12)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(10_12 main.cpp)
+add_executable(P3834 P3834.cpp)
+add_executable(P3919 P3919.cpp)
+add_executable(P3567 P3567.cpp)
+add_executable(a a.cpp)
+add_executable(P2633 P2633.cpp)
+add_executable(SP10628 SP10628.cpp)
+add_executable(P3302 P3302.cpp)
+add_executable(test test.cpp)
+add_executable(SP1487 SP1487.cpp)
+add_executable(P2709 P2709.cpp)
+add_executable(P1494 P1494.cpp)
+add_executable(P1903 P1903.cpp)

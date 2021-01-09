@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="07_11"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07_11">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/07_11.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 07_11"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07_11/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/07_11.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 07_11/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P3327">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P3327.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3327"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P3327/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P3327.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3327/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HDOJ2138">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/HDOJ2138.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 HDOJ2138"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HDOJ2138/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/HDOJ2138.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 HDOJ2138/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="POJ3090">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/POJ3090.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 POJ3090"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="POJ3090/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/POJ3090.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 POJ3090/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="create">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/create.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 create"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="create/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/create.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 create/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 t"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 t/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ai2020a">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/ai2020a.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 ai2020a"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ai2020a/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/ai2020a.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 ai2020a/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/std.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 std"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/std.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 std/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ai2020b">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/ai2020b.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 ai2020b"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ai2020b/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/ai2020b.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 ai2020b/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ai2020c">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/ai2020c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 ai2020c"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ai2020c/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/ai2020c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 ai2020c/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ai2020d">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/ai2020d.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 ai2020d"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ai2020d/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/ai2020d.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 ai2020d/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P3865">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P3865.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3865"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P3865/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P3865.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3865/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1390">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P1390.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1390"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1390/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P1390.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1390/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P4779">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P4779.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P4779"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P4779/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P4779.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P4779/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1880">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P1880.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1880"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P1880/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P1880.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P1880/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P4035">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P4035.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P4035"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P4035/fast">
+				<Option output="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/P4035.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P4035/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/HDOJ2138.cpp">
+			<Option target="HDOJ2138"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/P1390.cpp">
+			<Option target="P1390"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/P1880.cpp">
+			<Option target="P1880"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/P3327.cpp">
+			<Option target="P3327"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/P3865.cpp">
+			<Option target="P3865"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/P4035.cpp">
+			<Option target="P4035"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/P4779.cpp">
+			<Option target="P4779"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/POJ3090.cpp">
+			<Option target="POJ3090"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/ai2020a.cpp">
+			<Option target="ai2020a"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/ai2020b.cpp">
+			<Option target="ai2020b"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/ai2020c.cpp">
+			<Option target="ai2020c"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/ai2020d.cpp">
+			<Option target="ai2020d"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/create.cpp">
+			<Option target="create"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/main.cpp">
+			<Option target="07_11"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/std.cpp">
+			<Option target="std"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/t.cpp">
+			<Option target="t"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

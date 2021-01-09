@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/08.02/P3044.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+cstring
+-
+queue
+-
+

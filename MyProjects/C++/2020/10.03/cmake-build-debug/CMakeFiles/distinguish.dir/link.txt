@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/distinguish.dir/distinguish.cpp.o  -o distinguish 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/choose.dir/choose.cpp.o  -o choose 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF1343D.dir/CF1343D.cpp.o  -o CF1343D 

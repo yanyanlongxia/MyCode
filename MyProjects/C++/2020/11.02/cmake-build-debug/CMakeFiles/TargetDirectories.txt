@@ -1,0 +1,8 @@
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.02/cmake-build-debug/CMakeFiles/castle.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.02/cmake-build-debug/CMakeFiles/arg.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.02/cmake-build-debug/CMakeFiles/11_02.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.02/cmake-build-debug/CMakeFiles/CF1437C.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.02/cmake-build-debug/CMakeFiles/test.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.02/cmake-build-debug/CMakeFiles/CF1437D.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3302.dir/P3302.cpp.o  -o P3302 

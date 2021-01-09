@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P1169.dir/P1169.cpp.o  -o P1169 

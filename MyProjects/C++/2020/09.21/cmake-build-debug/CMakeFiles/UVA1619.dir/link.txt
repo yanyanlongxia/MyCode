@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/UVA1619.dir/UVA1619.cpp.o  -o UVA1619 

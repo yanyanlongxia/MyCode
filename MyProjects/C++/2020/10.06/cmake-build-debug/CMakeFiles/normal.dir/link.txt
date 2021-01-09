@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/normal.dir/normal.cpp.o  -o normal 

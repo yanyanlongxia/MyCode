@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/telewire.dir/telewire.cpp.o  -o telewire 

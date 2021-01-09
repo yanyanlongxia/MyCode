@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/UVA437.dir/UVA437.cpp.o  -o UVA437 

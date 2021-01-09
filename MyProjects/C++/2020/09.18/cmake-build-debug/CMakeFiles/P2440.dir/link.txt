@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P2440.dir/P2440.cpp.o  -o P2440 

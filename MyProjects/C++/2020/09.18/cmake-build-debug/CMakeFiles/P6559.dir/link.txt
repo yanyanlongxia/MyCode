@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P6559.dir/P6559.cpp.o  -o P6559 

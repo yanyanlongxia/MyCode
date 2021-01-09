@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/P1214.dir/P1214.cpp.o -o P1214 

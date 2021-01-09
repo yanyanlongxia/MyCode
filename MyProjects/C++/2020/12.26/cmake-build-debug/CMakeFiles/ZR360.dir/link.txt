@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ZR360.dir/ZR360.cpp.o -o ZR360 

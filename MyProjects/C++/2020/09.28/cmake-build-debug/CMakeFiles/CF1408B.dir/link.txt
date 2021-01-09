@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF1408B.dir/CF1408B.cpp.o  -o CF1408B 

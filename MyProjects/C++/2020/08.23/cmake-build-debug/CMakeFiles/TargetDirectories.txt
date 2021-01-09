@@ -1,0 +1,13 @@
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/b.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/08_23.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/easy.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/P2680.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/kperm.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/a.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/group.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/maze.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/P2286.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/square.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DELL/Documents/GitHub/MyCode/My Projects/C++/08.23/cmake-build-debug/CMakeFiles/rebuild_cache.dir

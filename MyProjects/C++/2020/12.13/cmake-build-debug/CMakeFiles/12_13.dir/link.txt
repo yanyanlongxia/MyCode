@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/12_13.dir/main.cpp.o -o 12_13 

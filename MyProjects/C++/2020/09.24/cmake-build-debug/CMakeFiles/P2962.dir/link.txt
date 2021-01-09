@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P2962.dir/P2962.cpp.o  -o P2962 

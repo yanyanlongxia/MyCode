@@ -1,0 +1,57 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="C:\Users\admin\OneDrive - Contra Costa Com College District\My Projects\MATLAB\06.27\factor.prj" location="C:\Users\admin\OneDrive - Contra Costa Com College District\My Projects\MATLAB\06.27" name="factor" target="target.mlapps" target-name="打包为 App">
+    <param.appname>factor</param.appname>
+    <param.authnamewatermark>yanyanlongxia</param.authnamewatermark>
+    <param.email>yanyanlongxia@outlook.com</param.email>
+    <param.company>fadfsafd</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>safdafd</param.summary>
+    <param.description>ASAAdsa</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\admin\OneDrive - Contra Costa Com College District\My Projects\MATLAB</param.output>
+    <param.guid>089c5b86-94da-4a8a-b31e-bb7b16d5e560</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main />
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\admin\OneDrive - Contra Costa Com College District\My Projects" name="MATLAB" optional="false">C:\Users\admin\OneDrive - Contra Costa Com College District\My Projects\MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

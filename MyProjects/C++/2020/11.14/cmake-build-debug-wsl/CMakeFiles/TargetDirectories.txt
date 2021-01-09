@@ -1,0 +1,10 @@
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug-wsl/CMakeFiles/P5541.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug-wsl/CMakeFiles/abc184a.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug-wsl/CMakeFiles/CF914D.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug-wsl/CMakeFiles/U140686.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug-wsl/CMakeFiles/rebuild_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug-wsl/CMakeFiles/CF245H.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug-wsl/CMakeFiles/edit_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug-wsl/CMakeFiles/string.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug-wsl/CMakeFiles/11_14.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/11.14/cmake-build-debug-wsl/CMakeFiles/count.dir

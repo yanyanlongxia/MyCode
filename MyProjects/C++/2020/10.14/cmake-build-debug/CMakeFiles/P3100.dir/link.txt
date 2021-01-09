@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3100.dir/P3100.cpp.o  -o P3100 

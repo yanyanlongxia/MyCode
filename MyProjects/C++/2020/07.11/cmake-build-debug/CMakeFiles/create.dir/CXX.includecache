@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/caryon.h
+bits/stdc++.h
+-
+
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/create.cpp
+caryon.h
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/caryon.h
+iostream
+-
+

@@ -1,0 +1,8 @@
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/04.24/cmake-build-debug-mingw/CMakeFiles/jsf.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/04.24/cmake-build-debug-mingw/CMakeFiles/04_24.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/04.24/cmake-build-debug-mingw/CMakeFiles/T131511.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/04.24/cmake-build-debug-mingw/CMakeFiles/jisuan.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/04.24/cmake-build-debug-mingw/CMakeFiles/P4322.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/04.24/cmake-build-debug-mingw/CMakeFiles/miao.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/04.24/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+E:/OneDrive - Contra Costa Com College District/My Projects/C++/04.24/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

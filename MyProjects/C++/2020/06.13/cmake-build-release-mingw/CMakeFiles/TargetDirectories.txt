@@ -1,0 +1,5 @@
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw/CMakeFiles/06_13.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw/CMakeFiles/edit_cache.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw/CMakeFiles/TokioA.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw/CMakeFiles/TokioB.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw/CMakeFiles/rebuild_cache.dir

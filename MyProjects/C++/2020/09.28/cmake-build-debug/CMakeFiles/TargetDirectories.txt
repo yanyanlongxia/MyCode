@@ -1,0 +1,15 @@
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/ZR1584.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/pancake.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/village.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/P2044.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/CF1363E.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/09_28.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/P4159.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/CF1408A.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/CF1328E.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/test.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/pebble.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/CF1408B.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/09.28/cmake-build-debug/CMakeFiles/P1932.dir

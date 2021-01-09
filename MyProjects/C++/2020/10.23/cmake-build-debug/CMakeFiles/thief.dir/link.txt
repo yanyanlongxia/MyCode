@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/thief.dir/thief.cpp.o  -o thief 

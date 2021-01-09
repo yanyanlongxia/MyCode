@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,--stack,524288)" -G "CodeBlocks - Unix Makefiles" /mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.03
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.03/cmake-build-debug

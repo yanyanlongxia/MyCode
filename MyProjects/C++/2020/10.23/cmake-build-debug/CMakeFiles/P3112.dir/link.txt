@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3112.dir/P3112.cpp.o  -o P3112 

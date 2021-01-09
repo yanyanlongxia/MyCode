@@ -1,0 +1,3 @@
+"E:\Program Files (x86)\Toolbox\apps\CLion\ch-0\201.6668.86\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\T4.dir/objects.a
+E:\Programfiles\CodeBlocks\MinGW\bin\ar.exe cr CMakeFiles\T4.dir/objects.a @CMakeFiles\T4.dir\objects1.rsp
+E:\Programfiles\CodeBlocks\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\T4.dir/objects.a -Wl,--no-whole-archive  -o T4.exe -Wl,--out-implib,libT4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\T4.dir\linklibs.rsp

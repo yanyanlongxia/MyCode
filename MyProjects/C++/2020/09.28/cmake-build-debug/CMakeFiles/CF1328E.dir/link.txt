@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF1328E.dir/CF1328E.cpp.o  -o CF1328E 

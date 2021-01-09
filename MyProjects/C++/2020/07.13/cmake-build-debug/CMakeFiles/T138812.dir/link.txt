@@ -1,0 +1,3 @@
+C:\Users\admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\T138812.dir/objects.a
+C:\PROGRA~2\mingw32\bin\ar.exe cr CMakeFiles\T138812.dir/objects.a @CMakeFiles\T138812.dir\objects1.rsp
+C:\PROGRA~2\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\T138812.dir/objects.a -Wl,--no-whole-archive  -o T138812.exe -Wl,--out-implib,libT138812.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\T138812.dir\linklibs.rsp

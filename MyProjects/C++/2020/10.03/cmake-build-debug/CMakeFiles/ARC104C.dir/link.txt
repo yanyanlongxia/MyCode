@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ARC104C.dir/ARC104C.cpp.o  -o ARC104C 

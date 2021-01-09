@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF1213G.dir/CF1213G.cpp.o  -o CF1213G 

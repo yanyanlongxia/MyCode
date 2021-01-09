@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF940F.dir/CF940F.cpp.o  -o CF940F 

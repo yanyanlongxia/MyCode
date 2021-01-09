@@ -1,0 +1,5 @@
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.19/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.19/cmake-build-debug/CMakeFiles/10_19.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.19/cmake-build-debug/CMakeFiles/POJ2104.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.19/cmake-build-debug/CMakeFiles/P4137.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.19/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,10 @@
+C:\Users\AsianBike\AppData\Local\JetBrains\CLion2020.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" "\"E:/OneDrive - Contra Costa Com College District/My Projects/C++/回溯算法/T4\""
+CMake Error: The source directory "/cygdrive/e/OneDrive - Contra Costa Com College District/My Projects/C++/鍥炴函绠楁硶/T4/cmake-build-release-cygwin/"/"E:/OneDrive - Contra Costa Com College District/My Projects/C++/鍥炴函绠楁硶/T4/""" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+
+CMake Error:
+  ------------------------------------------------------------------------------------
+  Selected CMake might be incompatible with the Cygwin environment.
+  In order to run on Cygwin, CMake needs to be specially compiled.
+  Please select either CMake bundled with CLion or CMake from the Cygwin installation.
+  ------------------------------------------------------------------------------------

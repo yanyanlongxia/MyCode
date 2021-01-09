@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/xmasdag.dir/xmasdag.cpp.o -o xmasdag 

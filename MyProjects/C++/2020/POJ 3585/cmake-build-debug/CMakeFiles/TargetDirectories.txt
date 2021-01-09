@@ -1,0 +1,5 @@
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/POJ 3585/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/POJ 3585/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/POJ 3585/cmake-build-debug/CMakeFiles/POJ_3585.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/POJ 3585/cmake-build-debug/CMakeFiles/a.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/POJ 3585/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/07.11/std.cpp
+stdio.h
+-
+string.h
+-
+iostream
+-
+

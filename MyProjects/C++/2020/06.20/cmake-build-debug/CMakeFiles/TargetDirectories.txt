@@ -1,0 +1,14 @@
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/NC6013B.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/P3374.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/06_20.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/P3369.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/P1525.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/P2024.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/P1196.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/NC6031C.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/CF515E.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/AGC46A.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/P3372.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/P5490.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.20/cmake-build-debug/CMakeFiles/rebuild_cache.dir

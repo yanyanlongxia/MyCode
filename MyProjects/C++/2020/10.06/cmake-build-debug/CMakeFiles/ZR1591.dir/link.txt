@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ZR1591.dir/ZR1591.cpp.o  -o ZR1591 

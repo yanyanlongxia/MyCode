@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/pancake.dir/pancake.cpp.o  -o pancake 

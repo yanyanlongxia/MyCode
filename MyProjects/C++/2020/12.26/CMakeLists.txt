@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.18)
+project(12_26)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(12_26 main.cpp)
+add_executable(P1214 P1214.cpp)
+add_executable(P1353 P1353.cpp)
+add_executable(P1894 P1894.cpp)
+add_executable(P3803FFT "P3803(FFT).cpp")
+add_executable(P3803NTT "P3803(NTT).cpp")
+add_executable(P1919 P1919.cpp)
+add_executable(P3375hash "P3375(hash).cpp")
+add_executable(test test.cpp)
+add_executable(P4721 P4721.cpp)
+add_executable(ZR360 ZR360.cpp)
+add_executable(ZR362 ZR362.cpp)

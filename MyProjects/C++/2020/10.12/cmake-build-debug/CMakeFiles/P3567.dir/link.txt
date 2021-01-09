@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3567.dir/P3567.cpp.o  -o P3567 

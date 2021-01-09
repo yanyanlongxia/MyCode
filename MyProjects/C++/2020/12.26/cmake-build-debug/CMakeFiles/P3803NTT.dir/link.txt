@@ -1,0 +1,1 @@
+/usr/bin/c++ -g "CMakeFiles/P3803NTT.dir/P3803(NTT).cpp.o" -o P3803NTT 

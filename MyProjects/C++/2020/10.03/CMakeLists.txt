@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.17)
+project(10_03)
+
+set(CMAKE_CXX_STANDARD 98)
+
+add_executable(10_03 main.cpp)
+
+add_executable(distinguish distinguish.cpp)
+add_executable(test test.cpp)
+add_executable(ARC104A ARC104A.cpp)
+add_executable(ARC104B ARC104B.cpp)
+add_executable(ARC104C ARC104C.cpp)
+add_executable(P2886 P2886.cpp)
+add_executable(language language.cpp)
+add_executable(object cmake-build-debug/object.cpp)
+add_executable(P2261 P2261.cpp)
+add_executable(CF616D CF616D.cpp)
+add_executable(P6569 P6569.cpp)
+add_executable(dragons dragons.cpp)
+add_executable(maker maker.cpp)
+add_executable(bf bf.cpp)

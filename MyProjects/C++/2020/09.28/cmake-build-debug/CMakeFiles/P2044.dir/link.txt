@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P2044.dir/P2044.cpp.o  -o P2044 

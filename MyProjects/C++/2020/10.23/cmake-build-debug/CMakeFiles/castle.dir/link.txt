@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/castle.dir/castle.cpp.o  -o castle 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SP10628.dir/SP10628.cpp.o  -o SP10628 

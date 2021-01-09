@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.16)
+project(06_20)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(06_20 main.cpp)
+add_executable(P1525 P1525.cpp)
+add_executable(P2024 P2024.cpp)
+add_executable(P3374 P3374.cpp)
+add_executable(P1196 P1196.cpp)
+add_executable(P3369 P3369.cpp)
+add_executable(NC6013B NC6013B.cpp)
+add_executable(NC6031C NC6031C.cpp)
+add_executable(CF515E CF515E.cpp)
+add_executable(AGC46A AGC46A.cpp)
+add_executable(P3372 P3372.cpp)
+add_executable(P5490 P5490.cpp)

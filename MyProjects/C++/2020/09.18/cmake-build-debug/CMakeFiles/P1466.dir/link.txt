@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P1466.dir/P1466.cpp.o  -o P1466 

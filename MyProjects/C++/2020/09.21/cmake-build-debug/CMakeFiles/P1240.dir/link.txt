@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P1240.dir/P1240.cpp.o  -o P1240 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3431.dir/P3431.cpp.o  -o P3431 

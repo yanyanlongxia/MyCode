@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF547B.dir/CF547B.cpp.o  -o CF547B 

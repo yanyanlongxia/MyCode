@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/noname.dir/noname.cpp.o  -o noname 

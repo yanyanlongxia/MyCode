@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="P1001 A+B Problem" type="name.admitriev.jhelper.configuration.TaskConfigurationType" className="P1001ABProblem" cppPath="tasks/P1001ABProblem.cpp" inputType="STANDARD" outputType="STANDARD" testType="SINGLE">
+    <tests>
+      <test input="20 30&#10;" output="50&#10;" active="true" />
+    </tests>
+    <method v="2" />
+  </configuration>
+</component>

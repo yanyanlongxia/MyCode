@@ -1,0 +1,17 @@
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/path.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/U134036.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/normal.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/nocross.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/10_06.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/marathon.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/code.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/ZR1591.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/dugovi.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/P1081.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/P1429.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/test2.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/ZR15890.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/test.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.06/cmake-build-debug/CMakeFiles/hard.dir

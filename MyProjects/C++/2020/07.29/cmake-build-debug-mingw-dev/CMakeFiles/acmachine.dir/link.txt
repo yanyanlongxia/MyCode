@@ -1,0 +1,3 @@
+C:\Users\admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.8743.17\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\acmachine.dir/objects.a
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\acmachine.dir/objects.a @CMakeFiles\acmachine.dir\objects1.rsp
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\acmachine.dir/objects.a -Wl,--no-whole-archive  -o acmachine.exe -Wl,--out-implib,libacmachine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\acmachine.dir\linklibs.rsp

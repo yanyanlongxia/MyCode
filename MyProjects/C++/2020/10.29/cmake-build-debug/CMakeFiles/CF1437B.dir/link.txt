@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/CF1437B.dir/CF1437B.cpp.o -o CF1437B 

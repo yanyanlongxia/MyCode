@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="C. Create The Teams" type="name.admitriev.jhelper.configuration.TaskConfigurationType" className="CCreateTheTeams" cppPath="tasks/CCreateTheTeams.cpp" inputType="STANDARD" outputType="STANDARD" testType="SINGLE">
+    <tests>
+      <test input="3&#10;5 10&#10;7 11 2 9 5&#10;4 8&#10;2 4 2 3&#10;4 11&#10;1 3 3 7&#10;" output="2&#10;1&#10;0&#10;" active="true" />
+    </tests>
+    <method v="2" />
+  </configuration>
+</component>

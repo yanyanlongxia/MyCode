@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="E. Merging Towers" type="name.admitriev.jhelper.configuration.TaskConfigurationType" className="EMergingTowers" cppPath="tasks/EMergingTowers.cpp" inputType="STANDARD" outputType="STANDARD" testType="SINGLE">
+    <tests>
+      <test input="7 4&#10;1 2 3 3 1 4 3&#10;3 1&#10;2 3&#10;2 4&#10;" output="5&#10;4&#10;2&#10;0&#10;" active="true" />
+    </tests>
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="P6281 [USACO20OPEN]Social Distancing S" type="name.admitriev.jhelper.configuration.TaskConfigurationType" className="P6281USACO20OPENSocialDistancingS" cppPath="tasks/P6281USACO20OPENSocialDistancingS.cpp" inputType="STANDARD" outputType="STANDARD" testType="SINGLE">
+    <tests>
+      <test input="5 3&#10;0 2&#10;4 7&#10;9 9&#10;" output="2&#10;" active="true" />
+    </tests>
+    <method v="2" />
+  </configuration>
+</component>

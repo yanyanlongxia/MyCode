@@ -1,0 +1,17 @@
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/CF649A.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/06_13.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/edit_cache.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/POJ3263.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/TokioA.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/TokioB.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/TokioC.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/son.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/CF649B.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/P1908.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/CF1365A.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/CF1365B.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/P3367.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/hhh.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/test.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/P1955.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/06.13/cmake-build-release-mingw-dev/CMakeFiles/rebuild_cache.dir

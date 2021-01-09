@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ZR362.dir/ZR362.cpp.o -o ZR362 

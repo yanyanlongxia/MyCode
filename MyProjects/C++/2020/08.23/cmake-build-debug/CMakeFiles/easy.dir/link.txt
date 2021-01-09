@@ -1,0 +1,3 @@
+D:\Jetbrains\apps\CLion\ch-0\202.6948.80\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\easy.dir/objects.a
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\easy.dir/objects.a @CMakeFiles\easy.dir\objects1.rsp
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\easy.dir/objects.a -Wl,--no-whole-archive  -o easy.exe -Wl,--out-implib,libeasy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\easy.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/tttttt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/tttttt/cmake-build-debug/CMakeFiles/tttttt.dir
+C:/Users/admin/OneDrive - Contra Costa Com College District/My Projects/C++/tttttt/cmake-build-debug/CMakeFiles/edit_cache.dir

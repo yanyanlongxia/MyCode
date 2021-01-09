@@ -1,0 +1,3 @@
+C:\Users\admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.8743.17\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\divisors.dir/objects.a
+C:\PROGRA~2\mingw32\bin\ar.exe cr CMakeFiles\divisors.dir/objects.a @CMakeFiles\divisors.dir\objects1.rsp
+C:\PROGRA~2\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\divisors.dir/objects.a -Wl,--no-whole-archive  -o divisors.exe -Wl,--out-implib,libdivisors.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\divisors.dir\linklibs.rsp

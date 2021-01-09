@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/CF1445A.dir/CF1445A.cpp.o -o CF1445A 

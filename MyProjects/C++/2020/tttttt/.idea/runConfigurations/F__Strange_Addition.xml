@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="F. Strange Addition" type="name.admitriev.jhelper.configuration.TaskConfigurationType" className="FStrangeAddition" cppPath="tasks/FStrangeAddition.cpp" inputType="STANDARD" outputType="STANDARD" testType="SINGLE">
+    <tests>
+      <test input="2 3&#10;14&#10;2 4&#10;2 1&#10;1 0&#10;" output="15&#10;12&#10;2&#10;" active="true" />
+    </tests>
+    <method v="2" />
+  </configuration>
+</component>

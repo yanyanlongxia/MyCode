@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/count.dir/count.cpp.o -o count 

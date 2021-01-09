@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P1379.dir/P1379.cpp.o  -o P1379 

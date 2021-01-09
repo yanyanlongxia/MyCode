@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P2709.dir/P2709.cpp.o  -o P2709 

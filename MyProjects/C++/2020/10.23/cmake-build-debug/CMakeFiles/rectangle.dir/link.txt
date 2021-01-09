@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/rectangle.dir/rectangle.cpp.o  -o rectangle 

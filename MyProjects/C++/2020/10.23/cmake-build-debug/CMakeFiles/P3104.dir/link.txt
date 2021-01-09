@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3104.dir/P3104.cpp.o  -o P3104 

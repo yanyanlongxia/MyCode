@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="A. Three Indices" type="name.admitriev.jhelper.configuration.TaskConfigurationType" className="AThreeIndices" cppPath="tasks/AThreeIndices.cpp" inputType="STANDARD" outputType="STANDARD" testType="SINGLE">
+    <tests>
+      <test input="3&#10;4&#10;2 1 4 3&#10;6&#10;4 6 1 2 5 3&#10;5&#10;5 3 1 2 4&#10;" output="YES&#10;2 3 4&#10;YES&#10;3 5 6&#10;NO&#10;" active="true" />
+    </tests>
+    <method v="2" />
+  </configuration>
+</component>

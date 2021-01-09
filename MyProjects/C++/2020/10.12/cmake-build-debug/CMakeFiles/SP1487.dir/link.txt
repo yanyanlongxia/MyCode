@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SP1487.dir/SP1487.cpp.o  -o SP1487 

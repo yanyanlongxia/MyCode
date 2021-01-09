@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/hack.dir/hack.cpp.o  -o hack 

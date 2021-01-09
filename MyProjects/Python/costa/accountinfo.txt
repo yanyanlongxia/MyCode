@@ -1,0 +1,24 @@
+===================================================
+Created On ==> 11:00:24 PM, 08 Oct 2020
+College Name ==> Orange Coast College
+Firstname ==> Abbigail
+Lastname ==> Costa
+DOB ==> 24/3/1997
+Your CCCID is: BVN1077
+EDU Mail ==> will be sent to given emailID
+EDU mail password ==> Ac03241997CCCD
+PIN number ==> 6512
+emailID ==> marksclmnt@gmail.com
+OCC Username ==> ykxwyv9g
+OCC Password ==> d658mc0t4eT3C8x
+SSN-Number ==> 559-77-0221
+Phone_number ==> 209-669-5602
+===================================================
+Security Questions
+Q.1> Where did your parents meet?
+A.1> in Parallel universe
+Q.2> What was the make and model of your first car?
+A.2> Toyota Toy Car
+Q.3> In what city or town was your first job?
+A.3> Handjob city
+===================================================

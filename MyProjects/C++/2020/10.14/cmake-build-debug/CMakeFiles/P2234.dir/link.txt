@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P2234.dir/P2234.cpp.o  -o P2234 

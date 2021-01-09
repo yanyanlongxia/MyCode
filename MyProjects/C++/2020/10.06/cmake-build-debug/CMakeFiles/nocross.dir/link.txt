@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/nocross.dir/nocross.cpp.o  -o nocross 

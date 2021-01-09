@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P1429.dir/P1429.cpp.o  -o P1429 

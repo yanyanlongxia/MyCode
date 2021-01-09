@@ -1,0 +1,12 @@
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/2.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/abf.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/5.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/1.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/8.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/6.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/3.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/12_13.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/4.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/12.13/cmake-build-debug/CMakeFiles/7.dir

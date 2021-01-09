@@ -1,0 +1,15 @@
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/P1903.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/P2709.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/P3834.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/P3919.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/P3567.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/10_12.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/P2633.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/a.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/test.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/SP10628.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/P3302.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/P1494.dir
+/mnt/d/docs/GitHub/MyCode/MyProjects/C++/10.12/cmake-build-debug/CMakeFiles/SP1487.dir
