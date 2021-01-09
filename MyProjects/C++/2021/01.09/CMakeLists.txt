@@ -4,3 +4,4 @@ project(01_09)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(01_09 main.cpp)
+add_executable(P4238 P4238.cpp)
