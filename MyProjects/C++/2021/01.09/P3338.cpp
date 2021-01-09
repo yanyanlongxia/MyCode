@@ -3,7 +3,7 @@
 //Date: 2021/1/9
 //
 #include <bits/stdc++.h>
-
+//#define double long double
 #define ll long long
 using namespace std;
 const int N=5e6+5;
@@ -30,7 +30,7 @@ void FFT(Complex *a,int len,int flag){
             swap(a[i],a[r[i]]);
     }
     for(int i=2;i<=len;i<<=1){
-        Complex wn(double(cos(flag*PI*2/i)),double(sin(flag*PI*2/i)));
+        Complex wn(double(cos(flag*PI*2.0/i)),double(sin(flag*PI*2.0/i)));
         for(int j=0;j<len;j+=i){
             Complex w(1,0);
             for(int k=j;k<j+(i>>1);k++){
@@ -47,17 +47,21 @@ void FFT(Complex *a,int len,int flag){
             a[i].x/=len;
     }
 }
+void mul(Complex *a,Complex *b,Complex *res,int n,int m){
+    static Complex f[N<<1],g[N<<1];
+
+}
 int main() {
     freopen("data.in","r",stdin);
     //freopen("P3338.out","w",stdout);
     scanf("%d", &n);
-    for(int i=0;i<n;i++) {
+    for(int i=1;i<=n;i++) {
         scanf("%lf", &a[i].x);
-        b[i].x=double (1.0/i/i);
+        b[i].x=double(1.0/i/i);
         c[n-i].x=a[i].x;
     }
     int len=1,cnt=0;
-    while(len<=n){
+    while(len<=(n<<1)){
         len<<=1;
         cnt++;
     }
@@ -67,12 +71,12 @@ int main() {
     FFT(b,len,1);
     FFT(c,len,1);
     for(int i=0;i<len;i++){
-        d[i]=a[i]*b[i];
-        e[i]=c[i]*b[i];
+        a[i]=a[i]*b[i];
+        c[i]=c[i]*b[i];
     }
-    FFT(d,len,-1);
-    FFT(e,len,-1);
-    for(int i=0;i<n;i++)
-        printf("%lf ",d[i].x-e[i].x);
+    FFT(a,len,-1);
+    FFT(c,len,-1);
+    for(int i=1;i<=n;i++)
+        printf("%.3lf\n",a[i].x-c[n-i].x);
     return 0;
 }
