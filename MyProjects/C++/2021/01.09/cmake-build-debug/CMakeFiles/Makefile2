@@ -72,10 +72,13 @@ CMAKE_BINARY_DIR = /mnt/d/docs/MyCode/MyProjects/C++/2021/01.09/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/ZR1708.dir/all
 all: CMakeFiles/P4512.dir/all
 all: CMakeFiles/01_09.dir/all
 all: CMakeFiles/P4238.dir/all
 all: CMakeFiles/P3338.dir/all
+all: CMakeFiles/ZR1710.dir/all
+all: CMakeFiles/makers.dir/all
 all: CMakeFiles/P3723.dir/all
 
 .PHONY : all
@@ -86,13 +89,43 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/ZR1708.dir/clean
 clean: CMakeFiles/P4512.dir/clean
 clean: CMakeFiles/01_09.dir/clean
 clean: CMakeFiles/P4238.dir/clean
 clean: CMakeFiles/P3338.dir/clean
+clean: CMakeFiles/ZR1710.dir/clean
+clean: CMakeFiles/makers.dir/clean
 clean: CMakeFiles/P3723.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR1708.dir
+
+# All Build rule for target.
+CMakeFiles/ZR1708.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1708.dir/build.make CMakeFiles/ZR1708.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1708.dir/build.make CMakeFiles/ZR1708.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/docs/MyCode/MyProjects/C++/2021/01.09/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target ZR1708"
+.PHONY : CMakeFiles/ZR1708.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR1708.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/docs/MyCode/MyProjects/C++/2021/01.09/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR1708.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/docs/MyCode/MyProjects/C++/2021/01.09/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR1708.dir/rule
+
+# Convenience name for target.
+ZR1708: CMakeFiles/ZR1708.dir/rule
+
+.PHONY : ZR1708
+
+# clean rule for target.
+CMakeFiles/ZR1708.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1708.dir/build.make CMakeFiles/ZR1708.dir/clean
+.PHONY : CMakeFiles/ZR1708.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/P4512.dir
@@ -201,6 +234,60 @@ P3338: CMakeFiles/P3338.dir/rule
 CMakeFiles/P3338.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3338.dir/build.make CMakeFiles/P3338.dir/clean
 .PHONY : CMakeFiles/P3338.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR1710.dir
+
+# All Build rule for target.
+CMakeFiles/ZR1710.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1710.dir/build.make CMakeFiles/ZR1710.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1710.dir/build.make CMakeFiles/ZR1710.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/docs/MyCode/MyProjects/C++/2021/01.09/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target ZR1710"
+.PHONY : CMakeFiles/ZR1710.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR1710.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/docs/MyCode/MyProjects/C++/2021/01.09/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR1710.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/docs/MyCode/MyProjects/C++/2021/01.09/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR1710.dir/rule
+
+# Convenience name for target.
+ZR1710: CMakeFiles/ZR1710.dir/rule
+
+.PHONY : ZR1710
+
+# clean rule for target.
+CMakeFiles/ZR1710.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1710.dir/build.make CMakeFiles/ZR1710.dir/clean
+.PHONY : CMakeFiles/ZR1710.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/makers.dir
+
+# All Build rule for target.
+CMakeFiles/makers.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/makers.dir/build.make CMakeFiles/makers.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/makers.dir/build.make CMakeFiles/makers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/docs/MyCode/MyProjects/C++/2021/01.09/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target makers"
+.PHONY : CMakeFiles/makers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/makers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/docs/MyCode/MyProjects/C++/2021/01.09/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/makers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/docs/MyCode/MyProjects/C++/2021/01.09/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/makers.dir/rule
+
+# Convenience name for target.
+makers: CMakeFiles/makers.dir/rule
+
+.PHONY : makers
+
+# clean rule for target.
+CMakeFiles/makers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/makers.dir/build.make CMakeFiles/makers.dir/clean
+.PHONY : CMakeFiles/makers.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/P3723.dir

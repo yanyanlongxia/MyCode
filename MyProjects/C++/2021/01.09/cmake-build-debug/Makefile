@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ZR1708
+
+# Build rule for target.
+ZR1708: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1708
+.PHONY : ZR1708
+
+# fast build rule for target.
+ZR1708/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1708.dir/build.make CMakeFiles/ZR1708.dir/build
+.PHONY : ZR1708/fast
+
+#=============================================================================
 # Target rules for targets named P4512
 
 # Build rule for target.
@@ -180,6 +193,32 @@ P3338: cmake_check_build_system
 P3338/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3338.dir/build.make CMakeFiles/P3338.dir/build
 .PHONY : P3338/fast
+
+#=============================================================================
+# Target rules for targets named ZR1710
+
+# Build rule for target.
+ZR1710: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1710
+.PHONY : ZR1710
+
+# fast build rule for target.
+ZR1710/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1710.dir/build.make CMakeFiles/ZR1710.dir/build
+.PHONY : ZR1710/fast
+
+#=============================================================================
+# Target rules for targets named makers
+
+# Build rule for target.
+makers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 makers
+.PHONY : makers
+
+# fast build rule for target.
+makers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/makers.dir/build.make CMakeFiles/makers.dir/build
+.PHONY : makers/fast
 
 #=============================================================================
 # Target rules for targets named P3723
@@ -302,6 +341,60 @@ P4512.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P4512.dir/build.make CMakeFiles/P4512.dir/P4512.cpp.s
 .PHONY : P4512.cpp.s
 
+ZR1708.o: ZR1708.cpp.o
+
+.PHONY : ZR1708.o
+
+# target to build an object file
+ZR1708.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1708.dir/build.make CMakeFiles/ZR1708.dir/ZR1708.cpp.o
+.PHONY : ZR1708.cpp.o
+
+ZR1708.i: ZR1708.cpp.i
+
+.PHONY : ZR1708.i
+
+# target to preprocess a source file
+ZR1708.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1708.dir/build.make CMakeFiles/ZR1708.dir/ZR1708.cpp.i
+.PHONY : ZR1708.cpp.i
+
+ZR1708.s: ZR1708.cpp.s
+
+.PHONY : ZR1708.s
+
+# target to generate assembly for a file
+ZR1708.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1708.dir/build.make CMakeFiles/ZR1708.dir/ZR1708.cpp.s
+.PHONY : ZR1708.cpp.s
+
+ZR1710.o: ZR1710.cpp.o
+
+.PHONY : ZR1710.o
+
+# target to build an object file
+ZR1710.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1710.dir/build.make CMakeFiles/ZR1710.dir/ZR1710.cpp.o
+.PHONY : ZR1710.cpp.o
+
+ZR1710.i: ZR1710.cpp.i
+
+.PHONY : ZR1710.i
+
+# target to preprocess a source file
+ZR1710.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1710.dir/build.make CMakeFiles/ZR1710.dir/ZR1710.cpp.i
+.PHONY : ZR1710.cpp.i
+
+ZR1710.s: ZR1710.cpp.s
+
+.PHONY : ZR1710.s
+
+# target to generate assembly for a file
+ZR1710.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1710.dir/build.make CMakeFiles/ZR1710.dir/ZR1710.cpp.s
+.PHONY : ZR1710.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -329,6 +422,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_09.dir/build.make CMakeFiles/01_09.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+makers.o: makers.cpp.o
+
+.PHONY : makers.o
+
+# target to build an object file
+makers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/makers.dir/build.make CMakeFiles/makers.dir/makers.cpp.o
+.PHONY : makers.cpp.o
+
+makers.i: makers.cpp.i
+
+.PHONY : makers.i
+
+# target to preprocess a source file
+makers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/makers.dir/build.make CMakeFiles/makers.dir/makers.cpp.i
+.PHONY : makers.cpp.i
+
+makers.s: makers.cpp.s
+
+.PHONY : makers.s
+
+# target to generate assembly for a file
+makers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/makers.dir/build.make CMakeFiles/makers.dir/makers.cpp.s
+.PHONY : makers.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -342,6 +462,9 @@ help:
 	@echo "... P3723"
 	@echo "... P4238"
 	@echo "... P4512"
+	@echo "... ZR1708"
+	@echo "... ZR1710"
+	@echo "... makers"
 	@echo "... P3338.o"
 	@echo "... P3338.i"
 	@echo "... P3338.s"
@@ -354,9 +477,18 @@ help:
 	@echo "... P4512.o"
 	@echo "... P4512.i"
 	@echo "... P4512.s"
+	@echo "... ZR1708.o"
+	@echo "... ZR1708.i"
+	@echo "... ZR1708.s"
+	@echo "... ZR1710.o"
+	@echo "... ZR1710.i"
+	@echo "... ZR1710.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... makers.o"
+	@echo "... makers.i"
+	@echo "... makers.s"
 .PHONY : help
 
 
