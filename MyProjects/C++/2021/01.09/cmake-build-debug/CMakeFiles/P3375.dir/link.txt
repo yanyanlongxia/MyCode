@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/P3375.dir/P3375.cpp.o  -o P3375 

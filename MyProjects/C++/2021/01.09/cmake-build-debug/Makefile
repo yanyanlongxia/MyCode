@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named P3375
+
+# Build rule for target.
+P3375: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 P3375
+.PHONY : P3375
+
+# fast build rule for target.
+P3375/fast:
+	$(MAKE) -f CMakeFiles/P3375.dir/build.make CMakeFiles/P3375.dir/build
+.PHONY : P3375/fast
+
+#=============================================================================
 # Target rules for targets named P4725
 
 # Build rule for target.
@@ -266,6 +279,33 @@ P3338.s: P3338.cpp.s
 P3338.cpp.s:
 	$(MAKE) -f CMakeFiles/P3338.dir/build.make CMakeFiles/P3338.dir/P3338.cpp.s
 .PHONY : P3338.cpp.s
+
+P3375.o: P3375.cpp.o
+
+.PHONY : P3375.o
+
+# target to build an object file
+P3375.cpp.o:
+	$(MAKE) -f CMakeFiles/P3375.dir/build.make CMakeFiles/P3375.dir/P3375.cpp.o
+.PHONY : P3375.cpp.o
+
+P3375.i: P3375.cpp.i
+
+.PHONY : P3375.i
+
+# target to preprocess a source file
+P3375.cpp.i:
+	$(MAKE) -f CMakeFiles/P3375.dir/build.make CMakeFiles/P3375.dir/P3375.cpp.i
+.PHONY : P3375.cpp.i
+
+P3375.s: P3375.cpp.s
+
+.PHONY : P3375.s
+
+# target to generate assembly for a file
+P3375.cpp.s:
+	$(MAKE) -f CMakeFiles/P3375.dir/build.make CMakeFiles/P3375.dir/P3375.cpp.s
+.PHONY : P3375.cpp.s
 
 P3723.o: P3723.cpp.o
 
@@ -516,6 +556,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... P3375"
 	@echo "... P4725"
 	@echo "... ZR1710"
 	@echo "... makers"
@@ -531,6 +572,9 @@ help:
 	@echo "... P3338.o"
 	@echo "... P3338.i"
 	@echo "... P3338.s"
+	@echo "... P3375.o"
+	@echo "... P3375.i"
+	@echo "... P3375.s"
 	@echo "... P3723.o"
 	@echo "... P3723.i"
 	@echo "... P3723.s"
