@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/ZR1710.dir/ZR1710.cpp.o -o ZR1710 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/ZR1710.dir/ZR1710.cpp.o  -o ZR1710 

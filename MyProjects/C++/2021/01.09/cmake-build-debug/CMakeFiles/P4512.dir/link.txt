@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/P4512.dir/P4512.cpp.o -o P4512 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/P4512.dir/P4512.cpp.o  -o P4512 
