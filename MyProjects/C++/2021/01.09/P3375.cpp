@@ -10,12 +10,13 @@ int n,m,pi[N<<1];
 string s,t,gen;
 vector<int>res;
 void get_next(){
-    gen=s+" "+t;
+    gen=s+"#"+t;
+    //clm(pi);
     for(int i=1;i<gen.size();i++){
         int j=pi[i-1];
-        while(j>0 && s[i]!=s[j])
+        while(j>0 && gen[i]!=gen[j])
             j=pi[j-1];
-        if(s[i]==s[j])
+        if(gen[i]==gen[j])
             j++;
         pi[i]=j;
     }
@@ -32,6 +33,7 @@ int main() {
     }
     for(int i=0;i<res.size();i++)
         printf("%d\n",res[i]);
-
+    for(int i=0;i<n;i++)
+        printf("%d ",pi[i]);
     return 0;
 }
