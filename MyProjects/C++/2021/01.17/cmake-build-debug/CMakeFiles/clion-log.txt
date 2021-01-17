@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/f/docs/MyCode/MyProjects/C++/2021/01.17
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debug

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ZR1712.dir/ZR1712.cpp.o  -o ZR1712 
