@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named T156571
+
+# Build rule for target.
+T156571: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 T156571
+.PHONY : T156571
+
+# fast build rule for target.
+T156571/fast:
+	$(MAKE) -f CMakeFiles/T156571.dir/build.make CMakeFiles/T156571.dir/build
+.PHONY : T156571/fast
+
+#=============================================================================
 # Target rules for targets named ZR1713
 
 # Build rule for target.
@@ -161,6 +174,33 @@ ZR1711/fast:
 01_17/fast:
 	$(MAKE) -f CMakeFiles/01_17.dir/build.make CMakeFiles/01_17.dir/build
 .PHONY : 01_17/fast
+
+T156571.o: T156571.cpp.o
+
+.PHONY : T156571.o
+
+# target to build an object file
+T156571.cpp.o:
+	$(MAKE) -f CMakeFiles/T156571.dir/build.make CMakeFiles/T156571.dir/T156571.cpp.o
+.PHONY : T156571.cpp.o
+
+T156571.i: T156571.cpp.i
+
+.PHONY : T156571.i
+
+# target to preprocess a source file
+T156571.cpp.i:
+	$(MAKE) -f CMakeFiles/T156571.dir/build.make CMakeFiles/T156571.dir/T156571.cpp.i
+.PHONY : T156571.cpp.i
+
+T156571.s: T156571.cpp.s
+
+.PHONY : T156571.s
+
+# target to generate assembly for a file
+T156571.cpp.s:
+	$(MAKE) -f CMakeFiles/T156571.dir/build.make CMakeFiles/T156571.dir/T156571.cpp.s
+.PHONY : T156571.cpp.s
 
 ZR1711.o: ZR1711.cpp.o
 
@@ -278,10 +318,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... T156571"
 	@echo "... ZR1713"
 	@echo "... ZR1712"
 	@echo "... ZR1711"
 	@echo "... 01_17"
+	@echo "... T156571.o"
+	@echo "... T156571.i"
+	@echo "... T156571.s"
 	@echo "... ZR1711.o"
 	@echo "... ZR1711.i"
 	@echo "... ZR1711.s"

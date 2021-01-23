@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/T156571.dir/all
 all: CMakeFiles/ZR1713.dir/all
 all: CMakeFiles/ZR1712.dir/all
 all: CMakeFiles/ZR1711.dir/all
@@ -66,6 +67,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/T156571.dir/clean
 clean: CMakeFiles/ZR1713.dir/clean
 clean: CMakeFiles/ZR1712.dir/clean
 clean: CMakeFiles/ZR1711.dir/clean
@@ -74,13 +76,40 @@ clean: CMakeFiles/01_17.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/T156571.dir
+
+# All Build rule for target.
+CMakeFiles/T156571.dir/all:
+	$(MAKE) -f CMakeFiles/T156571.dir/build.make CMakeFiles/T156571.dir/depend
+	$(MAKE) -f CMakeFiles/T156571.dir/build.make CMakeFiles/T156571.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target T156571"
+.PHONY : CMakeFiles/T156571.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/T156571.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/T156571.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/T156571.dir/rule
+
+# Convenience name for target.
+T156571: CMakeFiles/T156571.dir/rule
+
+.PHONY : T156571
+
+# clean rule for target.
+CMakeFiles/T156571.dir/clean:
+	$(MAKE) -f CMakeFiles/T156571.dir/build.make CMakeFiles/T156571.dir/clean
+.PHONY : CMakeFiles/T156571.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ZR1713.dir
 
 # All Build rule for target.
 CMakeFiles/ZR1713.dir/all:
 	$(MAKE) -f CMakeFiles/ZR1713.dir/build.make CMakeFiles/ZR1713.dir/depend
 	$(MAKE) -f CMakeFiles/ZR1713.dir/build.make CMakeFiles/ZR1713.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target ZR1713"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target ZR1713"
 .PHONY : CMakeFiles/ZR1713.dir/all
 
 # Build rule for subdir invocation for target.
@@ -107,7 +136,7 @@ CMakeFiles/ZR1713.dir/clean:
 CMakeFiles/ZR1712.dir/all:
 	$(MAKE) -f CMakeFiles/ZR1712.dir/build.make CMakeFiles/ZR1712.dir/depend
 	$(MAKE) -f CMakeFiles/ZR1712.dir/build.make CMakeFiles/ZR1712.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target ZR1712"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target ZR1712"
 .PHONY : CMakeFiles/ZR1712.dir/all
 
 # Build rule for subdir invocation for target.
@@ -134,7 +163,7 @@ CMakeFiles/ZR1712.dir/clean:
 CMakeFiles/ZR1711.dir/all:
 	$(MAKE) -f CMakeFiles/ZR1711.dir/build.make CMakeFiles/ZR1711.dir/depend
 	$(MAKE) -f CMakeFiles/ZR1711.dir/build.make CMakeFiles/ZR1711.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target ZR1711"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/01.17/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target ZR1711"
 .PHONY : CMakeFiles/ZR1711.dir/all
 
 # Build rule for subdir invocation for target.
