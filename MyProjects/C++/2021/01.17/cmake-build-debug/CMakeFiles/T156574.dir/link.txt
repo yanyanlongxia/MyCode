@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/T156574.dir/T156574.cpp.o  -o T156574 
