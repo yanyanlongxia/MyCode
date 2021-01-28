@@ -7,8 +7,8 @@
 using namespace std;
 
 int main() {
-    //freopen("data.in","r",stdin);
-    //freopen("ZR1721.out","w",stdout);
+    //freopen("P4726.in","r",stdin);
+    //freopen("P4726.out","w",stdout);
 
     return 0;
 }

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P4726.dir/P4726.cpp.o  -o P4726 
