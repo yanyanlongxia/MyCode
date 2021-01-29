@@ -137,6 +137,19 @@ T156571/fast:
 .PHONY : T156571/fast
 
 #=============================================================================
+# Target rules for targets named P7299
+
+# Build rule for target.
+P7299: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 P7299
+.PHONY : P7299
+
+# fast build rule for target.
+P7299/fast:
+	$(MAKE) -f CMakeFiles/P7299.dir/build.make CMakeFiles/P7299.dir/build
+.PHONY : P7299/fast
+
+#=============================================================================
 # Target rules for targets named T156574
 
 # Build rule for target.
@@ -280,6 +293,33 @@ P4726.s: P4726.cpp.s
 P4726.cpp.s:
 	$(MAKE) -f CMakeFiles/P4726.dir/build.make CMakeFiles/P4726.dir/P4726.cpp.s
 .PHONY : P4726.cpp.s
+
+P7299.o: P7299.cpp.o
+
+.PHONY : P7299.o
+
+# target to build an object file
+P7299.cpp.o:
+	$(MAKE) -f CMakeFiles/P7299.dir/build.make CMakeFiles/P7299.dir/P7299.cpp.o
+.PHONY : P7299.cpp.o
+
+P7299.i: P7299.cpp.i
+
+.PHONY : P7299.i
+
+# target to preprocess a source file
+P7299.cpp.i:
+	$(MAKE) -f CMakeFiles/P7299.dir/build.make CMakeFiles/P7299.dir/P7299.cpp.i
+.PHONY : P7299.cpp.i
+
+P7299.s: P7299.cpp.s
+
+.PHONY : P7299.s
+
+# target to generate assembly for a file
+P7299.cpp.s:
+	$(MAKE) -f CMakeFiles/P7299.dir/build.make CMakeFiles/P7299.dir/P7299.cpp.s
+.PHONY : P7299.cpp.s
 
 T156571.o: T156571.cpp.o
 
@@ -480,6 +520,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... P4726"
 	@echo "... T156571"
+	@echo "... P7299"
 	@echo "... T156574"
 	@echo "... ZR1713"
 	@echo "... ZR1712"
@@ -493,6 +534,9 @@ help:
 	@echo "... P4726.o"
 	@echo "... P4726.i"
 	@echo "... P4726.s"
+	@echo "... P7299.o"
+	@echo "... P7299.i"
+	@echo "... P7299.s"
 	@echo "... T156571.o"
 	@echo "... T156571.i"
 	@echo "... T156571.s"
