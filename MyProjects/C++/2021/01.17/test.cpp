@@ -5,7 +5,7 @@
 #define ll long long
 #define clm(x) memset(x,0,sizeof(x))
 using namespace std;
-const int N = 2e6 + 5;
+const int N = 5e6 + 5;
 const int MOD = 998244353;
 const int G = 3;
 int Gi,r[N];
@@ -49,8 +49,10 @@ void NTT(int *a, int len, int flag) {
     }
 }
 
+
 void getinv(int *a, int *res, int n) {
     static int tmp[N];
+
     if (n == 1) {
         res[0] = inv(a[0]);
         return;
@@ -110,7 +112,7 @@ void mul(int *a, int *b, int *res, int n, int m) {
     NTT(res, len, -1);
 }
 
-void getln(int *a, int *res, int len) {
+void Getln(int *a, int *res, int len) {
     static int tmp[N], da[N], inva[N];
     clm(tmp);
     clm(da);
@@ -121,34 +123,35 @@ void getln(int *a, int *res, int len) {
     itg(tmp, res, len);
 }
 
-void getexp(int *a, int *res, int n) {
-    static int f[N], g[N];
-    if (n == 1) {
+void GetExp(int *a,int *res,int n){
+    static int f[N],g[N];
+    if(n == 1){
         res[0] = 1;
         return;
     }
-    getexp(a, res, (n + 1) >> 1);
-    int len = 1, cnt = 0;
-    while (len < (n << 1)) {
+    GetExp(a,res,(n + 1) >> 1);
+    int len = 1,cnt = 0;
+    while(len < (n << 1)){
         len <<= 1;
         cnt++;
     }
-    clm(f);
-    clm(g);
-    for (int i = 0; i < n; i++)
-        g[i] = a[i];
-    getln(res, f, n);
-    for (int i = 0; i < len; i++)
+    for(int i = 0;i < len;i++)
         r[i] = (r[i >> 1] >> 1) | ((i & 1) << (cnt - 1));
-    NTT(res, len, 1);
-    NTT(f, len, 1);
-    NTT(g, len, 1);
-    for (int i = 0; i < len; i++)
+    for(int i = 0;i <len;i++)
+        f[i] = g[i] = 0;
+    for(int i = 0;i < n;i++)
+        g[i] = a[i];
+    Getln(res,f,n);
+    NTT(res,len,1);
+    NTT(f,len,1);
+    NTT(g,len,1);
+    for(int i = 0;i < len;i++)
         res[i] = 1ll * (1ll - f[i] + g[i] + MOD) % MOD * res[i] % MOD;
-    NTT(res, len, -1);
-    for (int i = n; i < len; i++)
+    NTT(res,len,-1);
+    for(int i = len;i < len;i++)
         res[i] = 0;
 }
+
 int n,a[N],b[N];
 int main() {
     freopen("data.in", "r", stdin);
@@ -162,8 +165,9 @@ int main() {
         len <<= 1;
         cnt++;
     }
-    getexp(a, b, len);
+    GetExp(a, b, len);
     for (int i = 0; i < n; i++)
         printf("%d ", b[i]);
     return 0;
 }
+
