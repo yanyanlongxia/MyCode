@@ -87,6 +87,7 @@ void itg(int *a, int *b, int len) {
     b[0] = 0;
 }
 
+
 void mul(int *a, int *b, int *res, int n, int m) {
     static int f[N], g[N];
     clm(f);
@@ -149,7 +150,9 @@ void getexp(int *a, int *res, int n) {
     for (int i = n; i < len; i++)
         res[i] = 0;
 }
+
 int n,a[N],b[N];
+
 int main() {
     freopen("data.in", "r", stdin);
     //freopen("P4726.out","w",stdout);

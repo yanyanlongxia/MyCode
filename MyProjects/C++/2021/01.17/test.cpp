@@ -77,10 +77,10 @@ void getinv(int *a, int *res, int n) {
         res[i] = 0;
 }
 
-void drv(int *a, int *b, int len) {
+void drv(int *a, int *res, int len) {
     for (int i = 1; i < len; i++)
-        b[i - 1] = 1ll * a[i] * i % MOD;
-    b[len - 1] = 0;
+        res[i - 1] = 1ll * a[i] * i % MOD;
+    res[len - 1] = 0;
 }
 
 void itg(int *a, int *b, int len) {
