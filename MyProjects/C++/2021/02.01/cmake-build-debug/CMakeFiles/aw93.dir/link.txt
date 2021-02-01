@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/aw93.dir/aw93.cpp.o  -o aw93 

@@ -1,3 +1,4 @@
 /mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles/aw93.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles/02_01.dir

@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named aw93
+
+# Build rule for target.
+aw93: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aw93
+.PHONY : aw93
+
+# fast build rule for target.
+aw93/fast:
+	$(MAKE) -f CMakeFiles/aw93.dir/build.make CMakeFiles/aw93.dir/build
+.PHONY : aw93/fast
+
+#=============================================================================
 # Target rules for targets named 02_01
 
 # Build rule for target.
@@ -122,6 +135,33 @@ depend:
 02_01/fast:
 	$(MAKE) -f CMakeFiles/02_01.dir/build.make CMakeFiles/02_01.dir/build
 .PHONY : 02_01/fast
+
+aw93.o: aw93.cpp.o
+
+.PHONY : aw93.o
+
+# target to build an object file
+aw93.cpp.o:
+	$(MAKE) -f CMakeFiles/aw93.dir/build.make CMakeFiles/aw93.dir/aw93.cpp.o
+.PHONY : aw93.cpp.o
+
+aw93.i: aw93.cpp.i
+
+.PHONY : aw93.i
+
+# target to preprocess a source file
+aw93.cpp.i:
+	$(MAKE) -f CMakeFiles/aw93.dir/build.make CMakeFiles/aw93.dir/aw93.cpp.i
+.PHONY : aw93.cpp.i
+
+aw93.s: aw93.cpp.s
+
+.PHONY : aw93.s
+
+# target to generate assembly for a file
+aw93.cpp.s:
+	$(MAKE) -f CMakeFiles/aw93.dir/build.make CMakeFiles/aw93.dir/aw93.cpp.s
+.PHONY : aw93.cpp.s
 
 main.o: main.cpp.o
 
@@ -158,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... aw93"
 	@echo "... 02_01"
+	@echo "... aw93.o"
+	@echo "... aw93.i"
+	@echo "... aw93.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
