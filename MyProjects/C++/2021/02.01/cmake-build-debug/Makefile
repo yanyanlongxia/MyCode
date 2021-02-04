@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named P4781
+
+# Build rule for target.
+P4781: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 P4781
+.PHONY : P4781
+
+# fast build rule for target.
+P4781/fast:
+	$(MAKE) -f CMakeFiles/P4781.dir/build.make CMakeFiles/P4781.dir/build
+.PHONY : P4781/fast
+
+#=============================================================================
 # Target rules for targets named aw93
 
 # Build rule for target.
@@ -135,6 +161,33 @@ aw93/fast:
 02_01/fast:
 	$(MAKE) -f CMakeFiles/02_01.dir/build.make CMakeFiles/02_01.dir/build
 .PHONY : 02_01/fast
+
+P4781.o: P4781.cpp.o
+
+.PHONY : P4781.o
+
+# target to build an object file
+P4781.cpp.o:
+	$(MAKE) -f CMakeFiles/P4781.dir/build.make CMakeFiles/P4781.dir/P4781.cpp.o
+.PHONY : P4781.cpp.o
+
+P4781.i: P4781.cpp.i
+
+.PHONY : P4781.i
+
+# target to preprocess a source file
+P4781.cpp.i:
+	$(MAKE) -f CMakeFiles/P4781.dir/build.make CMakeFiles/P4781.dir/P4781.cpp.i
+.PHONY : P4781.cpp.i
+
+P4781.s: P4781.cpp.s
+
+.PHONY : P4781.s
+
+# target to generate assembly for a file
+P4781.cpp.s:
+	$(MAKE) -f CMakeFiles/P4781.dir/build.make CMakeFiles/P4781.dir/P4781.cpp.s
+.PHONY : P4781.cpp.s
 
 aw93.o: aw93.cpp.o
 
@@ -190,6 +243,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/02_01.dir/build.make CMakeFiles/02_01.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,14 +278,22 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... P4781"
 	@echo "... aw93"
 	@echo "... 02_01"
+	@echo "... P4781.o"
+	@echo "... P4781.i"
+	@echo "... P4781.s"
 	@echo "... aw93.o"
 	@echo "... aw93.i"
 	@echo "... aw93.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

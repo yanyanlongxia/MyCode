@@ -35,5 +35,6 @@ int main() {
         printf("%d\n",res[i]);
     for(int i=0;i<n;i++)
         printf("%d ",pi[i]);
+	
     return 0;
 }

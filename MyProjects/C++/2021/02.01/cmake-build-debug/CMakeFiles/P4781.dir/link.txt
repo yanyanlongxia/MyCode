@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P4781.dir/P4781.cpp.o  -o P4781 

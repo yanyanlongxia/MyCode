@@ -37,6 +37,94 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="test">
+				<Option output="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P4781">
+				<Option output="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/P4781" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 P4781"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P4781/fast">
+				<Option output="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/P4781" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 P4781/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="aw93">
 				<Option output="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/aw93" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug"/>
@@ -126,11 +214,17 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/P4781.cpp">
+			<Option target="P4781"/>
+		</Unit>
 		<Unit filename="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/aw93.cpp">
 			<Option target="aw93"/>
 		</Unit>
 		<Unit filename="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/main.cpp">
 			<Option target="02_01"/>
+		</Unit>
+		<Unit filename="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/test.cpp">
+			<Option target="test"/>
 		</Unit>
 		<Unit filename="/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

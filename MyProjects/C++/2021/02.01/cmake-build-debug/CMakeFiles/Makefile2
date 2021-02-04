@@ -53,6 +53,8 @@ CMAKE_BINARY_DIR = /mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/test.dir/all
+all: CMakeFiles/P4781.dir/all
 all: CMakeFiles/aw93.dir/all
 all: CMakeFiles/02_01.dir/all
 
@@ -64,10 +66,66 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/test.dir/clean
+clean: CMakeFiles/P4781.dir/clean
 clean: CMakeFiles/aw93.dir/clean
 clean: CMakeFiles/02_01.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P4781.dir
+
+# All Build rule for target.
+CMakeFiles/P4781.dir/all:
+	$(MAKE) -f CMakeFiles/P4781.dir/build.make CMakeFiles/P4781.dir/depend
+	$(MAKE) -f CMakeFiles/P4781.dir/build.make CMakeFiles/P4781.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target P4781"
+.PHONY : CMakeFiles/P4781.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P4781.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P4781.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P4781.dir/rule
+
+# Convenience name for target.
+P4781: CMakeFiles/P4781.dir/rule
+
+.PHONY : P4781
+
+# clean rule for target.
+CMakeFiles/P4781.dir/clean:
+	$(MAKE) -f CMakeFiles/P4781.dir/build.make CMakeFiles/P4781.dir/clean
+.PHONY : CMakeFiles/P4781.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/aw93.dir
@@ -76,7 +134,7 @@ clean: CMakeFiles/02_01.dir/clean
 CMakeFiles/aw93.dir/all:
 	$(MAKE) -f CMakeFiles/aw93.dir/build.make CMakeFiles/aw93.dir/depend
 	$(MAKE) -f CMakeFiles/aw93.dir/build.make CMakeFiles/aw93.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target aw93"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/02.01/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target aw93"
 .PHONY : CMakeFiles/aw93.dir/all
 
 # Build rule for subdir invocation for target.
