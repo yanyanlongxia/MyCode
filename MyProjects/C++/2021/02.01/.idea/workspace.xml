@@ -16,6 +16,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5a980f92-3679-4cb8-8fdb-2ee90acaf55e" name="默认的" comment="Update">
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +164,7 @@
       <workItem from="1612430028721" duration="1030000" />
       <workItem from="1612431189863" duration="598000" />
       <workItem from="1612452576210" duration="140000" />
+      <workItem from="1612485044248" duration="814000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1612146919917</created>
