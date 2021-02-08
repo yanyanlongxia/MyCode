@@ -1,3 +1,4 @@
+/mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles/P3834.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles/fib.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles/bracket.dir
