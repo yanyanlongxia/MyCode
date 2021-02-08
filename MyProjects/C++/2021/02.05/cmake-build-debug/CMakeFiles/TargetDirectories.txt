@@ -1,3 +1,6 @@
+/mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles/fib.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles/bracket.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles/maker.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles/02_05.dir

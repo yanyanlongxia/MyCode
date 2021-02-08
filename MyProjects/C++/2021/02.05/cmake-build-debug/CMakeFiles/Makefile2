@@ -53,6 +53,9 @@ CMAKE_BINARY_DIR = /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/fib.dir/all
+all: CMakeFiles/bracket.dir/all
+all: CMakeFiles/maker.dir/all
 all: CMakeFiles/02_05.dir/all
 
 .PHONY : all
@@ -63,9 +66,93 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/fib.dir/clean
+clean: CMakeFiles/bracket.dir/clean
+clean: CMakeFiles/maker.dir/clean
 clean: CMakeFiles/02_05.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fib.dir
+
+# All Build rule for target.
+CMakeFiles/fib.dir/all:
+	$(MAKE) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/depend
+	$(MAKE) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target fib"
+.PHONY : CMakeFiles/fib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/fib.dir/rule
+
+# Convenience name for target.
+fib: CMakeFiles/fib.dir/rule
+
+.PHONY : fib
+
+# clean rule for target.
+CMakeFiles/fib.dir/clean:
+	$(MAKE) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/clean
+.PHONY : CMakeFiles/fib.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bracket.dir
+
+# All Build rule for target.
+CMakeFiles/bracket.dir/all:
+	$(MAKE) -f CMakeFiles/bracket.dir/build.make CMakeFiles/bracket.dir/depend
+	$(MAKE) -f CMakeFiles/bracket.dir/build.make CMakeFiles/bracket.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target bracket"
+.PHONY : CMakeFiles/bracket.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bracket.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bracket.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/bracket.dir/rule
+
+# Convenience name for target.
+bracket: CMakeFiles/bracket.dir/rule
+
+.PHONY : bracket
+
+# clean rule for target.
+CMakeFiles/bracket.dir/clean:
+	$(MAKE) -f CMakeFiles/bracket.dir/build.make CMakeFiles/bracket.dir/clean
+.PHONY : CMakeFiles/bracket.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/maker.dir
+
+# All Build rule for target.
+CMakeFiles/maker.dir/all:
+	$(MAKE) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/depend
+	$(MAKE) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target maker"
+.PHONY : CMakeFiles/maker.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/maker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/maker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/02.05/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/maker.dir/rule
+
+# Convenience name for target.
+maker: CMakeFiles/maker.dir/rule
+
+.PHONY : maker
+
+# clean rule for target.
+CMakeFiles/maker.dir/clean:
+	$(MAKE) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/clean
+.PHONY : CMakeFiles/maker.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/02_05.dir
