@@ -8,6 +8,7 @@
 #define infm(x) memset(x,0x3f3f3f3f,sizeof(x))
 #define minfm(x) memset(x,0xcf,sizeof(x))
 using namespace std;
+
 const int N=2e5;
 int n,m,s,t,last[N];
 ll flow[N];
