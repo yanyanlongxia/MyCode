@@ -38,6 +38,7 @@ int query(int l,int r,int L,int R,int k){
     else
         return  query(mid+1,r,t[L].r,t[R].r,k-tmp);
 }
+
 int ask(int l,int r,int k){
     return v[query(1,n,root[l-1],root[r],k)-1];
 }

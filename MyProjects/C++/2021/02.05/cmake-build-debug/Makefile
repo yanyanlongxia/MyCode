@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named P3376-EK
+
+# Build rule for target.
+P3376-EK: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 P3376-EK
+.PHONY : P3376-EK
+
+# fast build rule for target.
+P3376-EK/fast:
+	$(MAKE) -f CMakeFiles/P3376-EK.dir/build.make CMakeFiles/P3376-EK.dir/build
+.PHONY : P3376-EK/fast
+
+#=============================================================================
+# Target rules for targets named ZR246
+
+# Build rule for target.
+ZR246: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ZR246
+.PHONY : ZR246
+
+# fast build rule for target.
+ZR246/fast:
+	$(MAKE) -f CMakeFiles/ZR246.dir/build.make CMakeFiles/ZR246.dir/build
+.PHONY : ZR246/fast
+
+#=============================================================================
+# Target rules for targets named ZR1755
+
+# Build rule for target.
+ZR1755: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ZR1755
+.PHONY : ZR1755
+
+# fast build rule for target.
+ZR1755/fast:
+	$(MAKE) -f CMakeFiles/ZR1755.dir/build.make CMakeFiles/ZR1755.dir/build
+.PHONY : ZR1755/fast
+
+#=============================================================================
 # Target rules for targets named P3834
 
 # Build rule for target.
@@ -135,6 +174,19 @@ fib: cmake_check_build_system
 fib/fast:
 	$(MAKE) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/build
 .PHONY : fib/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 #=============================================================================
 # Target rules for targets named bracket
@@ -175,6 +227,33 @@ maker/fast:
 	$(MAKE) -f CMakeFiles/02_05.dir/build.make CMakeFiles/02_05.dir/build
 .PHONY : 02_05/fast
 
+P3376-EK.o: P3376-EK.cpp.o
+
+.PHONY : P3376-EK.o
+
+# target to build an object file
+P3376-EK.cpp.o:
+	$(MAKE) -f CMakeFiles/P3376-EK.dir/build.make CMakeFiles/P3376-EK.dir/P3376-EK.cpp.o
+.PHONY : P3376-EK.cpp.o
+
+P3376-EK.i: P3376-EK.cpp.i
+
+.PHONY : P3376-EK.i
+
+# target to preprocess a source file
+P3376-EK.cpp.i:
+	$(MAKE) -f CMakeFiles/P3376-EK.dir/build.make CMakeFiles/P3376-EK.dir/P3376-EK.cpp.i
+.PHONY : P3376-EK.cpp.i
+
+P3376-EK.s: P3376-EK.cpp.s
+
+.PHONY : P3376-EK.s
+
+# target to generate assembly for a file
+P3376-EK.cpp.s:
+	$(MAKE) -f CMakeFiles/P3376-EK.dir/build.make CMakeFiles/P3376-EK.dir/P3376-EK.cpp.s
+.PHONY : P3376-EK.cpp.s
+
 P3834.o: P3834.cpp.o
 
 .PHONY : P3834.o
@@ -201,6 +280,60 @@ P3834.s: P3834.cpp.s
 P3834.cpp.s:
 	$(MAKE) -f CMakeFiles/P3834.dir/build.make CMakeFiles/P3834.dir/P3834.cpp.s
 .PHONY : P3834.cpp.s
+
+ZR1755.o: ZR1755.cpp.o
+
+.PHONY : ZR1755.o
+
+# target to build an object file
+ZR1755.cpp.o:
+	$(MAKE) -f CMakeFiles/ZR1755.dir/build.make CMakeFiles/ZR1755.dir/ZR1755.cpp.o
+.PHONY : ZR1755.cpp.o
+
+ZR1755.i: ZR1755.cpp.i
+
+.PHONY : ZR1755.i
+
+# target to preprocess a source file
+ZR1755.cpp.i:
+	$(MAKE) -f CMakeFiles/ZR1755.dir/build.make CMakeFiles/ZR1755.dir/ZR1755.cpp.i
+.PHONY : ZR1755.cpp.i
+
+ZR1755.s: ZR1755.cpp.s
+
+.PHONY : ZR1755.s
+
+# target to generate assembly for a file
+ZR1755.cpp.s:
+	$(MAKE) -f CMakeFiles/ZR1755.dir/build.make CMakeFiles/ZR1755.dir/ZR1755.cpp.s
+.PHONY : ZR1755.cpp.s
+
+ZR246.o: ZR246.cpp.o
+
+.PHONY : ZR246.o
+
+# target to build an object file
+ZR246.cpp.o:
+	$(MAKE) -f CMakeFiles/ZR246.dir/build.make CMakeFiles/ZR246.dir/ZR246.cpp.o
+.PHONY : ZR246.cpp.o
+
+ZR246.i: ZR246.cpp.i
+
+.PHONY : ZR246.i
+
+# target to preprocess a source file
+ZR246.cpp.i:
+	$(MAKE) -f CMakeFiles/ZR246.dir/build.make CMakeFiles/ZR246.dir/ZR246.cpp.i
+.PHONY : ZR246.cpp.i
+
+ZR246.s: ZR246.cpp.s
+
+.PHONY : ZR246.s
+
+# target to generate assembly for a file
+ZR246.cpp.s:
+	$(MAKE) -f CMakeFiles/ZR246.dir/build.make CMakeFiles/ZR246.dir/ZR246.cpp.s
+.PHONY : ZR246.cpp.s
 
 bracket.o: bracket.cpp.o
 
@@ -310,22 +443,62 @@ maker.cpp.s:
 	$(MAKE) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/maker.cpp.s
 .PHONY : maker.cpp.s
 
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... P3376-EK"
+	@echo "... ZR246"
+	@echo "... ZR1755"
 	@echo "... P3834"
 	@echo "... fib"
 	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... bracket"
 	@echo "... rebuild_cache"
 	@echo "... maker"
 	@echo "... 02_05"
+	@echo "... P3376-EK.o"
+	@echo "... P3376-EK.i"
+	@echo "... P3376-EK.s"
 	@echo "... P3834.o"
 	@echo "... P3834.i"
 	@echo "... P3834.s"
+	@echo "... ZR1755.o"
+	@echo "... ZR1755.i"
+	@echo "... ZR1755.s"
+	@echo "... ZR246.o"
+	@echo "... ZR246.i"
+	@echo "... ZR246.s"
 	@echo "... bracket.o"
 	@echo "... bracket.i"
 	@echo "... bracket.s"
@@ -338,6 +511,9 @@ help:
 	@echo "... maker.o"
 	@echo "... maker.i"
 	@echo "... maker.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

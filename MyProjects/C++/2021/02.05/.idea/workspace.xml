@@ -2,11 +2,15 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="02_05" targetName="maker" />
       <config projectName="02_05" targetName="P3834" />
+      <config projectName="02_05" targetName="maker" />
       <config projectName="02_05" targetName="02_05" />
       <config projectName="02_05" targetName="bracket" />
+      <config projectName="02_05" targetName="ZR246" />
+      <config projectName="02_05" targetName="P3376-EK" />
       <config projectName="02_05" targetName="fib" />
+      <config projectName="02_05" targetName="test" />
+      <config projectName="02_05" targetName="ZR1755" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dcb475c-02f8-40b2-af1d-72b866fc7647" name="默认的" comment="Update">
-      <change afterPath="$PROJECT_DIR$/P3834.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P3376-EK.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZR1755.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZR246.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3834.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/P3834.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/02_05.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/02_05.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3834.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3834.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bracket.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bracket.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fib.dir/progress.make" afterDir="false" />
@@ -29,6 +37,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data.in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/data.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +88,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="CMake 应用程序.P3834">
+  <component name="RunManager" selected="CMake 应用程序.P3376-EK">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -96,7 +107,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P3376-EK" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="P3376-EK" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="P3376-EK">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P3834" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="P3834" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="P3834">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZR1755" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="ZR1755" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="ZR1755">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZR246" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="ZR246" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="ZR246">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -112,6 +138,11 @@
       </method>
     </configuration>
     <configuration name="maker" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="maker" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="maker">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -155,10 +186,14 @@
     </configuration>
     <list>
       <item itemvalue="CMake 应用程序.02_05" />
+      <item itemvalue="CMake 应用程序.P3376-EK" />
+      <item itemvalue="CMake 应用程序.P3834" />
+      <item itemvalue="CMake 应用程序.ZR1755" />
+      <item itemvalue="CMake 应用程序.ZR246" />
       <item itemvalue="CMake 应用程序.bracket" />
       <item itemvalue="CMake 应用程序.fib" />
       <item itemvalue="CMake 应用程序.maker" />
-      <item itemvalue="CMake 应用程序.P3834" />
+      <item itemvalue="CMake 应用程序.test" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -173,6 +208,30 @@
       <workItem from="1612751318945" duration="2906000" />
       <workItem from="1612768925840" duration="2000" />
       <workItem from="1612769517246" duration="25000" />
+      <workItem from="1612794172970" duration="3516000" />
+      <workItem from="1612876220484" duration="13000" />
+      <workItem from="1612953003637" duration="281000" />
+      <workItem from="1612954448353" duration="4000" />
+      <workItem from="1612961529070" duration="1614000" />
+      <workItem from="1613030230442" duration="926000" />
+      <workItem from="1613032924806" duration="596000" />
+      <workItem from="1613034866909" duration="1958000" />
+      <workItem from="1613040786659" duration="2331000" />
+      <workItem from="1613104758866" duration="1825000" />
+      <workItem from="1613195205956" duration="8068000" />
+      <workItem from="1613456667810" duration="314000" />
+      <workItem from="1613456995995" duration="594000" />
+      <workItem from="1613554344917" duration="594000" />
+      <workItem from="1613665269688" duration="65000" />
+      <workItem from="1613665352538" duration="8000" />
+      <workItem from="1615616839840" duration="901000" />
+      <workItem from="1615617861495" duration="5921000" />
+      <workItem from="1615633595174" duration="611000" />
+      <workItem from="1616829865349" duration="606000" />
+      <workItem from="1616830596819" duration="329000" />
+      <workItem from="1617365964433" duration="510000" />
+      <workItem from="1617366499873" duration="635000" />
+      <workItem from="1617418132208" duration="1016000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1612485988953</created>
@@ -188,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612751342365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update">
+      <created>1612794189903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612794189903</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update">
+      <created>1612794219958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612794219958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,5 +283,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="u" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
