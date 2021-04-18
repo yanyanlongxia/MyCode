@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6dcb475c-02f8-40b2-af1d-72b866fc7647" name="默认的" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3376-EK.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/P3376-EK.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ZR246.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZR1755.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CMakeLists.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/P3834.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cmake-build-debug/data.in" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/P3376-EK.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1o2Y3kvo7Ho6vQfAG7NnAsksfST" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,8 +71,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,9 +83,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="CMake 应用程序.P3376-EK">
+  <component name="RunManager" selected="CMake 应用程序.02_05">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -86,47 +97,47 @@
       </texify-bibtex>
       <method v="2" />
     </configuration>
-    <configuration name="02_05" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="02_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="02_05">
+    <configuration name="02_05" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="02_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="02_05">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3376-EK" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="P3376-EK" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="P3376-EK">
+    <configuration name="P3376-EK" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="P3376-EK" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="P3376-EK">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3834" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="P3834" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="P3834">
+    <configuration name="P3834" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="P3834" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="P3834">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZR1755" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="ZR1755" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="ZR1755">
+    <configuration name="ZR1755" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="ZR1755" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="ZR1755">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZR246" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="ZR246" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="ZR246">
+    <configuration name="ZR246" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="ZR246" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="ZR246">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bracket" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="bracket" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="bracket">
+    <configuration name="bracket" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="bracket" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="bracket">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="fib" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="fib">
+    <configuration name="fib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="fib" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="fib">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maker" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="maker" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="maker">
+    <configuration name="maker" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="maker" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="maker">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="test">
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_05" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_05" RUN_TARGET_NAME="test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -138,11 +149,6 @@
         <work-dir />
       </texify-external>
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify>
@@ -222,6 +228,13 @@
       <workItem from="1617366499873" duration="635000" />
       <workItem from="1617418132208" duration="1016000" />
       <workItem from="1617428252530" duration="6218000" />
+      <workItem from="1617527111380" duration="1187000" />
+      <workItem from="1618027898440" duration="340000" />
+      <workItem from="1618028262555" duration="692000" />
+      <workItem from="1618637151985" duration="73000" />
+      <workItem from="1618637251312" duration="30000" />
+      <workItem from="1618637300062" duration="2429000" />
+      <workItem from="1618716080814" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1612485988953</created>

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/check3.dir/check3.cpp.o  -o check3 
