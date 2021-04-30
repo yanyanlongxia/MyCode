@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3373.dir/P3373.cpp.o  -o P3373 
