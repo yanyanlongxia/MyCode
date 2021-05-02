@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TCS21B.dir/TCS21B.cpp.o  -o TCS21B 

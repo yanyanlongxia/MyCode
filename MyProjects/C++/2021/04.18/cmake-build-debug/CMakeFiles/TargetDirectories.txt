@@ -1,7 +1,10 @@
 /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles/CF722C.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles/P3373.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles/check2.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles/TCS21B.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles/P3374.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles/check3.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles/prime12.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles/prime8.dir

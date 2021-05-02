@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF722C.dir/CF722C.cpp.o  -o CF722C 

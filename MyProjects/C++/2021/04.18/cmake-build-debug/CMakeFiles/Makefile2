@@ -53,8 +53,11 @@ CMAKE_BINARY_DIR = /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/CF722C.dir/all
 all: CMakeFiles/P3373.dir/all
 all: CMakeFiles/check2.dir/all
+all: CMakeFiles/TCS21B.dir/all
+all: CMakeFiles/P3374.dir/all
 all: CMakeFiles/check3.dir/all
 all: CMakeFiles/prime12.dir/all
 all: CMakeFiles/prime8.dir/all
@@ -69,8 +72,11 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/CF722C.dir/clean
 clean: CMakeFiles/P3373.dir/clean
 clean: CMakeFiles/check2.dir/clean
+clean: CMakeFiles/TCS21B.dir/clean
+clean: CMakeFiles/P3374.dir/clean
 clean: CMakeFiles/check3.dir/clean
 clean: CMakeFiles/prime12.dir/clean
 clean: CMakeFiles/prime8.dir/clean
@@ -80,13 +86,40 @@ clean: CMakeFiles/04_18.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/CF722C.dir
+
+# All Build rule for target.
+CMakeFiles/CF722C.dir/all:
+	$(MAKE) -f CMakeFiles/CF722C.dir/build.make CMakeFiles/CF722C.dir/depend
+	$(MAKE) -f CMakeFiles/CF722C.dir/build.make CMakeFiles/CF722C.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target CF722C"
+.PHONY : CMakeFiles/CF722C.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CF722C.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF722C.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CF722C.dir/rule
+
+# Convenience name for target.
+CF722C: CMakeFiles/CF722C.dir/rule
+
+.PHONY : CF722C
+
+# clean rule for target.
+CMakeFiles/CF722C.dir/clean:
+	$(MAKE) -f CMakeFiles/CF722C.dir/build.make CMakeFiles/CF722C.dir/clean
+.PHONY : CMakeFiles/CF722C.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/P3373.dir
 
 # All Build rule for target.
 CMakeFiles/P3373.dir/all:
 	$(MAKE) -f CMakeFiles/P3373.dir/build.make CMakeFiles/P3373.dir/depend
 	$(MAKE) -f CMakeFiles/P3373.dir/build.make CMakeFiles/P3373.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target P3373"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target P3373"
 .PHONY : CMakeFiles/P3373.dir/all
 
 # Build rule for subdir invocation for target.
@@ -113,7 +146,7 @@ CMakeFiles/P3373.dir/clean:
 CMakeFiles/check2.dir/all:
 	$(MAKE) -f CMakeFiles/check2.dir/build.make CMakeFiles/check2.dir/depend
 	$(MAKE) -f CMakeFiles/check2.dir/build.make CMakeFiles/check2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target check2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target check2"
 .PHONY : CMakeFiles/check2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -134,13 +167,67 @@ CMakeFiles/check2.dir/clean:
 .PHONY : CMakeFiles/check2.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/TCS21B.dir
+
+# All Build rule for target.
+CMakeFiles/TCS21B.dir/all:
+	$(MAKE) -f CMakeFiles/TCS21B.dir/build.make CMakeFiles/TCS21B.dir/depend
+	$(MAKE) -f CMakeFiles/TCS21B.dir/build.make CMakeFiles/TCS21B.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target TCS21B"
+.PHONY : CMakeFiles/TCS21B.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TCS21B.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TCS21B.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/TCS21B.dir/rule
+
+# Convenience name for target.
+TCS21B: CMakeFiles/TCS21B.dir/rule
+
+.PHONY : TCS21B
+
+# clean rule for target.
+CMakeFiles/TCS21B.dir/clean:
+	$(MAKE) -f CMakeFiles/TCS21B.dir/build.make CMakeFiles/TCS21B.dir/clean
+.PHONY : CMakeFiles/TCS21B.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3374.dir
+
+# All Build rule for target.
+CMakeFiles/P3374.dir/all:
+	$(MAKE) -f CMakeFiles/P3374.dir/build.make CMakeFiles/P3374.dir/depend
+	$(MAKE) -f CMakeFiles/P3374.dir/build.make CMakeFiles/P3374.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target P3374"
+.PHONY : CMakeFiles/P3374.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3374.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P3374.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P3374.dir/rule
+
+# Convenience name for target.
+P3374: CMakeFiles/P3374.dir/rule
+
+.PHONY : P3374
+
+# clean rule for target.
+CMakeFiles/P3374.dir/clean:
+	$(MAKE) -f CMakeFiles/P3374.dir/build.make CMakeFiles/P3374.dir/clean
+.PHONY : CMakeFiles/P3374.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/check3.dir
 
 # All Build rule for target.
 CMakeFiles/check3.dir/all:
 	$(MAKE) -f CMakeFiles/check3.dir/build.make CMakeFiles/check3.dir/depend
 	$(MAKE) -f CMakeFiles/check3.dir/build.make CMakeFiles/check3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target check3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target check3"
 .PHONY : CMakeFiles/check3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -167,7 +254,7 @@ CMakeFiles/check3.dir/clean:
 CMakeFiles/prime12.dir/all:
 	$(MAKE) -f CMakeFiles/prime12.dir/build.make CMakeFiles/prime12.dir/depend
 	$(MAKE) -f CMakeFiles/prime12.dir/build.make CMakeFiles/prime12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target prime12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target prime12"
 .PHONY : CMakeFiles/prime12.dir/all
 
 # Build rule for subdir invocation for target.
@@ -194,7 +281,7 @@ CMakeFiles/prime12.dir/clean:
 CMakeFiles/prime8.dir/all:
 	$(MAKE) -f CMakeFiles/prime8.dir/build.make CMakeFiles/prime8.dir/depend
 	$(MAKE) -f CMakeFiles/prime8.dir/build.make CMakeFiles/prime8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target prime8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target prime8"
 .PHONY : CMakeFiles/prime8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +308,7 @@ CMakeFiles/prime8.dir/clean:
 CMakeFiles/prime.dir/all:
 	$(MAKE) -f CMakeFiles/prime.dir/build.make CMakeFiles/prime.dir/depend
 	$(MAKE) -f CMakeFiles/prime.dir/build.make CMakeFiles/prime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target prime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/04.18/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target prime"
 .PHONY : CMakeFiles/prime.dir/all
 
 # Build rule for subdir invocation for target.

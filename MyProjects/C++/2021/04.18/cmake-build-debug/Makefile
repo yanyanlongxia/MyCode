@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CF722C
+
+# Build rule for target.
+CF722C: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CF722C
+.PHONY : CF722C
+
+# fast build rule for target.
+CF722C/fast:
+	$(MAKE) -f CMakeFiles/CF722C.dir/build.make CMakeFiles/CF722C.dir/build
+.PHONY : CF722C/fast
+
+#=============================================================================
 # Target rules for targets named P3373
 
 # Build rule for target.
@@ -135,6 +148,32 @@ check2: cmake_check_build_system
 check2/fast:
 	$(MAKE) -f CMakeFiles/check2.dir/build.make CMakeFiles/check2.dir/build
 .PHONY : check2/fast
+
+#=============================================================================
+# Target rules for targets named TCS21B
+
+# Build rule for target.
+TCS21B: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TCS21B
+.PHONY : TCS21B
+
+# fast build rule for target.
+TCS21B/fast:
+	$(MAKE) -f CMakeFiles/TCS21B.dir/build.make CMakeFiles/TCS21B.dir/build
+.PHONY : TCS21B/fast
+
+#=============================================================================
+# Target rules for targets named P3374
+
+# Build rule for target.
+P3374: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 P3374
+.PHONY : P3374
+
+# fast build rule for target.
+P3374/fast:
+	$(MAKE) -f CMakeFiles/P3374.dir/build.make CMakeFiles/P3374.dir/build
+.PHONY : P3374/fast
 
 #=============================================================================
 # Target rules for targets named check3
@@ -201,6 +240,33 @@ prime/fast:
 	$(MAKE) -f CMakeFiles/04_18.dir/build.make CMakeFiles/04_18.dir/build
 .PHONY : 04_18/fast
 
+CF722C.o: CF722C.cpp.o
+
+.PHONY : CF722C.o
+
+# target to build an object file
+CF722C.cpp.o:
+	$(MAKE) -f CMakeFiles/CF722C.dir/build.make CMakeFiles/CF722C.dir/CF722C.cpp.o
+.PHONY : CF722C.cpp.o
+
+CF722C.i: CF722C.cpp.i
+
+.PHONY : CF722C.i
+
+# target to preprocess a source file
+CF722C.cpp.i:
+	$(MAKE) -f CMakeFiles/CF722C.dir/build.make CMakeFiles/CF722C.dir/CF722C.cpp.i
+.PHONY : CF722C.cpp.i
+
+CF722C.s: CF722C.cpp.s
+
+.PHONY : CF722C.s
+
+# target to generate assembly for a file
+CF722C.cpp.s:
+	$(MAKE) -f CMakeFiles/CF722C.dir/build.make CMakeFiles/CF722C.dir/CF722C.cpp.s
+.PHONY : CF722C.cpp.s
+
 P3373.o: P3373.cpp.o
 
 .PHONY : P3373.o
@@ -227,6 +293,60 @@ P3373.s: P3373.cpp.s
 P3373.cpp.s:
 	$(MAKE) -f CMakeFiles/P3373.dir/build.make CMakeFiles/P3373.dir/P3373.cpp.s
 .PHONY : P3373.cpp.s
+
+P3374.o: P3374.cpp.o
+
+.PHONY : P3374.o
+
+# target to build an object file
+P3374.cpp.o:
+	$(MAKE) -f CMakeFiles/P3374.dir/build.make CMakeFiles/P3374.dir/P3374.cpp.o
+.PHONY : P3374.cpp.o
+
+P3374.i: P3374.cpp.i
+
+.PHONY : P3374.i
+
+# target to preprocess a source file
+P3374.cpp.i:
+	$(MAKE) -f CMakeFiles/P3374.dir/build.make CMakeFiles/P3374.dir/P3374.cpp.i
+.PHONY : P3374.cpp.i
+
+P3374.s: P3374.cpp.s
+
+.PHONY : P3374.s
+
+# target to generate assembly for a file
+P3374.cpp.s:
+	$(MAKE) -f CMakeFiles/P3374.dir/build.make CMakeFiles/P3374.dir/P3374.cpp.s
+.PHONY : P3374.cpp.s
+
+TCS21B.o: TCS21B.cpp.o
+
+.PHONY : TCS21B.o
+
+# target to build an object file
+TCS21B.cpp.o:
+	$(MAKE) -f CMakeFiles/TCS21B.dir/build.make CMakeFiles/TCS21B.dir/TCS21B.cpp.o
+.PHONY : TCS21B.cpp.o
+
+TCS21B.i: TCS21B.cpp.i
+
+.PHONY : TCS21B.i
+
+# target to preprocess a source file
+TCS21B.cpp.i:
+	$(MAKE) -f CMakeFiles/TCS21B.dir/build.make CMakeFiles/TCS21B.dir/TCS21B.cpp.i
+.PHONY : TCS21B.cpp.i
+
+TCS21B.s: TCS21B.cpp.s
+
+.PHONY : TCS21B.s
+
+# target to generate assembly for a file
+TCS21B.cpp.s:
+	$(MAKE) -f CMakeFiles/TCS21B.dir/build.make CMakeFiles/TCS21B.dir/TCS21B.cpp.s
+.PHONY : TCS21B.cpp.s
 
 check2.o: check2.cpp.o
 
@@ -397,17 +517,29 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... CF722C"
 	@echo "... edit_cache"
 	@echo "... P3373"
 	@echo "... check2"
+	@echo "... TCS21B"
+	@echo "... P3374"
 	@echo "... check3"
 	@echo "... prime12"
 	@echo "... prime8"
 	@echo "... prime"
 	@echo "... 04_18"
+	@echo "... CF722C.o"
+	@echo "... CF722C.i"
+	@echo "... CF722C.s"
 	@echo "... P3373.o"
 	@echo "... P3373.i"
 	@echo "... P3373.s"
+	@echo "... P3374.o"
+	@echo "... P3374.i"
+	@echo "... P3374.s"
+	@echo "... TCS21B.o"
+	@echo "... TCS21B.i"
+	@echo "... TCS21B.s"
 	@echo "... check2.o"
 	@echo "... check2.i"
 	@echo "... check2.s"

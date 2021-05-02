@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3374.dir/P3374.cpp.o  -o P3374 
