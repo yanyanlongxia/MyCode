@@ -53,9 +53,13 @@ CMAKE_BINARY_DIR = /mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/CF1516C.dir/all
+all: CMakeFiles/CF1516A.dir/all
 all: CMakeFiles/CF1519C.dir/all
 all: CMakeFiles/CF1519A.dir/all
 all: CMakeFiles/abc199C.dir/all
+all: CMakeFiles/CF1516B.dir/all
+all: CMakeFiles/CF1515B.dir/all
 all: CMakeFiles/CF1519B.dir/all
 all: CMakeFiles/abc199B.dir/all
 all: CMakeFiles/abc199A.dir/all
@@ -69,9 +73,13 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/CF1516C.dir/clean
+clean: CMakeFiles/CF1516A.dir/clean
 clean: CMakeFiles/CF1519C.dir/clean
 clean: CMakeFiles/CF1519A.dir/clean
 clean: CMakeFiles/abc199C.dir/clean
+clean: CMakeFiles/CF1516B.dir/clean
+clean: CMakeFiles/CF1515B.dir/clean
 clean: CMakeFiles/CF1519B.dir/clean
 clean: CMakeFiles/abc199B.dir/clean
 clean: CMakeFiles/abc199A.dir/clean
@@ -80,13 +88,67 @@ clean: CMakeFiles/05_01.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/CF1516C.dir
+
+# All Build rule for target.
+CMakeFiles/CF1516C.dir/all:
+	$(MAKE) -f CMakeFiles/CF1516C.dir/build.make CMakeFiles/CF1516C.dir/depend
+	$(MAKE) -f CMakeFiles/CF1516C.dir/build.make CMakeFiles/CF1516C.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target CF1516C"
+.PHONY : CMakeFiles/CF1516C.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CF1516C.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF1516C.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CF1516C.dir/rule
+
+# Convenience name for target.
+CF1516C: CMakeFiles/CF1516C.dir/rule
+
+.PHONY : CF1516C
+
+# clean rule for target.
+CMakeFiles/CF1516C.dir/clean:
+	$(MAKE) -f CMakeFiles/CF1516C.dir/build.make CMakeFiles/CF1516C.dir/clean
+.PHONY : CMakeFiles/CF1516C.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CF1516A.dir
+
+# All Build rule for target.
+CMakeFiles/CF1516A.dir/all:
+	$(MAKE) -f CMakeFiles/CF1516A.dir/build.make CMakeFiles/CF1516A.dir/depend
+	$(MAKE) -f CMakeFiles/CF1516A.dir/build.make CMakeFiles/CF1516A.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target CF1516A"
+.PHONY : CMakeFiles/CF1516A.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CF1516A.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF1516A.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CF1516A.dir/rule
+
+# Convenience name for target.
+CF1516A: CMakeFiles/CF1516A.dir/rule
+
+.PHONY : CF1516A
+
+# clean rule for target.
+CMakeFiles/CF1516A.dir/clean:
+	$(MAKE) -f CMakeFiles/CF1516A.dir/build.make CMakeFiles/CF1516A.dir/clean
+.PHONY : CMakeFiles/CF1516A.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/CF1519C.dir
 
 # All Build rule for target.
 CMakeFiles/CF1519C.dir/all:
 	$(MAKE) -f CMakeFiles/CF1519C.dir/build.make CMakeFiles/CF1519C.dir/depend
 	$(MAKE) -f CMakeFiles/CF1519C.dir/build.make CMakeFiles/CF1519C.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target CF1519C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target CF1519C"
 .PHONY : CMakeFiles/CF1519C.dir/all
 
 # Build rule for subdir invocation for target.
@@ -113,7 +175,7 @@ CMakeFiles/CF1519C.dir/clean:
 CMakeFiles/CF1519A.dir/all:
 	$(MAKE) -f CMakeFiles/CF1519A.dir/build.make CMakeFiles/CF1519A.dir/depend
 	$(MAKE) -f CMakeFiles/CF1519A.dir/build.make CMakeFiles/CF1519A.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target CF1519A"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target CF1519A"
 .PHONY : CMakeFiles/CF1519A.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +202,7 @@ CMakeFiles/CF1519A.dir/clean:
 CMakeFiles/abc199C.dir/all:
 	$(MAKE) -f CMakeFiles/abc199C.dir/build.make CMakeFiles/abc199C.dir/depend
 	$(MAKE) -f CMakeFiles/abc199C.dir/build.make CMakeFiles/abc199C.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target abc199C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target abc199C"
 .PHONY : CMakeFiles/abc199C.dir/all
 
 # Build rule for subdir invocation for target.
@@ -161,13 +223,67 @@ CMakeFiles/abc199C.dir/clean:
 .PHONY : CMakeFiles/abc199C.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/CF1516B.dir
+
+# All Build rule for target.
+CMakeFiles/CF1516B.dir/all:
+	$(MAKE) -f CMakeFiles/CF1516B.dir/build.make CMakeFiles/CF1516B.dir/depend
+	$(MAKE) -f CMakeFiles/CF1516B.dir/build.make CMakeFiles/CF1516B.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target CF1516B"
+.PHONY : CMakeFiles/CF1516B.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CF1516B.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF1516B.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CF1516B.dir/rule
+
+# Convenience name for target.
+CF1516B: CMakeFiles/CF1516B.dir/rule
+
+.PHONY : CF1516B
+
+# clean rule for target.
+CMakeFiles/CF1516B.dir/clean:
+	$(MAKE) -f CMakeFiles/CF1516B.dir/build.make CMakeFiles/CF1516B.dir/clean
+.PHONY : CMakeFiles/CF1516B.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CF1515B.dir
+
+# All Build rule for target.
+CMakeFiles/CF1515B.dir/all:
+	$(MAKE) -f CMakeFiles/CF1515B.dir/build.make CMakeFiles/CF1515B.dir/depend
+	$(MAKE) -f CMakeFiles/CF1515B.dir/build.make CMakeFiles/CF1515B.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target CF1515B"
+.PHONY : CMakeFiles/CF1515B.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CF1515B.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF1515B.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CF1515B.dir/rule
+
+# Convenience name for target.
+CF1515B: CMakeFiles/CF1515B.dir/rule
+
+.PHONY : CF1515B
+
+# clean rule for target.
+CMakeFiles/CF1515B.dir/clean:
+	$(MAKE) -f CMakeFiles/CF1515B.dir/build.make CMakeFiles/CF1515B.dir/clean
+.PHONY : CMakeFiles/CF1515B.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/CF1519B.dir
 
 # All Build rule for target.
 CMakeFiles/CF1519B.dir/all:
 	$(MAKE) -f CMakeFiles/CF1519B.dir/build.make CMakeFiles/CF1519B.dir/depend
 	$(MAKE) -f CMakeFiles/CF1519B.dir/build.make CMakeFiles/CF1519B.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target CF1519B"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target CF1519B"
 .PHONY : CMakeFiles/CF1519B.dir/all
 
 # Build rule for subdir invocation for target.
@@ -194,7 +310,7 @@ CMakeFiles/CF1519B.dir/clean:
 CMakeFiles/abc199B.dir/all:
 	$(MAKE) -f CMakeFiles/abc199B.dir/build.make CMakeFiles/abc199B.dir/depend
 	$(MAKE) -f CMakeFiles/abc199B.dir/build.make CMakeFiles/abc199B.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target abc199B"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target abc199B"
 .PHONY : CMakeFiles/abc199B.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +337,7 @@ CMakeFiles/abc199B.dir/clean:
 CMakeFiles/abc199A.dir/all:
 	$(MAKE) -f CMakeFiles/abc199A.dir/build.make CMakeFiles/abc199A.dir/depend
 	$(MAKE) -f CMakeFiles/abc199A.dir/build.make CMakeFiles/abc199A.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target abc199A"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.01/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target abc199A"
 .PHONY : CMakeFiles/abc199A.dir/all
 
 # Build rule for subdir invocation for target.
