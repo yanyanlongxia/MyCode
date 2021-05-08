@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/abc200B.dir/abc200B.cpp.o  -o abc200B 
