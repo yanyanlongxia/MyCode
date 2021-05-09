@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/05_08.dir/main.cpp.o  -o 05_08 

@@ -1,0 +1,5 @@
+/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles/P4779.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles/P3366.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles/05_08.dir
