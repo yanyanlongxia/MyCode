@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P1886Seg.dir/P1886Seg.cpp.o  -o P1886Seg 

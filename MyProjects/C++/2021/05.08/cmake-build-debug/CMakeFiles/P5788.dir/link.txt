@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P5788.dir/P5788.cpp.o  -o P5788 
