@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF679A.dir/CF679A.cpp.o  -o CF679A 

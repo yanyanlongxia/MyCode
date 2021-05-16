@@ -53,15 +53,26 @@ CMAKE_BINARY_DIR = /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/P5788t2.dir/all
-all: CMakeFiles/P3383.dir/all
-all: CMakeFiles/P5788.dir/all
-all: CMakeFiles/P3379.dir/all
-all: CMakeFiles/P4779.dir/all
-all: CMakeFiles/P1886.dir/all
-all: CMakeFiles/P3366.dir/all
-all: CMakeFiles/P1886Seg.dir/all
+all: CMakeFiles/CF1525A.dir/all
+all: CMakeFiles/CF679A.dir/all
+all: CMakeFiles/CF1520E.dir/all
+all: CMakeFiles/SP21524.dir/all
 all: CMakeFiles/05_08.dir/all
+all: CMakeFiles/P3435.dir/all
+all: CMakeFiles/P3366.dir/all
+all: CMakeFiles/P1886.dir/all
+all: CMakeFiles/P1886Seg.dir/all
+all: CMakeFiles/P4779.dir/all
+all: CMakeFiles/CF1520D.dir/all
+all: CMakeFiles/P5788.dir/all
+all: CMakeFiles/P3383.dir/all
+all: CMakeFiles/P3379.dir/all
+all: CMakeFiles/P3834.dir/all
+all: CMakeFiles/P5788t2.dir/all
+all: CMakeFiles/CF1520A.dir/all
+all: CMakeFiles/CF1525B.dir/all
+all: CMakeFiles/CF1520B.dir/all
+all: CMakeFiles/P3375.dir/all
 
 .PHONY : all
 
@@ -71,233 +82,136 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/P5788t2.dir/clean
-clean: CMakeFiles/P3383.dir/clean
-clean: CMakeFiles/P5788.dir/clean
-clean: CMakeFiles/P3379.dir/clean
-clean: CMakeFiles/P4779.dir/clean
-clean: CMakeFiles/P1886.dir/clean
-clean: CMakeFiles/P3366.dir/clean
-clean: CMakeFiles/P1886Seg.dir/clean
+clean: CMakeFiles/CF1525A.dir/clean
+clean: CMakeFiles/CF679A.dir/clean
+clean: CMakeFiles/CF1520E.dir/clean
+clean: CMakeFiles/SP21524.dir/clean
 clean: CMakeFiles/05_08.dir/clean
+clean: CMakeFiles/P3435.dir/clean
+clean: CMakeFiles/P3366.dir/clean
+clean: CMakeFiles/P1886.dir/clean
+clean: CMakeFiles/P1886Seg.dir/clean
+clean: CMakeFiles/P4779.dir/clean
+clean: CMakeFiles/CF1520D.dir/clean
+clean: CMakeFiles/P5788.dir/clean
+clean: CMakeFiles/P3383.dir/clean
+clean: CMakeFiles/P3379.dir/clean
+clean: CMakeFiles/P3834.dir/clean
+clean: CMakeFiles/P5788t2.dir/clean
+clean: CMakeFiles/CF1520A.dir/clean
+clean: CMakeFiles/CF1525B.dir/clean
+clean: CMakeFiles/CF1520B.dir/clean
+clean: CMakeFiles/P3375.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/P5788t2.dir
+# Target rules for target CMakeFiles/CF1525A.dir
 
 # All Build rule for target.
-CMakeFiles/P5788t2.dir/all:
-	$(MAKE) -f CMakeFiles/P5788t2.dir/build.make CMakeFiles/P5788t2.dir/depend
-	$(MAKE) -f CMakeFiles/P5788t2.dir/build.make CMakeFiles/P5788t2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target P5788t2"
-.PHONY : CMakeFiles/P5788t2.dir/all
+CMakeFiles/CF1525A.dir/all:
+	$(MAKE) -f CMakeFiles/CF1525A.dir/build.make CMakeFiles/CF1525A.dir/depend
+	$(MAKE) -f CMakeFiles/CF1525A.dir/build.make CMakeFiles/CF1525A.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target CF1525A"
+.PHONY : CMakeFiles/CF1525A.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/P5788t2.dir/rule: cmake_check_build_system
+CMakeFiles/CF1525A.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P5788t2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF1525A.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/P5788t2.dir/rule
+.PHONY : CMakeFiles/CF1525A.dir/rule
 
 # Convenience name for target.
-P5788t2: CMakeFiles/P5788t2.dir/rule
+CF1525A: CMakeFiles/CF1525A.dir/rule
 
-.PHONY : P5788t2
+.PHONY : CF1525A
 
 # clean rule for target.
-CMakeFiles/P5788t2.dir/clean:
-	$(MAKE) -f CMakeFiles/P5788t2.dir/build.make CMakeFiles/P5788t2.dir/clean
-.PHONY : CMakeFiles/P5788t2.dir/clean
+CMakeFiles/CF1525A.dir/clean:
+	$(MAKE) -f CMakeFiles/CF1525A.dir/build.make CMakeFiles/CF1525A.dir/clean
+.PHONY : CMakeFiles/CF1525A.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/P3383.dir
+# Target rules for target CMakeFiles/CF679A.dir
 
 # All Build rule for target.
-CMakeFiles/P3383.dir/all:
-	$(MAKE) -f CMakeFiles/P3383.dir/build.make CMakeFiles/P3383.dir/depend
-	$(MAKE) -f CMakeFiles/P3383.dir/build.make CMakeFiles/P3383.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target P3383"
-.PHONY : CMakeFiles/P3383.dir/all
+CMakeFiles/CF679A.dir/all:
+	$(MAKE) -f CMakeFiles/CF679A.dir/build.make CMakeFiles/CF679A.dir/depend
+	$(MAKE) -f CMakeFiles/CF679A.dir/build.make CMakeFiles/CF679A.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target CF679A"
+.PHONY : CMakeFiles/CF679A.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/P3383.dir/rule: cmake_check_build_system
+CMakeFiles/CF679A.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P3383.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF679A.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/P3383.dir/rule
+.PHONY : CMakeFiles/CF679A.dir/rule
 
 # Convenience name for target.
-P3383: CMakeFiles/P3383.dir/rule
+CF679A: CMakeFiles/CF679A.dir/rule
 
-.PHONY : P3383
+.PHONY : CF679A
 
 # clean rule for target.
-CMakeFiles/P3383.dir/clean:
-	$(MAKE) -f CMakeFiles/P3383.dir/build.make CMakeFiles/P3383.dir/clean
-.PHONY : CMakeFiles/P3383.dir/clean
+CMakeFiles/CF679A.dir/clean:
+	$(MAKE) -f CMakeFiles/CF679A.dir/build.make CMakeFiles/CF679A.dir/clean
+.PHONY : CMakeFiles/CF679A.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/P5788.dir
+# Target rules for target CMakeFiles/CF1520E.dir
 
 # All Build rule for target.
-CMakeFiles/P5788.dir/all:
-	$(MAKE) -f CMakeFiles/P5788.dir/build.make CMakeFiles/P5788.dir/depend
-	$(MAKE) -f CMakeFiles/P5788.dir/build.make CMakeFiles/P5788.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target P5788"
-.PHONY : CMakeFiles/P5788.dir/all
+CMakeFiles/CF1520E.dir/all:
+	$(MAKE) -f CMakeFiles/CF1520E.dir/build.make CMakeFiles/CF1520E.dir/depend
+	$(MAKE) -f CMakeFiles/CF1520E.dir/build.make CMakeFiles/CF1520E.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target CF1520E"
+.PHONY : CMakeFiles/CF1520E.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/P5788.dir/rule: cmake_check_build_system
+CMakeFiles/CF1520E.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P5788.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF1520E.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/P5788.dir/rule
+.PHONY : CMakeFiles/CF1520E.dir/rule
 
 # Convenience name for target.
-P5788: CMakeFiles/P5788.dir/rule
+CF1520E: CMakeFiles/CF1520E.dir/rule
 
-.PHONY : P5788
+.PHONY : CF1520E
 
 # clean rule for target.
-CMakeFiles/P5788.dir/clean:
-	$(MAKE) -f CMakeFiles/P5788.dir/build.make CMakeFiles/P5788.dir/clean
-.PHONY : CMakeFiles/P5788.dir/clean
+CMakeFiles/CF1520E.dir/clean:
+	$(MAKE) -f CMakeFiles/CF1520E.dir/build.make CMakeFiles/CF1520E.dir/clean
+.PHONY : CMakeFiles/CF1520E.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/P3379.dir
+# Target rules for target CMakeFiles/SP21524.dir
 
 # All Build rule for target.
-CMakeFiles/P3379.dir/all:
-	$(MAKE) -f CMakeFiles/P3379.dir/build.make CMakeFiles/P3379.dir/depend
-	$(MAKE) -f CMakeFiles/P3379.dir/build.make CMakeFiles/P3379.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target P3379"
-.PHONY : CMakeFiles/P3379.dir/all
+CMakeFiles/SP21524.dir/all:
+	$(MAKE) -f CMakeFiles/SP21524.dir/build.make CMakeFiles/SP21524.dir/depend
+	$(MAKE) -f CMakeFiles/SP21524.dir/build.make CMakeFiles/SP21524.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target SP21524"
+.PHONY : CMakeFiles/SP21524.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/P3379.dir/rule: cmake_check_build_system
+CMakeFiles/SP21524.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P3379.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SP21524.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/P3379.dir/rule
+.PHONY : CMakeFiles/SP21524.dir/rule
 
 # Convenience name for target.
-P3379: CMakeFiles/P3379.dir/rule
+SP21524: CMakeFiles/SP21524.dir/rule
 
-.PHONY : P3379
-
-# clean rule for target.
-CMakeFiles/P3379.dir/clean:
-	$(MAKE) -f CMakeFiles/P3379.dir/build.make CMakeFiles/P3379.dir/clean
-.PHONY : CMakeFiles/P3379.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/P4779.dir
-
-# All Build rule for target.
-CMakeFiles/P4779.dir/all:
-	$(MAKE) -f CMakeFiles/P4779.dir/build.make CMakeFiles/P4779.dir/depend
-	$(MAKE) -f CMakeFiles/P4779.dir/build.make CMakeFiles/P4779.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target P4779"
-.PHONY : CMakeFiles/P4779.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/P4779.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P4779.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/P4779.dir/rule
-
-# Convenience name for target.
-P4779: CMakeFiles/P4779.dir/rule
-
-.PHONY : P4779
+.PHONY : SP21524
 
 # clean rule for target.
-CMakeFiles/P4779.dir/clean:
-	$(MAKE) -f CMakeFiles/P4779.dir/build.make CMakeFiles/P4779.dir/clean
-.PHONY : CMakeFiles/P4779.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/P1886.dir
-
-# All Build rule for target.
-CMakeFiles/P1886.dir/all:
-	$(MAKE) -f CMakeFiles/P1886.dir/build.make CMakeFiles/P1886.dir/depend
-	$(MAKE) -f CMakeFiles/P1886.dir/build.make CMakeFiles/P1886.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target P1886"
-.PHONY : CMakeFiles/P1886.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/P1886.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P1886.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/P1886.dir/rule
-
-# Convenience name for target.
-P1886: CMakeFiles/P1886.dir/rule
-
-.PHONY : P1886
-
-# clean rule for target.
-CMakeFiles/P1886.dir/clean:
-	$(MAKE) -f CMakeFiles/P1886.dir/build.make CMakeFiles/P1886.dir/clean
-.PHONY : CMakeFiles/P1886.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/P3366.dir
-
-# All Build rule for target.
-CMakeFiles/P3366.dir/all:
-	$(MAKE) -f CMakeFiles/P3366.dir/build.make CMakeFiles/P3366.dir/depend
-	$(MAKE) -f CMakeFiles/P3366.dir/build.make CMakeFiles/P3366.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target P3366"
-.PHONY : CMakeFiles/P3366.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/P3366.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P3366.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/P3366.dir/rule
-
-# Convenience name for target.
-P3366: CMakeFiles/P3366.dir/rule
-
-.PHONY : P3366
-
-# clean rule for target.
-CMakeFiles/P3366.dir/clean:
-	$(MAKE) -f CMakeFiles/P3366.dir/build.make CMakeFiles/P3366.dir/clean
-.PHONY : CMakeFiles/P3366.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/P1886Seg.dir
-
-# All Build rule for target.
-CMakeFiles/P1886Seg.dir/all:
-	$(MAKE) -f CMakeFiles/P1886Seg.dir/build.make CMakeFiles/P1886Seg.dir/depend
-	$(MAKE) -f CMakeFiles/P1886Seg.dir/build.make CMakeFiles/P1886Seg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target P1886Seg"
-.PHONY : CMakeFiles/P1886Seg.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/P1886Seg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P1886Seg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/P1886Seg.dir/rule
-
-# Convenience name for target.
-P1886Seg: CMakeFiles/P1886Seg.dir/rule
-
-.PHONY : P1886Seg
-
-# clean rule for target.
-CMakeFiles/P1886Seg.dir/clean:
-	$(MAKE) -f CMakeFiles/P1886Seg.dir/build.make CMakeFiles/P1886Seg.dir/clean
-.PHONY : CMakeFiles/P1886Seg.dir/clean
+CMakeFiles/SP21524.dir/clean:
+	$(MAKE) -f CMakeFiles/SP21524.dir/build.make CMakeFiles/SP21524.dir/clean
+.PHONY : CMakeFiles/SP21524.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/05_08.dir
@@ -325,6 +239,411 @@ CMakeFiles/05_08.dir/rule: cmake_check_build_system
 CMakeFiles/05_08.dir/clean:
 	$(MAKE) -f CMakeFiles/05_08.dir/build.make CMakeFiles/05_08.dir/clean
 .PHONY : CMakeFiles/05_08.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3435.dir
+
+# All Build rule for target.
+CMakeFiles/P3435.dir/all:
+	$(MAKE) -f CMakeFiles/P3435.dir/build.make CMakeFiles/P3435.dir/depend
+	$(MAKE) -f CMakeFiles/P3435.dir/build.make CMakeFiles/P3435.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target P3435"
+.PHONY : CMakeFiles/P3435.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3435.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P3435.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P3435.dir/rule
+
+# Convenience name for target.
+P3435: CMakeFiles/P3435.dir/rule
+
+.PHONY : P3435
+
+# clean rule for target.
+CMakeFiles/P3435.dir/clean:
+	$(MAKE) -f CMakeFiles/P3435.dir/build.make CMakeFiles/P3435.dir/clean
+.PHONY : CMakeFiles/P3435.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3366.dir
+
+# All Build rule for target.
+CMakeFiles/P3366.dir/all:
+	$(MAKE) -f CMakeFiles/P3366.dir/build.make CMakeFiles/P3366.dir/depend
+	$(MAKE) -f CMakeFiles/P3366.dir/build.make CMakeFiles/P3366.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target P3366"
+.PHONY : CMakeFiles/P3366.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3366.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P3366.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P3366.dir/rule
+
+# Convenience name for target.
+P3366: CMakeFiles/P3366.dir/rule
+
+.PHONY : P3366
+
+# clean rule for target.
+CMakeFiles/P3366.dir/clean:
+	$(MAKE) -f CMakeFiles/P3366.dir/build.make CMakeFiles/P3366.dir/clean
+.PHONY : CMakeFiles/P3366.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P1886.dir
+
+# All Build rule for target.
+CMakeFiles/P1886.dir/all:
+	$(MAKE) -f CMakeFiles/P1886.dir/build.make CMakeFiles/P1886.dir/depend
+	$(MAKE) -f CMakeFiles/P1886.dir/build.make CMakeFiles/P1886.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target P1886"
+.PHONY : CMakeFiles/P1886.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P1886.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P1886.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P1886.dir/rule
+
+# Convenience name for target.
+P1886: CMakeFiles/P1886.dir/rule
+
+.PHONY : P1886
+
+# clean rule for target.
+CMakeFiles/P1886.dir/clean:
+	$(MAKE) -f CMakeFiles/P1886.dir/build.make CMakeFiles/P1886.dir/clean
+.PHONY : CMakeFiles/P1886.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P1886Seg.dir
+
+# All Build rule for target.
+CMakeFiles/P1886Seg.dir/all:
+	$(MAKE) -f CMakeFiles/P1886Seg.dir/build.make CMakeFiles/P1886Seg.dir/depend
+	$(MAKE) -f CMakeFiles/P1886Seg.dir/build.make CMakeFiles/P1886Seg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target P1886Seg"
+.PHONY : CMakeFiles/P1886Seg.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P1886Seg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P1886Seg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P1886Seg.dir/rule
+
+# Convenience name for target.
+P1886Seg: CMakeFiles/P1886Seg.dir/rule
+
+.PHONY : P1886Seg
+
+# clean rule for target.
+CMakeFiles/P1886Seg.dir/clean:
+	$(MAKE) -f CMakeFiles/P1886Seg.dir/build.make CMakeFiles/P1886Seg.dir/clean
+.PHONY : CMakeFiles/P1886Seg.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P4779.dir
+
+# All Build rule for target.
+CMakeFiles/P4779.dir/all:
+	$(MAKE) -f CMakeFiles/P4779.dir/build.make CMakeFiles/P4779.dir/depend
+	$(MAKE) -f CMakeFiles/P4779.dir/build.make CMakeFiles/P4779.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target P4779"
+.PHONY : CMakeFiles/P4779.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P4779.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P4779.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P4779.dir/rule
+
+# Convenience name for target.
+P4779: CMakeFiles/P4779.dir/rule
+
+.PHONY : P4779
+
+# clean rule for target.
+CMakeFiles/P4779.dir/clean:
+	$(MAKE) -f CMakeFiles/P4779.dir/build.make CMakeFiles/P4779.dir/clean
+.PHONY : CMakeFiles/P4779.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CF1520D.dir
+
+# All Build rule for target.
+CMakeFiles/CF1520D.dir/all:
+	$(MAKE) -f CMakeFiles/CF1520D.dir/build.make CMakeFiles/CF1520D.dir/depend
+	$(MAKE) -f CMakeFiles/CF1520D.dir/build.make CMakeFiles/CF1520D.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target CF1520D"
+.PHONY : CMakeFiles/CF1520D.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CF1520D.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF1520D.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CF1520D.dir/rule
+
+# Convenience name for target.
+CF1520D: CMakeFiles/CF1520D.dir/rule
+
+.PHONY : CF1520D
+
+# clean rule for target.
+CMakeFiles/CF1520D.dir/clean:
+	$(MAKE) -f CMakeFiles/CF1520D.dir/build.make CMakeFiles/CF1520D.dir/clean
+.PHONY : CMakeFiles/CF1520D.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P5788.dir
+
+# All Build rule for target.
+CMakeFiles/P5788.dir/all:
+	$(MAKE) -f CMakeFiles/P5788.dir/build.make CMakeFiles/P5788.dir/depend
+	$(MAKE) -f CMakeFiles/P5788.dir/build.make CMakeFiles/P5788.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target P5788"
+.PHONY : CMakeFiles/P5788.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P5788.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P5788.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P5788.dir/rule
+
+# Convenience name for target.
+P5788: CMakeFiles/P5788.dir/rule
+
+.PHONY : P5788
+
+# clean rule for target.
+CMakeFiles/P5788.dir/clean:
+	$(MAKE) -f CMakeFiles/P5788.dir/build.make CMakeFiles/P5788.dir/clean
+.PHONY : CMakeFiles/P5788.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3383.dir
+
+# All Build rule for target.
+CMakeFiles/P3383.dir/all:
+	$(MAKE) -f CMakeFiles/P3383.dir/build.make CMakeFiles/P3383.dir/depend
+	$(MAKE) -f CMakeFiles/P3383.dir/build.make CMakeFiles/P3383.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target P3383"
+.PHONY : CMakeFiles/P3383.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3383.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P3383.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P3383.dir/rule
+
+# Convenience name for target.
+P3383: CMakeFiles/P3383.dir/rule
+
+.PHONY : P3383
+
+# clean rule for target.
+CMakeFiles/P3383.dir/clean:
+	$(MAKE) -f CMakeFiles/P3383.dir/build.make CMakeFiles/P3383.dir/clean
+.PHONY : CMakeFiles/P3383.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3379.dir
+
+# All Build rule for target.
+CMakeFiles/P3379.dir/all:
+	$(MAKE) -f CMakeFiles/P3379.dir/build.make CMakeFiles/P3379.dir/depend
+	$(MAKE) -f CMakeFiles/P3379.dir/build.make CMakeFiles/P3379.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target P3379"
+.PHONY : CMakeFiles/P3379.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3379.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P3379.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P3379.dir/rule
+
+# Convenience name for target.
+P3379: CMakeFiles/P3379.dir/rule
+
+.PHONY : P3379
+
+# clean rule for target.
+CMakeFiles/P3379.dir/clean:
+	$(MAKE) -f CMakeFiles/P3379.dir/build.make CMakeFiles/P3379.dir/clean
+.PHONY : CMakeFiles/P3379.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3834.dir
+
+# All Build rule for target.
+CMakeFiles/P3834.dir/all:
+	$(MAKE) -f CMakeFiles/P3834.dir/build.make CMakeFiles/P3834.dir/depend
+	$(MAKE) -f CMakeFiles/P3834.dir/build.make CMakeFiles/P3834.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target P3834"
+.PHONY : CMakeFiles/P3834.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3834.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P3834.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P3834.dir/rule
+
+# Convenience name for target.
+P3834: CMakeFiles/P3834.dir/rule
+
+.PHONY : P3834
+
+# clean rule for target.
+CMakeFiles/P3834.dir/clean:
+	$(MAKE) -f CMakeFiles/P3834.dir/build.make CMakeFiles/P3834.dir/clean
+.PHONY : CMakeFiles/P3834.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P5788t2.dir
+
+# All Build rule for target.
+CMakeFiles/P5788t2.dir/all:
+	$(MAKE) -f CMakeFiles/P5788t2.dir/build.make CMakeFiles/P5788t2.dir/depend
+	$(MAKE) -f CMakeFiles/P5788t2.dir/build.make CMakeFiles/P5788t2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target P5788t2"
+.PHONY : CMakeFiles/P5788t2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P5788t2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P5788t2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P5788t2.dir/rule
+
+# Convenience name for target.
+P5788t2: CMakeFiles/P5788t2.dir/rule
+
+.PHONY : P5788t2
+
+# clean rule for target.
+CMakeFiles/P5788t2.dir/clean:
+	$(MAKE) -f CMakeFiles/P5788t2.dir/build.make CMakeFiles/P5788t2.dir/clean
+.PHONY : CMakeFiles/P5788t2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CF1520A.dir
+
+# All Build rule for target.
+CMakeFiles/CF1520A.dir/all:
+	$(MAKE) -f CMakeFiles/CF1520A.dir/build.make CMakeFiles/CF1520A.dir/depend
+	$(MAKE) -f CMakeFiles/CF1520A.dir/build.make CMakeFiles/CF1520A.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target CF1520A"
+.PHONY : CMakeFiles/CF1520A.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CF1520A.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF1520A.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CF1520A.dir/rule
+
+# Convenience name for target.
+CF1520A: CMakeFiles/CF1520A.dir/rule
+
+.PHONY : CF1520A
+
+# clean rule for target.
+CMakeFiles/CF1520A.dir/clean:
+	$(MAKE) -f CMakeFiles/CF1520A.dir/build.make CMakeFiles/CF1520A.dir/clean
+.PHONY : CMakeFiles/CF1520A.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CF1525B.dir
+
+# All Build rule for target.
+CMakeFiles/CF1525B.dir/all:
+	$(MAKE) -f CMakeFiles/CF1525B.dir/build.make CMakeFiles/CF1525B.dir/depend
+	$(MAKE) -f CMakeFiles/CF1525B.dir/build.make CMakeFiles/CF1525B.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target CF1525B"
+.PHONY : CMakeFiles/CF1525B.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CF1525B.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF1525B.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CF1525B.dir/rule
+
+# Convenience name for target.
+CF1525B: CMakeFiles/CF1525B.dir/rule
+
+.PHONY : CF1525B
+
+# clean rule for target.
+CMakeFiles/CF1525B.dir/clean:
+	$(MAKE) -f CMakeFiles/CF1525B.dir/build.make CMakeFiles/CF1525B.dir/clean
+.PHONY : CMakeFiles/CF1525B.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CF1520B.dir
+
+# All Build rule for target.
+CMakeFiles/CF1520B.dir/all:
+	$(MAKE) -f CMakeFiles/CF1520B.dir/build.make CMakeFiles/CF1520B.dir/depend
+	$(MAKE) -f CMakeFiles/CF1520B.dir/build.make CMakeFiles/CF1520B.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target CF1520B"
+.PHONY : CMakeFiles/CF1520B.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CF1520B.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CF1520B.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CF1520B.dir/rule
+
+# Convenience name for target.
+CF1520B: CMakeFiles/CF1520B.dir/rule
+
+.PHONY : CF1520B
+
+# clean rule for target.
+CMakeFiles/CF1520B.dir/clean:
+	$(MAKE) -f CMakeFiles/CF1520B.dir/build.make CMakeFiles/CF1520B.dir/clean
+.PHONY : CMakeFiles/CF1520B.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3375.dir
+
+# All Build rule for target.
+CMakeFiles/P3375.dir/all:
+	$(MAKE) -f CMakeFiles/P3375.dir/build.make CMakeFiles/P3375.dir/depend
+	$(MAKE) -f CMakeFiles/P3375.dir/build.make CMakeFiles/P3375.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target P3375"
+.PHONY : CMakeFiles/P3375.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3375.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P3375.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.08/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P3375.dir/rule
+
+# Convenience name for target.
+P3375: CMakeFiles/P3375.dir/rule
+
+.PHONY : P3375
+
+# clean rule for target.
+CMakeFiles/P3375.dir/clean:
+	$(MAKE) -f CMakeFiles/P3375.dir/build.make CMakeFiles/P3375.dir/clean
+.PHONY : CMakeFiles/P3375.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

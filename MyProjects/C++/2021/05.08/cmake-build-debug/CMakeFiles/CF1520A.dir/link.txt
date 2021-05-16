@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF1520A.dir/CF1520A.cpp.o  -o CF1520A 

@@ -5,15 +5,26 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="05_08" targetName="CF1520E" />
+      <config projectName="05_08" targetName="CF1520D" />
+      <config projectName="05_08" targetName="CF1520B" />
+      <config projectName="05_08" targetName="CF1520A" />
+      <config projectName="05_08" targetName="SP21524" />
+      <config projectName="05_08" targetName="CF1525B" />
+      <config projectName="05_08" targetName="P3834" />
+      <config projectName="05_08" targetName="P5788t2" />
+      <config projectName="05_08" targetName="CF1525A" />
+      <config projectName="05_08" targetName="P4779" />
+      <config projectName="05_08" targetName="CF679A" />
+      <config projectName="05_08" targetName="P1886" />
+      <config projectName="05_08" targetName="P3379" />
+      <config projectName="05_08" targetName="P3435" />
+      <config projectName="05_08" targetName="P5788" />
       <config projectName="05_08" targetName="P3366" />
+      <config projectName="05_08" targetName="P3375" />
       <config projectName="05_08" targetName="P1886Seg" />
       <config projectName="05_08" targetName="P3383" />
-      <config projectName="05_08" targetName="P5788t2" />
-      <config projectName="05_08" targetName="P4779" />
       <config projectName="05_08" targetName="05_08" />
-      <config projectName="05_08" targetName="P3379" />
-      <config projectName="05_08" targetName="P1886" />
-      <config projectName="05_08" targetName="P5788" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -23,21 +34,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e07cfb4e-e3bc-46e8-8d9d-6ef6add53593" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/P1886.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P1886Seg.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P3379.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P3383.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P5788.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P5788t2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02.05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02.05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02.05/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../02.05/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CF1520A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CF1520B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CF1520D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CF1520E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CF1525A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CF1525B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CF679A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P3375.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P3435.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P3834.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SP21524.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/05_08.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/05_08.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P1886.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P1886.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P1886Seg.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P1886Seg.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3366.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3366.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3379.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3379.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3383.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3383.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P4779.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P4779.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P5788.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P5788.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P5788t2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P5788t2.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
@@ -51,7 +71,6 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
-    <option name="completionType" value="BuiltinWithClangd" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
@@ -86,12 +105,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="language.cpp.clangd" />
   </component>
-  <component name="RunManager" selected="CMake 应用程序.P5788t2">
+  <component name="RunManager" selected="CMake 应用程序.CF1525B">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -103,12 +124,42 @@
       </texify-bibtex>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="05_08" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="05_08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="05_08">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="05_08" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="05_08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="05_08">
+    <configuration name="CF1520A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520A">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF1520B" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520B" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520B">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF1520D" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520D" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520D">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF1520E" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520E" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520E">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF1525A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1525A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1525A">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF1525B" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1525B" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1525B">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF679A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF679A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF679A">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -128,12 +179,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P3375" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3375" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3375">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P3379" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3379" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3379">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="P3383" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3383" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3383">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P3435" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3435" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3435">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P3834" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3834" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3834">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -153,6 +219,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SP21524" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="SP21524" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="SP21524">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="EXTERNAL_TOOL_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-external>
         <program>PYTHONTEX</program>
@@ -165,6 +236,25 @@
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="F:/docs/MyCode/MyProjects/C++/2021/05.08" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify>
@@ -197,15 +287,32 @@
     </configuration>
     <list>
       <item itemvalue="CMake 应用程序.05_08" />
+      <item itemvalue="CMake 应用程序.CF1520A" />
+      <item itemvalue="CMake 应用程序.CF1520B" />
+      <item itemvalue="CMake 应用程序.CF1520D" />
+      <item itemvalue="CMake 应用程序.CF1520E" />
+      <item itemvalue="CMake 应用程序.CF1525A" />
+      <item itemvalue="CMake 应用程序.CF1525B" />
+      <item itemvalue="CMake 应用程序.CF679A" />
       <item itemvalue="CMake 应用程序.P1886" />
       <item itemvalue="CMake 应用程序.P1886Seg" />
       <item itemvalue="CMake 应用程序.P3366" />
+      <item itemvalue="CMake 应用程序.P3375" />
       <item itemvalue="CMake 应用程序.P3379" />
       <item itemvalue="CMake 应用程序.P3383" />
+      <item itemvalue="CMake 应用程序.P3435" />
+      <item itemvalue="CMake 应用程序.P3834" />
       <item itemvalue="CMake 应用程序.P4779" />
       <item itemvalue="CMake 应用程序.P5788" />
       <item itemvalue="CMake 应用程序.P5788t2" />
+      <item itemvalue="CMake 应用程序.SP21524" />
+      <item itemvalue="Gradle.F:/docs/MyCode/MyProjects/C++/2021/05.08" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.F:/docs/MyCode/MyProjects/C++/2021/05.08" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -225,7 +332,11 @@
       <workItem from="1620742199114" duration="118000" />
       <workItem from="1620742898949" duration="15000" />
       <workItem from="1620743568966" duration="143000" />
-      <workItem from="1620819056944" duration="2849000" />
+      <workItem from="1620819056944" duration="7202000" />
+      <workItem from="1620862083784" duration="23000" />
+      <workItem from="1620906260580" duration="10110000" />
+      <workItem from="1621002498182" duration="2517000" />
+      <workItem from="1621153392299" duration="2230000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1620562175312</created>
@@ -234,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620562175312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1620822553384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620822553384</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +373,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/SP21524.cpp</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="ch" language="ObjectiveC" />
+        <watch expression="exi" language="ObjectiveC" />
+        <watch expression="n" language="ObjectiveC" />
+        <watch expression="pi" language="ObjectiveC" />
+        <watch expression="gen" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
