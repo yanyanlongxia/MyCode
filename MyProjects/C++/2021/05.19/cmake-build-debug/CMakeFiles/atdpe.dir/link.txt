@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/atdpe.dir/atdpe.cpp.o  -o atdpe 

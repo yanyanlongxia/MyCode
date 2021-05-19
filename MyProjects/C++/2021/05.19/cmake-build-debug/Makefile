@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named atdpe
+
+# Build rule for target.
+atdpe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atdpe
+.PHONY : atdpe
+
+# fast build rule for target.
+atdpe/fast:
+	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/build
+.PHONY : atdpe/fast
+
+#=============================================================================
 # Target rules for targets named tadpd
 
 # Build rule for target.
@@ -148,6 +161,19 @@ atdpb: cmake_check_build_system
 atdpb/fast:
 	$(MAKE) -f CMakeFiles/atdpb.dir/build.make CMakeFiles/atdpb.dir/build
 .PHONY : atdpb/fast
+
+#=============================================================================
+# Target rules for targets named atdpf
+
+# Build rule for target.
+atdpf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atdpf
+.PHONY : atdpf
+
+# fast build rule for target.
+atdpf/fast:
+	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/build
+.PHONY : atdpf/fast
 
 #=============================================================================
 # Target rules for targets named atdpa
@@ -256,6 +282,60 @@ atdpc.cpp.s:
 	$(MAKE) -f CMakeFiles/atdpc.dir/build.make CMakeFiles/atdpc.dir/atdpc.cpp.s
 .PHONY : atdpc.cpp.s
 
+atdpe.o: atdpe.cpp.o
+
+.PHONY : atdpe.o
+
+# target to build an object file
+atdpe.cpp.o:
+	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/atdpe.cpp.o
+.PHONY : atdpe.cpp.o
+
+atdpe.i: atdpe.cpp.i
+
+.PHONY : atdpe.i
+
+# target to preprocess a source file
+atdpe.cpp.i:
+	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/atdpe.cpp.i
+.PHONY : atdpe.cpp.i
+
+atdpe.s: atdpe.cpp.s
+
+.PHONY : atdpe.s
+
+# target to generate assembly for a file
+atdpe.cpp.s:
+	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/atdpe.cpp.s
+.PHONY : atdpe.cpp.s
+
+atdpf.o: atdpf.cpp.o
+
+.PHONY : atdpf.o
+
+# target to build an object file
+atdpf.cpp.o:
+	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/atdpf.cpp.o
+.PHONY : atdpf.cpp.o
+
+atdpf.i: atdpf.cpp.i
+
+.PHONY : atdpf.i
+
+# target to preprocess a source file
+atdpf.cpp.i:
+	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/atdpf.cpp.i
+.PHONY : atdpf.cpp.i
+
+atdpf.s: atdpf.cpp.s
+
+.PHONY : atdpf.s
+
+# target to generate assembly for a file
+atdpf.cpp.s:
+	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/atdpf.cpp.s
+.PHONY : atdpf.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -317,10 +397,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... atdpe"
 	@echo "... tadpd"
 	@echo "... atdpc"
 	@echo "... rebuild_cache"
 	@echo "... atdpb"
+	@echo "... atdpf"
 	@echo "... atdpa"
 	@echo "... 05_19"
 	@echo "... atdpa.o"
@@ -332,6 +414,12 @@ help:
 	@echo "... atdpc.o"
 	@echo "... atdpc.i"
 	@echo "... atdpc.s"
+	@echo "... atdpe.o"
+	@echo "... atdpe.i"
+	@echo "... atdpe.s"
+	@echo "... atdpf.o"
+	@echo "... atdpf.i"
+	@echo "... atdpf.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -53,9 +53,11 @@ CMAKE_BINARY_DIR = /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/atdpe.dir/all
 all: CMakeFiles/tadpd.dir/all
 all: CMakeFiles/atdpc.dir/all
 all: CMakeFiles/atdpb.dir/all
+all: CMakeFiles/atdpf.dir/all
 all: CMakeFiles/atdpa.dir/all
 all: CMakeFiles/05_19.dir/all
 
@@ -67,13 +69,42 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/atdpe.dir/clean
 clean: CMakeFiles/tadpd.dir/clean
 clean: CMakeFiles/atdpc.dir/clean
 clean: CMakeFiles/atdpb.dir/clean
+clean: CMakeFiles/atdpf.dir/clean
 clean: CMakeFiles/atdpa.dir/clean
 clean: CMakeFiles/05_19.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/atdpe.dir
+
+# All Build rule for target.
+CMakeFiles/atdpe.dir/all:
+	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/depend
+	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target atdpe"
+.PHONY : CMakeFiles/atdpe.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/atdpe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/atdpe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/atdpe.dir/rule
+
+# Convenience name for target.
+atdpe: CMakeFiles/atdpe.dir/rule
+
+.PHONY : atdpe
+
+# clean rule for target.
+CMakeFiles/atdpe.dir/clean:
+	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/clean
+.PHONY : CMakeFiles/atdpe.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tadpd.dir
@@ -82,7 +113,7 @@ clean: CMakeFiles/05_19.dir/clean
 CMakeFiles/tadpd.dir/all:
 	$(MAKE) -f CMakeFiles/tadpd.dir/build.make CMakeFiles/tadpd.dir/depend
 	$(MAKE) -f CMakeFiles/tadpd.dir/build.make CMakeFiles/tadpd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target tadpd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target tadpd"
 .PHONY : CMakeFiles/tadpd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,6 +186,33 @@ atdpb: CMakeFiles/atdpb.dir/rule
 CMakeFiles/atdpb.dir/clean:
 	$(MAKE) -f CMakeFiles/atdpb.dir/build.make CMakeFiles/atdpb.dir/clean
 .PHONY : CMakeFiles/atdpb.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/atdpf.dir
+
+# All Build rule for target.
+CMakeFiles/atdpf.dir/all:
+	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/depend
+	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target atdpf"
+.PHONY : CMakeFiles/atdpf.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/atdpf.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/atdpf.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/atdpf.dir/rule
+
+# Convenience name for target.
+atdpf: CMakeFiles/atdpf.dir/rule
+
+.PHONY : atdpf
+
+# clean rule for target.
+CMakeFiles/atdpf.dir/clean:
+	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/clean
+.PHONY : CMakeFiles/atdpf.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/atdpa.dir
