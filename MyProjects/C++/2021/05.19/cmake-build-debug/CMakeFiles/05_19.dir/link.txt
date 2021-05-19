@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/05_19.dir/main.cpp.o  -o 05_19 

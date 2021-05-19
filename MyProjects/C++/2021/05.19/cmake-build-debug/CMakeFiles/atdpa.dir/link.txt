@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/atdpa.dir/atdpa.cpp.o  -o atdpa 

@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.16)
+project(05_19)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(05_19 main.cpp)
+add_executable(atdpa atdpa.cpp)
+add_executable(atdpb atdpb.cpp)
+add_executable(atdpc atdpc.cpp)
+add_executable(tadpd tadpd.cpp)
