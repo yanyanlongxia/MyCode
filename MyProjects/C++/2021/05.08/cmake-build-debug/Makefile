@@ -176,6 +176,19 @@ SP21524/fast:
 .PHONY : 05_08/fast
 
 #=============================================================================
+# Target rules for targets named P5681
+
+# Build rule for target.
+P5681: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 P5681
+.PHONY : P5681
+
+# fast build rule for target.
+P5681/fast:
+	$(MAKE) -f CMakeFiles/P5681.dir/build.make CMakeFiles/P5681.dir/build
+.PHONY : P5681/fast
+
+#=============================================================================
 # Target rules for targets named P3435
 
 # Build rule for target.
@@ -213,6 +226,19 @@ P1886: cmake_check_build_system
 P1886/fast:
 	$(MAKE) -f CMakeFiles/P1886.dir/build.make CMakeFiles/P1886.dir/build
 .PHONY : P1886/fast
+
+#=============================================================================
+# Target rules for targets named P5682
+
+# Build rule for target.
+P5682: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 P5682
+.PHONY : P5682
+
+# fast build rule for target.
+P5682/fast:
+	$(MAKE) -f CMakeFiles/P5682.dir/build.make CMakeFiles/P5682.dir/build
+.PHONY : P5682/fast
 
 #=============================================================================
 # Target rules for targets named P1886Seg
@@ -802,6 +828,60 @@ P4779.cpp.s:
 	$(MAKE) -f CMakeFiles/P4779.dir/build.make CMakeFiles/P4779.dir/P4779.cpp.s
 .PHONY : P4779.cpp.s
 
+P5681.o: P5681.cpp.o
+
+.PHONY : P5681.o
+
+# target to build an object file
+P5681.cpp.o:
+	$(MAKE) -f CMakeFiles/P5681.dir/build.make CMakeFiles/P5681.dir/P5681.cpp.o
+.PHONY : P5681.cpp.o
+
+P5681.i: P5681.cpp.i
+
+.PHONY : P5681.i
+
+# target to preprocess a source file
+P5681.cpp.i:
+	$(MAKE) -f CMakeFiles/P5681.dir/build.make CMakeFiles/P5681.dir/P5681.cpp.i
+.PHONY : P5681.cpp.i
+
+P5681.s: P5681.cpp.s
+
+.PHONY : P5681.s
+
+# target to generate assembly for a file
+P5681.cpp.s:
+	$(MAKE) -f CMakeFiles/P5681.dir/build.make CMakeFiles/P5681.dir/P5681.cpp.s
+.PHONY : P5681.cpp.s
+
+P5682.o: P5682.cpp.o
+
+.PHONY : P5682.o
+
+# target to build an object file
+P5682.cpp.o:
+	$(MAKE) -f CMakeFiles/P5682.dir/build.make CMakeFiles/P5682.dir/P5682.cpp.o
+.PHONY : P5682.cpp.o
+
+P5682.i: P5682.cpp.i
+
+.PHONY : P5682.i
+
+# target to preprocess a source file
+P5682.cpp.i:
+	$(MAKE) -f CMakeFiles/P5682.dir/build.make CMakeFiles/P5682.dir/P5682.cpp.i
+.PHONY : P5682.cpp.i
+
+P5682.s: P5682.cpp.s
+
+.PHONY : P5682.s
+
+# target to generate assembly for a file
+P5682.cpp.s:
+	$(MAKE) -f CMakeFiles/P5682.dir/build.make CMakeFiles/P5682.dir/P5682.cpp.s
+.PHONY : P5682.cpp.s
+
 P5788.o: P5788.cpp.o
 
 .PHONY : P5788.o
@@ -923,9 +1003,11 @@ help:
 	@echo "... CF1520E"
 	@echo "... SP21524"
 	@echo "... 05_08"
+	@echo "... P5681"
 	@echo "... P3435"
 	@echo "... P3366"
 	@echo "... P1886"
+	@echo "... P5682"
 	@echo "... P1886Seg"
 	@echo "... P4779"
 	@echo "... CF1520D"
@@ -986,6 +1068,12 @@ help:
 	@echo "... P4779.o"
 	@echo "... P4779.i"
 	@echo "... P4779.s"
+	@echo "... P5681.o"
+	@echo "... P5681.i"
+	@echo "... P5681.s"
+	@echo "... P5682.o"
+	@echo "... P5682.i"
+	@echo "... P5682.s"
 	@echo "... P5788.o"
 	@echo "... P5788.i"
 	@echo "... P5788.s"

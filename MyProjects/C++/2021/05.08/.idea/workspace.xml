@@ -23,7 +23,9 @@
       <config projectName="05_08" targetName="P3366" />
       <config projectName="05_08" targetName="P3375" />
       <config projectName="05_08" targetName="P1886Seg" />
+      <config projectName="05_08" targetName="P5682" />
       <config projectName="05_08" targetName="P3383" />
+      <config projectName="05_08" targetName="P5681" />
       <config projectName="05_08" targetName="05_08" />
     </generated>
   </component>
@@ -33,31 +35,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e07cfb4e-e3bc-46e8-8d9d-6ef6add53593" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/CF1520A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CF1520B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CF1520D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CF1520E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CF1525A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CF1525B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CF679A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P3375.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P3435.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P3834.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SP21524.cpp" afterDir="false" />
+    <list default="true" id="e07cfb4e-e3bc-46e8-8d9d-6ef6add53593" name="默认变更列表" comment="Update">
+      <change afterPath="$PROJECT_DIR$/P5681.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P5682.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/05_08.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/05_08.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P1886.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P1886.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P1886Seg.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P1886Seg.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3366.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3366.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3379.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3379.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3383.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P3383.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P4779.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P4779.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P5788.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P5788.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P5788t2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/P5788t2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SP21524.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SP21524.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
@@ -110,9 +98,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="language.cpp.clangd" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="CMake 应用程序.CF1525B">
+  <component name="RunManager" selected="CMake 应用程序.P5682">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -205,6 +193,16 @@
       </method>
     </configuration>
     <configuration name="P4779" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P4779" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P4779">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P5681" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P5681" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P5681">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P5682" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P5682" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P5682">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -303,6 +301,8 @@
       <item itemvalue="CMake 应用程序.P3435" />
       <item itemvalue="CMake 应用程序.P3834" />
       <item itemvalue="CMake 应用程序.P4779" />
+      <item itemvalue="CMake 应用程序.P5681" />
+      <item itemvalue="CMake 应用程序.P5682" />
       <item itemvalue="CMake 应用程序.P5788" />
       <item itemvalue="CMake 应用程序.P5788t2" />
       <item itemvalue="CMake 应用程序.SP21524" />
@@ -337,6 +337,12 @@
       <workItem from="1620906260580" duration="10110000" />
       <workItem from="1621002498182" duration="2517000" />
       <workItem from="1621153392299" duration="2230000" />
+      <workItem from="1621163799414" duration="1291000" />
+      <workItem from="1621255295777" duration="63000" />
+      <workItem from="1621255370792" duration="594000" />
+      <workItem from="1621346168171" duration="596000" />
+      <workItem from="1621349812445" duration="3050000" />
+      <workItem from="1621422850095" duration="1883000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1620562175312</created>
@@ -352,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620822553384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update">
+      <created>1621163829528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621163829529</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

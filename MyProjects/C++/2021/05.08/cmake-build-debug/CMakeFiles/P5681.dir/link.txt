@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P5681.dir/P5681.cpp.o  -o P5681 
