@@ -48,8 +48,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/atdph.dir/DependInfo.cmake"
   "CMakeFiles/atdpe.dir/DependInfo.cmake"
   "CMakeFiles/tadpd.dir/DependInfo.cmake"
+  "CMakeFiles/atdpg.dir/DependInfo.cmake"
   "CMakeFiles/atdpc.dir/DependInfo.cmake"
   "CMakeFiles/atdpb.dir/DependInfo.cmake"
   "CMakeFiles/atdpf.dir/DependInfo.cmake"

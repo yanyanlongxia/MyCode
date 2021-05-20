@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/atdph.dir/atdph.cpp.o  -o atdph 

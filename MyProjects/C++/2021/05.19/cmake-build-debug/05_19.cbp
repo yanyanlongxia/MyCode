@@ -27,6 +27,50 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="atdph">
+				<Option output="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/atdph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 atdph"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atdph/fast">
+				<Option output="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/atdph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 atdph/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="atdpe">
 				<Option output="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/atdpe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug"/>
@@ -110,6 +154,50 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 tadpd/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atdpg">
+				<Option output="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/atdpg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 atdpg"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atdpg/fast">
+				<Option output="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/atdpg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 atdpg/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -360,6 +448,12 @@
 		</Unit>
 		<Unit filename="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/atdpf.cpp">
 			<Option target="atdpf"/>
+		</Unit>
+		<Unit filename="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/atdpg.cpp">
+			<Option target="atdpg"/>
+		</Unit>
+		<Unit filename="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/atdph.cpp">
+			<Option target="atdph"/>
 		</Unit>
 		<Unit filename="/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/main.cpp">
 			<Option target="05_19"/>

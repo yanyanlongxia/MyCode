@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/atdpg.dir/atdpg.cpp.o  -o atdpg 
