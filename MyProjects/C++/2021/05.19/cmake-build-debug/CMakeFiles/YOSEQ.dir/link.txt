@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/YOSEQ.dir/YOSEQ.cpp.o  -o YOSEQ 

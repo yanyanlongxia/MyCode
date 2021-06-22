@@ -1,4 +1,6 @@
 /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles/YOSEQ.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles/atdpi.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles/atdph.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles/atdpe.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles/tadpd.dir

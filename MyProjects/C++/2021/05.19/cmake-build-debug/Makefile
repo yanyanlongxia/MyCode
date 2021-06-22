@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named YOSEQ
+
+# Build rule for target.
+YOSEQ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 YOSEQ
+.PHONY : YOSEQ
+
+# fast build rule for target.
+YOSEQ/fast:
+	$(MAKE) -f CMakeFiles/YOSEQ.dir/build.make CMakeFiles/YOSEQ.dir/build
+.PHONY : YOSEQ/fast
+
+#=============================================================================
+# Target rules for targets named atdpi
+
+# Build rule for target.
+atdpi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atdpi
+.PHONY : atdpi
+
+# fast build rule for target.
+atdpi/fast:
+	$(MAKE) -f CMakeFiles/atdpi.dir/build.make CMakeFiles/atdpi.dir/build
+.PHONY : atdpi/fast
+
+#=============================================================================
 # Target rules for targets named atdph
 
 # Build rule for target.
@@ -226,6 +252,33 @@ atdpa/fast:
 05_19/fast:
 	$(MAKE) -f CMakeFiles/05_19.dir/build.make CMakeFiles/05_19.dir/build
 .PHONY : 05_19/fast
+
+YOSEQ.o: YOSEQ.cpp.o
+
+.PHONY : YOSEQ.o
+
+# target to build an object file
+YOSEQ.cpp.o:
+	$(MAKE) -f CMakeFiles/YOSEQ.dir/build.make CMakeFiles/YOSEQ.dir/YOSEQ.cpp.o
+.PHONY : YOSEQ.cpp.o
+
+YOSEQ.i: YOSEQ.cpp.i
+
+.PHONY : YOSEQ.i
+
+# target to preprocess a source file
+YOSEQ.cpp.i:
+	$(MAKE) -f CMakeFiles/YOSEQ.dir/build.make CMakeFiles/YOSEQ.dir/YOSEQ.cpp.i
+.PHONY : YOSEQ.cpp.i
+
+YOSEQ.s: YOSEQ.cpp.s
+
+.PHONY : YOSEQ.s
+
+# target to generate assembly for a file
+YOSEQ.cpp.s:
+	$(MAKE) -f CMakeFiles/YOSEQ.dir/build.make CMakeFiles/YOSEQ.dir/YOSEQ.cpp.s
+.PHONY : YOSEQ.cpp.s
 
 atdpa.o: atdpa.cpp.o
 
@@ -416,6 +469,33 @@ atdph.cpp.s:
 	$(MAKE) -f CMakeFiles/atdph.dir/build.make CMakeFiles/atdph.dir/atdph.cpp.s
 .PHONY : atdph.cpp.s
 
+atdpi.o: atdpi.cpp.o
+
+.PHONY : atdpi.o
+
+# target to build an object file
+atdpi.cpp.o:
+	$(MAKE) -f CMakeFiles/atdpi.dir/build.make CMakeFiles/atdpi.dir/atdpi.cpp.o
+.PHONY : atdpi.cpp.o
+
+atdpi.i: atdpi.cpp.i
+
+.PHONY : atdpi.i
+
+# target to preprocess a source file
+atdpi.cpp.i:
+	$(MAKE) -f CMakeFiles/atdpi.dir/build.make CMakeFiles/atdpi.dir/atdpi.cpp.i
+.PHONY : atdpi.cpp.i
+
+atdpi.s: atdpi.cpp.s
+
+.PHONY : atdpi.s
+
+# target to generate assembly for a file
+atdpi.cpp.s:
+	$(MAKE) -f CMakeFiles/atdpi.dir/build.make CMakeFiles/atdpi.dir/atdpi.cpp.s
+.PHONY : atdpi.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -477,6 +557,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... YOSEQ"
+	@echo "... atdpi"
 	@echo "... atdph"
 	@echo "... atdpe"
 	@echo "... tadpd"
@@ -487,6 +569,9 @@ help:
 	@echo "... atdpf"
 	@echo "... atdpa"
 	@echo "... 05_19"
+	@echo "... YOSEQ.o"
+	@echo "... YOSEQ.i"
+	@echo "... YOSEQ.s"
 	@echo "... atdpa.o"
 	@echo "... atdpa.i"
 	@echo "... atdpa.s"
@@ -508,6 +593,9 @@ help:
 	@echo "... atdph.o"
 	@echo "... atdph.i"
 	@echo "... atdph.s"
+	@echo "... atdpi.o"
+	@echo "... atdpi.i"
+	@echo "... atdpi.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

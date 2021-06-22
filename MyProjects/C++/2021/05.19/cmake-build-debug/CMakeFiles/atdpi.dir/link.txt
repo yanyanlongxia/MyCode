@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/atdpi.dir/atdpi.cpp.o  -o atdpi 
