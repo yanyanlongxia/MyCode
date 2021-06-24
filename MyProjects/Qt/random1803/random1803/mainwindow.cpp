@@ -4,7 +4,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent)
 {
         t=0;
-        this->setWindowTitle(tr("随机数生成"));
+        this->setWindowTitle(tr("1803随机学号生成"));
         this->resize(576,680);
         srand(time(0));
         initnum();
@@ -27,7 +27,7 @@ MainWindow::MainWindow(QWidget *parent) :
         Numlabel->resize(576,680);
         Numlabel->setFont(NumFont);
         btn=new QPushButton(this);
-        btn->setText("生成");
+        btn->setText("下一个");
         btn->resize(100,50);
         btn->move(240,500);
         //btn->setStyleSheet();
@@ -44,10 +44,6 @@ MainWindow::~MainWindow()
 void MainWindow::Rdnum(){
     t++;
     int a=rand()%33+1;
-    if(t==1)
-        a=33;
-    if(t==2)
-        a=27;
     char str[10];
     sprintf(str,"%d",cm[a]);
     Numlabel->setText(str);

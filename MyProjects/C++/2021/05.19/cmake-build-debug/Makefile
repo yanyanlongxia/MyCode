@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debu
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,121 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named YOSEQ
+# Target rules for targets named 05_19
 
 # Build rule for target.
-YOSEQ: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 YOSEQ
-.PHONY : YOSEQ
+05_19: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 05_19
+.PHONY : 05_19
 
 # fast build rule for target.
-YOSEQ/fast:
-	$(MAKE) -f CMakeFiles/YOSEQ.dir/build.make CMakeFiles/YOSEQ.dir/build
-.PHONY : YOSEQ/fast
-
-#=============================================================================
-# Target rules for targets named atdpi
-
-# Build rule for target.
-atdpi: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 atdpi
-.PHONY : atdpi
-
-# fast build rule for target.
-atdpi/fast:
-	$(MAKE) -f CMakeFiles/atdpi.dir/build.make CMakeFiles/atdpi.dir/build
-.PHONY : atdpi/fast
-
-#=============================================================================
-# Target rules for targets named atdph
-
-# Build rule for target.
-atdph: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 atdph
-.PHONY : atdph
-
-# fast build rule for target.
-atdph/fast:
-	$(MAKE) -f CMakeFiles/atdph.dir/build.make CMakeFiles/atdph.dir/build
-.PHONY : atdph/fast
-
-#=============================================================================
-# Target rules for targets named atdpe
-
-# Build rule for target.
-atdpe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 atdpe
-.PHONY : atdpe
-
-# fast build rule for target.
-atdpe/fast:
-	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/build
-.PHONY : atdpe/fast
-
-#=============================================================================
-# Target rules for targets named tadpd
-
-# Build rule for target.
-tadpd: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tadpd
-.PHONY : tadpd
-
-# fast build rule for target.
-tadpd/fast:
-	$(MAKE) -f CMakeFiles/tadpd.dir/build.make CMakeFiles/tadpd.dir/build
-.PHONY : tadpd/fast
-
-#=============================================================================
-# Target rules for targets named atdpg
-
-# Build rule for target.
-atdpg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 atdpg
-.PHONY : atdpg
-
-# fast build rule for target.
-atdpg/fast:
-	$(MAKE) -f CMakeFiles/atdpg.dir/build.make CMakeFiles/atdpg.dir/build
-.PHONY : atdpg/fast
-
-#=============================================================================
-# Target rules for targets named atdpc
-
-# Build rule for target.
-atdpc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 atdpc
-.PHONY : atdpc
-
-# fast build rule for target.
-atdpc/fast:
-	$(MAKE) -f CMakeFiles/atdpc.dir/build.make CMakeFiles/atdpc.dir/build
-.PHONY : atdpc/fast
-
-#=============================================================================
-# Target rules for targets named atdpb
-
-# Build rule for target.
-atdpb: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 atdpb
-.PHONY : atdpb
-
-# fast build rule for target.
-atdpb/fast:
-	$(MAKE) -f CMakeFiles/atdpb.dir/build.make CMakeFiles/atdpb.dir/build
-.PHONY : atdpb/fast
-
-#=============================================================================
-# Target rules for targets named atdpf
-
-# Build rule for target.
-atdpf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 atdpf
-.PHONY : atdpf
-
-# fast build rule for target.
-atdpf/fast:
-	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/build
-.PHONY : atdpf/fast
+05_19/fast:
+	$(MAKE) -f CMakeFiles/05_19.dir/build.make CMakeFiles/05_19.dir/build
+.PHONY : 05_19/fast
 
 #=============================================================================
 # Target rules for targets named atdpa
@@ -241,17 +137,134 @@ atdpa/fast:
 .PHONY : atdpa/fast
 
 #=============================================================================
-# Target rules for targets named 05_19
+# Target rules for targets named atdpf
 
 # Build rule for target.
-05_19: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 05_19
-.PHONY : 05_19
+atdpf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atdpf
+.PHONY : atdpf
 
 # fast build rule for target.
-05_19/fast:
-	$(MAKE) -f CMakeFiles/05_19.dir/build.make CMakeFiles/05_19.dir/build
-.PHONY : 05_19/fast
+atdpf/fast:
+	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/build
+.PHONY : atdpf/fast
+
+#=============================================================================
+# Target rules for targets named atdpb
+
+# Build rule for target.
+atdpb: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atdpb
+.PHONY : atdpb
+
+# fast build rule for target.
+atdpb/fast:
+	$(MAKE) -f CMakeFiles/atdpb.dir/build.make CMakeFiles/atdpb.dir/build
+.PHONY : atdpb/fast
+
+#=============================================================================
+# Target rules for targets named atdpc
+
+# Build rule for target.
+atdpc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atdpc
+.PHONY : atdpc
+
+# fast build rule for target.
+atdpc/fast:
+	$(MAKE) -f CMakeFiles/atdpc.dir/build.make CMakeFiles/atdpc.dir/build
+.PHONY : atdpc/fast
+
+#=============================================================================
+# Target rules for targets named atdpg
+
+# Build rule for target.
+atdpg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atdpg
+.PHONY : atdpg
+
+# fast build rule for target.
+atdpg/fast:
+	$(MAKE) -f CMakeFiles/atdpg.dir/build.make CMakeFiles/atdpg.dir/build
+.PHONY : atdpg/fast
+
+#=============================================================================
+# Target rules for targets named tadpd
+
+# Build rule for target.
+tadpd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tadpd
+.PHONY : tadpd
+
+# fast build rule for target.
+tadpd/fast:
+	$(MAKE) -f CMakeFiles/tadpd.dir/build.make CMakeFiles/tadpd.dir/build
+.PHONY : tadpd/fast
+
+#=============================================================================
+# Target rules for targets named atdpe
+
+# Build rule for target.
+atdpe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atdpe
+.PHONY : atdpe
+
+# fast build rule for target.
+atdpe/fast:
+	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/build
+.PHONY : atdpe/fast
+
+#=============================================================================
+# Target rules for targets named mathtest
+
+# Build rule for target.
+mathtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mathtest
+.PHONY : mathtest
+
+# fast build rule for target.
+mathtest/fast:
+	$(MAKE) -f CMakeFiles/mathtest.dir/build.make CMakeFiles/mathtest.dir/build
+.PHONY : mathtest/fast
+
+#=============================================================================
+# Target rules for targets named atdph
+
+# Build rule for target.
+atdph: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atdph
+.PHONY : atdph
+
+# fast build rule for target.
+atdph/fast:
+	$(MAKE) -f CMakeFiles/atdph.dir/build.make CMakeFiles/atdph.dir/build
+.PHONY : atdph/fast
+
+#=============================================================================
+# Target rules for targets named atdpi
+
+# Build rule for target.
+atdpi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atdpi
+.PHONY : atdpi
+
+# fast build rule for target.
+atdpi/fast:
+	$(MAKE) -f CMakeFiles/atdpi.dir/build.make CMakeFiles/atdpi.dir/build
+.PHONY : atdpi/fast
+
+#=============================================================================
+# Target rules for targets named YOSEQ
+
+# Build rule for target.
+YOSEQ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 YOSEQ
+.PHONY : YOSEQ
+
+# fast build rule for target.
+YOSEQ/fast:
+	$(MAKE) -f CMakeFiles/YOSEQ.dir/build.make CMakeFiles/YOSEQ.dir/build
+.PHONY : YOSEQ/fast
 
 YOSEQ.o: YOSEQ.cpp.o
 
@@ -523,6 +536,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/05_19.dir/build.make CMakeFiles/05_19.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mathtest.o: mathtest.cpp.o
+
+.PHONY : mathtest.o
+
+# target to build an object file
+mathtest.cpp.o:
+	$(MAKE) -f CMakeFiles/mathtest.dir/build.make CMakeFiles/mathtest.dir/mathtest.cpp.o
+.PHONY : mathtest.cpp.o
+
+mathtest.i: mathtest.cpp.i
+
+.PHONY : mathtest.i
+
+# target to preprocess a source file
+mathtest.cpp.i:
+	$(MAKE) -f CMakeFiles/mathtest.dir/build.make CMakeFiles/mathtest.dir/mathtest.cpp.i
+.PHONY : mathtest.cpp.i
+
+mathtest.s: mathtest.cpp.s
+
+.PHONY : mathtest.s
+
+# target to generate assembly for a file
+mathtest.cpp.s:
+	$(MAKE) -f CMakeFiles/mathtest.dir/build.make CMakeFiles/mathtest.dir/mathtest.cpp.s
+.PHONY : mathtest.cpp.s
+
 tadpd.o: tadpd.cpp.o
 
 .PHONY : tadpd.o
@@ -556,19 +596,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... YOSEQ"
-	@echo "... atdpi"
-	@echo "... atdph"
-	@echo "... atdpe"
-	@echo "... tadpd"
-	@echo "... atdpg"
-	@echo "... atdpc"
-	@echo "... rebuild_cache"
-	@echo "... atdpb"
-	@echo "... atdpf"
-	@echo "... atdpa"
 	@echo "... 05_19"
+	@echo "... atdpa"
+	@echo "... atdpf"
+	@echo "... atdpb"
+	@echo "... atdpc"
+	@echo "... atdpg"
+	@echo "... tadpd"
+	@echo "... atdpe"
+	@echo "... mathtest"
+	@echo "... atdph"
+	@echo "... atdpi"
+	@echo "... YOSEQ"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... YOSEQ.o"
 	@echo "... YOSEQ.i"
 	@echo "... YOSEQ.s"
@@ -599,6 +640,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mathtest.o"
+	@echo "... mathtest.i"
+	@echo "... mathtest.s"
 	@echo "... tadpd.o"
 	@echo "... tadpd.i"
 	@echo "... tadpd.s"

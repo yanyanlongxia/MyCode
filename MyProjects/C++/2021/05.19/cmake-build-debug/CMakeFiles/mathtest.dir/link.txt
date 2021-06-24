@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/mathtest.dir/mathtest.cpp.o  -o mathtest 
