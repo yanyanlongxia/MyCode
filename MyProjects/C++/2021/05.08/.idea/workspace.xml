@@ -35,7 +35,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e07cfb4e-e3bc-46e8-8d9d-6ef6add53593" name="默认变更列表" comment="Update" />
+    <list default="true" id="e07cfb4e-e3bc-46e8-8d9d-6ef6add53593" name="默认变更列表" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.19/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../05.19/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,112 +100,112 @@
       </texify-bibtex>
       <method v="2" />
     </configuration>
-    <configuration name="05_08" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="05_08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="05_08">
+    <configuration name="05_08" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="05_08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="05_08">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF1520A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520A">
+    <configuration name="CF1520A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520A">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF1520B" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520B" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520B">
+    <configuration name="CF1520B" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520B" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520B">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF1520D" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520D" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520D">
+    <configuration name="CF1520D" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520D" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520D">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF1520E" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520E" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520E">
+    <configuration name="CF1520E" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1520E" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1520E">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF1525A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1525A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1525A">
+    <configuration name="CF1525A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1525A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1525A">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF1525B" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1525B" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1525B">
+    <configuration name="CF1525B" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF1525B" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF1525B">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF679A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF679A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF679A">
+    <configuration name="CF679A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="CF679A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="CF679A">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1886" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P1886" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P1886">
+    <configuration name="P1886" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P1886" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P1886">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1886Seg" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P1886Seg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P1886Seg">
+    <configuration name="P1886Seg" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P1886Seg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P1886Seg">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3366" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3366" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3366">
+    <configuration name="P3366" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3366" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3366">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3375" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3375" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3375">
+    <configuration name="P3375" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3375" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3375">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3379" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3379" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3379">
+    <configuration name="P3379" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3379" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3379">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3383" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3383" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3383">
+    <configuration name="P3383" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3383" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3383">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3435" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3435" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3435">
+    <configuration name="P3435" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3435" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3435">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3834" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3834" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3834">
+    <configuration name="P3834" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P3834" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P3834">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P4779" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P4779" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P4779">
+    <configuration name="P4779" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P4779" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P4779">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5681" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P5681" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P5681">
+    <configuration name="P5681" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P5681" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P5681">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5682" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P5682" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P5682">
+    <configuration name="P5682" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P5682" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P5682">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5788" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P5788" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P5788">
+    <configuration name="P5788" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P5788" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P5788">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5788t2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P5788t2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P5788t2">
+    <configuration name="P5788t2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="P5788t2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="P5788t2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SP21524" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="SP21524" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="SP21524">
+    <configuration name="SP21524" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_08" TARGET_NAME="SP21524" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_08" RUN_TARGET_NAME="SP21524">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -213,11 +217,6 @@
         <work-dir />
       </texify-external>
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
     </configuration>
     <configuration name="F:/docs/MyCode/MyProjects/C++/2021/05.08" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -328,6 +327,7 @@
       <workItem from="1621349812445" duration="3050000" />
       <workItem from="1621422850095" duration="1883000" />
       <workItem from="1621431653767" duration="126000" />
+      <workItem from="1624589914383" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1620562175312</created>
