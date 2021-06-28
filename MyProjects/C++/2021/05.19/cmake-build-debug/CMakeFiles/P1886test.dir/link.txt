@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P1886test.dir/P1886test.cpp.o  -o P1886test 
