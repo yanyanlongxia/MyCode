@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named P1886test
+
+# Build rule for target.
+P1886test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 P1886test
+.PHONY : P1886test
+
+# fast build rule for target.
+P1886test/fast:
+	$(MAKE) -f CMakeFiles/P1886test.dir/build.make CMakeFiles/P1886test.dir/build
+.PHONY : P1886test/fast
+
+#=============================================================================
 # Target rules for targets named 05_19
 
 # Build rule for target.
@@ -278,6 +291,33 @@ P7411: cmake_check_build_system
 P7411/fast:
 	$(MAKE) -f CMakeFiles/P7411.dir/build.make CMakeFiles/P7411.dir/build
 .PHONY : P7411/fast
+
+P1886test.o: P1886test.cpp.o
+
+.PHONY : P1886test.o
+
+# target to build an object file
+P1886test.cpp.o:
+	$(MAKE) -f CMakeFiles/P1886test.dir/build.make CMakeFiles/P1886test.dir/P1886test.cpp.o
+.PHONY : P1886test.cpp.o
+
+P1886test.i: P1886test.cpp.i
+
+.PHONY : P1886test.i
+
+# target to preprocess a source file
+P1886test.cpp.i:
+	$(MAKE) -f CMakeFiles/P1886test.dir/build.make CMakeFiles/P1886test.dir/P1886test.cpp.i
+.PHONY : P1886test.cpp.i
+
+P1886test.s: P1886test.cpp.s
+
+.PHONY : P1886test.s
+
+# target to generate assembly for a file
+P1886test.cpp.s:
+	$(MAKE) -f CMakeFiles/P1886test.dir/build.make CMakeFiles/P1886test.dir/P1886test.cpp.s
+.PHONY : P1886test.cpp.s
 
 P7411.o: P7411.cpp.o
 
@@ -638,6 +678,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... P1886test"
 	@echo "... 05_19"
 	@echo "... atdpa"
 	@echo "... atdpf"
@@ -651,6 +692,9 @@ help:
 	@echo "... atdph"
 	@echo "... atdpi"
 	@echo "... P7411"
+	@echo "... P1886test.o"
+	@echo "... P1886test.i"
+	@echo "... P1886test.s"
 	@echo "... P7411.o"
 	@echo "... P7411.i"
 	@echo "... P7411.s"

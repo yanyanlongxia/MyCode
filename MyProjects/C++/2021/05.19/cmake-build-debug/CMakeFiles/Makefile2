@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/P1886test.dir/all
 all: CMakeFiles/05_19.dir/all
 all: CMakeFiles/atdpa.dir/all
 all: CMakeFiles/atdpf.dir/all
@@ -75,6 +76,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/P1886test.dir/clean
 clean: CMakeFiles/05_19.dir/clean
 clean: CMakeFiles/atdpa.dir/clean
 clean: CMakeFiles/atdpf.dir/clean
@@ -90,6 +92,33 @@ clean: CMakeFiles/atdpi.dir/clean
 clean: CMakeFiles/P7411.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P1886test.dir
+
+# All Build rule for target.
+CMakeFiles/P1886test.dir/all:
+	$(MAKE) -f CMakeFiles/P1886test.dir/build.make CMakeFiles/P1886test.dir/depend
+	$(MAKE) -f CMakeFiles/P1886test.dir/build.make CMakeFiles/P1886test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target P1886test"
+.PHONY : CMakeFiles/P1886test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P1886test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/P1886test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P1886test.dir/rule
+
+# Convenience name for target.
+P1886test: CMakeFiles/P1886test.dir/rule
+
+.PHONY : P1886test
+
+# clean rule for target.
+CMakeFiles/P1886test.dir/clean:
+	$(MAKE) -f CMakeFiles/P1886test.dir/build.make CMakeFiles/P1886test.dir/clean
+.PHONY : CMakeFiles/P1886test.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/05_19.dir
@@ -125,7 +154,7 @@ CMakeFiles/05_19.dir/clean:
 CMakeFiles/atdpa.dir/all:
 	$(MAKE) -f CMakeFiles/atdpa.dir/build.make CMakeFiles/atdpa.dir/depend
 	$(MAKE) -f CMakeFiles/atdpa.dir/build.make CMakeFiles/atdpa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target atdpa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target atdpa"
 .PHONY : CMakeFiles/atdpa.dir/all
 
 # Build rule for subdir invocation for target.
@@ -152,7 +181,7 @@ CMakeFiles/atdpa.dir/clean:
 CMakeFiles/atdpf.dir/all:
 	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/depend
 	$(MAKE) -f CMakeFiles/atdpf.dir/build.make CMakeFiles/atdpf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target atdpf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target atdpf"
 .PHONY : CMakeFiles/atdpf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -179,7 +208,7 @@ CMakeFiles/atdpf.dir/clean:
 CMakeFiles/atdpb.dir/all:
 	$(MAKE) -f CMakeFiles/atdpb.dir/build.make CMakeFiles/atdpb.dir/depend
 	$(MAKE) -f CMakeFiles/atdpb.dir/build.make CMakeFiles/atdpb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target atdpb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target atdpb"
 .PHONY : CMakeFiles/atdpb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -206,7 +235,7 @@ CMakeFiles/atdpb.dir/clean:
 CMakeFiles/atdpc.dir/all:
 	$(MAKE) -f CMakeFiles/atdpc.dir/build.make CMakeFiles/atdpc.dir/depend
 	$(MAKE) -f CMakeFiles/atdpc.dir/build.make CMakeFiles/atdpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target atdpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target atdpc"
 .PHONY : CMakeFiles/atdpc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -233,7 +262,7 @@ CMakeFiles/atdpc.dir/clean:
 CMakeFiles/atdpg.dir/all:
 	$(MAKE) -f CMakeFiles/atdpg.dir/build.make CMakeFiles/atdpg.dir/depend
 	$(MAKE) -f CMakeFiles/atdpg.dir/build.make CMakeFiles/atdpg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target atdpg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target atdpg"
 .PHONY : CMakeFiles/atdpg.dir/all
 
 # Build rule for subdir invocation for target.
@@ -260,7 +289,7 @@ CMakeFiles/atdpg.dir/clean:
 CMakeFiles/tadpd.dir/all:
 	$(MAKE) -f CMakeFiles/tadpd.dir/build.make CMakeFiles/tadpd.dir/depend
 	$(MAKE) -f CMakeFiles/tadpd.dir/build.make CMakeFiles/tadpd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target tadpd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target tadpd"
 .PHONY : CMakeFiles/tadpd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -287,7 +316,7 @@ CMakeFiles/tadpd.dir/clean:
 CMakeFiles/atdpe.dir/all:
 	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/depend
 	$(MAKE) -f CMakeFiles/atdpe.dir/build.make CMakeFiles/atdpe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target atdpe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target atdpe"
 .PHONY : CMakeFiles/atdpe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -314,7 +343,7 @@ CMakeFiles/atdpe.dir/clean:
 CMakeFiles/mathtest.dir/all:
 	$(MAKE) -f CMakeFiles/mathtest.dir/build.make CMakeFiles/mathtest.dir/depend
 	$(MAKE) -f CMakeFiles/mathtest.dir/build.make CMakeFiles/mathtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target mathtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target mathtest"
 .PHONY : CMakeFiles/mathtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -341,7 +370,7 @@ CMakeFiles/mathtest.dir/clean:
 CMakeFiles/YOSEQ.dir/all:
 	$(MAKE) -f CMakeFiles/YOSEQ.dir/build.make CMakeFiles/YOSEQ.dir/depend
 	$(MAKE) -f CMakeFiles/YOSEQ.dir/build.make CMakeFiles/YOSEQ.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target YOSEQ"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target YOSEQ"
 .PHONY : CMakeFiles/YOSEQ.dir/all
 
 # Build rule for subdir invocation for target.
@@ -368,7 +397,7 @@ CMakeFiles/YOSEQ.dir/clean:
 CMakeFiles/atdph.dir/all:
 	$(MAKE) -f CMakeFiles/atdph.dir/build.make CMakeFiles/atdph.dir/depend
 	$(MAKE) -f CMakeFiles/atdph.dir/build.make CMakeFiles/atdph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target atdph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target atdph"
 .PHONY : CMakeFiles/atdph.dir/all
 
 # Build rule for subdir invocation for target.
@@ -395,7 +424,7 @@ CMakeFiles/atdph.dir/clean:
 CMakeFiles/atdpi.dir/all:
 	$(MAKE) -f CMakeFiles/atdpi.dir/build.make CMakeFiles/atdpi.dir/depend
 	$(MAKE) -f CMakeFiles/atdpi.dir/build.make CMakeFiles/atdpi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target atdpi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target atdpi"
 .PHONY : CMakeFiles/atdpi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -422,7 +451,7 @@ CMakeFiles/atdpi.dir/clean:
 CMakeFiles/P7411.dir/all:
 	$(MAKE) -f CMakeFiles/P7411.dir/build.make CMakeFiles/P7411.dir/depend
 	$(MAKE) -f CMakeFiles/P7411.dir/build.make CMakeFiles/P7411.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target P7411"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/f/docs/MyCode/MyProjects/C++/2021/05.19/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target P7411"
 .PHONY : CMakeFiles/P7411.dir/all
 
 # Build rule for subdir invocation for target.
