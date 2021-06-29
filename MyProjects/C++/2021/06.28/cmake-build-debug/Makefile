@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named ZR1895
+
+# Build rule for target.
+ZR1895: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ZR1895
+.PHONY : ZR1895
+
+# fast build rule for target.
+ZR1895/fast:
+	$(MAKE) -f CMakeFiles/ZR1895.dir/build.make CMakeFiles/ZR1895.dir/build
+.PHONY : ZR1895/fast
+
+#=============================================================================
+# Target rules for targets named maker
+
+# Build rule for target.
+maker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maker
+.PHONY : maker
+
+# fast build rule for target.
+maker/fast:
+	$(MAKE) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/build
+.PHONY : maker/fast
+
+#=============================================================================
 # Target rules for targets named P2163
 
 # Build rule for target.
@@ -163,6 +202,33 @@ P2163.cpp.s:
 	$(MAKE) -f CMakeFiles/P2163.dir/build.make CMakeFiles/P2163.dir/P2163.cpp.s
 .PHONY : P2163.cpp.s
 
+ZR1895.o: ZR1895.cpp.o
+
+.PHONY : ZR1895.o
+
+# target to build an object file
+ZR1895.cpp.o:
+	$(MAKE) -f CMakeFiles/ZR1895.dir/build.make CMakeFiles/ZR1895.dir/ZR1895.cpp.o
+.PHONY : ZR1895.cpp.o
+
+ZR1895.i: ZR1895.cpp.i
+
+.PHONY : ZR1895.i
+
+# target to preprocess a source file
+ZR1895.cpp.i:
+	$(MAKE) -f CMakeFiles/ZR1895.dir/build.make CMakeFiles/ZR1895.dir/ZR1895.cpp.i
+.PHONY : ZR1895.cpp.i
+
+ZR1895.s: ZR1895.cpp.s
+
+.PHONY : ZR1895.s
+
+# target to generate assembly for a file
+ZR1895.cpp.s:
+	$(MAKE) -f CMakeFiles/ZR1895.dir/build.make CMakeFiles/ZR1895.dir/ZR1895.cpp.s
+.PHONY : ZR1895.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -190,6 +256,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/06_28.dir/build.make CMakeFiles/06_28.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+maker.o: maker.cpp.o
+
+.PHONY : maker.o
+
+# target to build an object file
+maker.cpp.o:
+	$(MAKE) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/maker.cpp.o
+.PHONY : maker.cpp.o
+
+maker.i: maker.cpp.i
+
+.PHONY : maker.i
+
+# target to preprocess a source file
+maker.cpp.i:
+	$(MAKE) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/maker.cpp.i
+.PHONY : maker.cpp.i
+
+maker.s: maker.cpp.s
+
+.PHONY : maker.s
+
+# target to generate assembly for a file
+maker.cpp.s:
+	$(MAKE) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/maker.cpp.s
+.PHONY : maker.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -197,15 +317,27 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... ZR1895"
 	@echo "... rebuild_cache"
+	@echo "... maker"
 	@echo "... P2163"
 	@echo "... 06_28"
 	@echo "... P2163.o"
 	@echo "... P2163.i"
 	@echo "... P2163.s"
+	@echo "... ZR1895.o"
+	@echo "... ZR1895.i"
+	@echo "... ZR1895.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... maker.o"
+	@echo "... maker.i"
+	@echo "... maker.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

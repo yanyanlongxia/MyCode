@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ZR1895.dir/ZR1895.cpp.o  -o ZR1895 
