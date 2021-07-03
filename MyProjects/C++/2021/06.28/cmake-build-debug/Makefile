@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CF1541B
+
+# Build rule for target.
+CF1541B: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CF1541B
+.PHONY : CF1541B
+
+# fast build rule for target.
+CF1541B/fast:
+	$(MAKE) -f CMakeFiles/CF1541B.dir/build.make CMakeFiles/CF1541B.dir/build
+.PHONY : CF1541B/fast
+
+#=============================================================================
+# Target rules for targets named CF1541A
+
+# Build rule for target.
+CF1541A: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CF1541A
+.PHONY : CF1541A
+
+# fast build rule for target.
+CF1541A/fast:
+	$(MAKE) -f CMakeFiles/CF1541A.dir/build.make CMakeFiles/CF1541A.dir/build
+.PHONY : CF1541A/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -174,6 +200,60 @@ P2163/fast:
 06_28/fast:
 	$(MAKE) -f CMakeFiles/06_28.dir/build.make CMakeFiles/06_28.dir/build
 .PHONY : 06_28/fast
+
+CF1541A.o: CF1541A.cpp.o
+
+.PHONY : CF1541A.o
+
+# target to build an object file
+CF1541A.cpp.o:
+	$(MAKE) -f CMakeFiles/CF1541A.dir/build.make CMakeFiles/CF1541A.dir/CF1541A.cpp.o
+.PHONY : CF1541A.cpp.o
+
+CF1541A.i: CF1541A.cpp.i
+
+.PHONY : CF1541A.i
+
+# target to preprocess a source file
+CF1541A.cpp.i:
+	$(MAKE) -f CMakeFiles/CF1541A.dir/build.make CMakeFiles/CF1541A.dir/CF1541A.cpp.i
+.PHONY : CF1541A.cpp.i
+
+CF1541A.s: CF1541A.cpp.s
+
+.PHONY : CF1541A.s
+
+# target to generate assembly for a file
+CF1541A.cpp.s:
+	$(MAKE) -f CMakeFiles/CF1541A.dir/build.make CMakeFiles/CF1541A.dir/CF1541A.cpp.s
+.PHONY : CF1541A.cpp.s
+
+CF1541B.o: CF1541B.cpp.o
+
+.PHONY : CF1541B.o
+
+# target to build an object file
+CF1541B.cpp.o:
+	$(MAKE) -f CMakeFiles/CF1541B.dir/build.make CMakeFiles/CF1541B.dir/CF1541B.cpp.o
+.PHONY : CF1541B.cpp.o
+
+CF1541B.i: CF1541B.cpp.i
+
+.PHONY : CF1541B.i
+
+# target to preprocess a source file
+CF1541B.cpp.i:
+	$(MAKE) -f CMakeFiles/CF1541B.dir/build.make CMakeFiles/CF1541B.dir/CF1541B.cpp.i
+.PHONY : CF1541B.cpp.i
+
+CF1541B.s: CF1541B.cpp.s
+
+.PHONY : CF1541B.s
+
+# target to generate assembly for a file
+CF1541B.cpp.s:
+	$(MAKE) -f CMakeFiles/CF1541B.dir/build.make CMakeFiles/CF1541B.dir/CF1541B.cpp.s
+.PHONY : CF1541B.cpp.s
 
 P2163.o: P2163.cpp.o
 
@@ -316,6 +396,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... CF1541B"
+	@echo "... CF1541A"
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... ZR1895"
@@ -323,6 +405,12 @@ help:
 	@echo "... maker"
 	@echo "... P2163"
 	@echo "... 06_28"
+	@echo "... CF1541A.o"
+	@echo "... CF1541A.i"
+	@echo "... CF1541A.s"
+	@echo "... CF1541B.o"
+	@echo "... CF1541B.i"
+	@echo "... CF1541B.s"
 	@echo "... P2163.o"
 	@echo "... P2163.i"
 	@echo "... P2163.s"

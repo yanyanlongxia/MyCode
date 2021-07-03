@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CF1541A.dir/CF1541A.cpp.o  -o CF1541A 

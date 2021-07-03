@@ -1,3 +1,5 @@
+/mnt/f/docs/MyCode/MyProjects/C++/2021/06.28/cmake-build-debug/CMakeFiles/CF1541B.dir
+/mnt/f/docs/MyCode/MyProjects/C++/2021/06.28/cmake-build-debug/CMakeFiles/CF1541A.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/06.28/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/06.28/cmake-build-debug/CMakeFiles/test.dir
 /mnt/f/docs/MyCode/MyProjects/C++/2021/06.28/cmake-build-debug/CMakeFiles/ZR1895.dir
