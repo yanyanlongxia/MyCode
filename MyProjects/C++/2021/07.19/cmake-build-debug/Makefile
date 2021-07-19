@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named ZR1897
 
 # Build rule for target.
@@ -302,6 +315,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_19.dir/build.make CMakeFiles/07_19.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 tmp.o: tmp.cpp.o
 
 .PHONY : tmp.o
@@ -341,6 +381,7 @@ help:
 	@echo "... ZR1896"
 	@echo "... ZR1897"
 	@echo "... ZR850"
+	@echo "... test"
 	@echo "... tmp"
 	@echo "... ZR1896.o"
 	@echo "... ZR1896.i"
@@ -354,6 +395,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 	@echo "... tmp.o"
 	@echo "... tmp.i"
 	@echo "... tmp.s"

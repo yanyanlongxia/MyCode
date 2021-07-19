@@ -72,6 +72,7 @@ CMAKE_BINARY_DIR = /home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-d
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/test.dir/all
 all: CMakeFiles/ZR1897.dir/all
 all: CMakeFiles/ZR850.dir/all
 all: CMakeFiles/tmp.dir/all
@@ -86,6 +87,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/test.dir/clean
 clean: CMakeFiles/ZR1897.dir/clean
 clean: CMakeFiles/ZR850.dir/clean
 clean: CMakeFiles/tmp.dir/clean
@@ -93,6 +95,33 @@ clean: CMakeFiles/07_19.dir/clean
 clean: CMakeFiles/ZR1896.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ZR1897.dir
@@ -155,7 +184,7 @@ CMakeFiles/ZR850.dir/clean:
 CMakeFiles/tmp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target tmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target tmp"
 .PHONY : CMakeFiles/tmp.dir/all
 
 # Build rule for subdir invocation for target.
