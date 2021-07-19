@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ZR850.dir/ZR850.cpp.o -o ZR850 

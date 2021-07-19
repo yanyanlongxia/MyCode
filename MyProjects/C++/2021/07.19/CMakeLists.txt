@@ -5,3 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(07_19 main.cpp)
 add_executable(ZR850 ZR850.cpp)
+add_executable(tmp tmp.cpp)
+add_executable(ZR1896 ZR1896.cpp)
+add_executable(ZR1897 ZR1897.cpp)
