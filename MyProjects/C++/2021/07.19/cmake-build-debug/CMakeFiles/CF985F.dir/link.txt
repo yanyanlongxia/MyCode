@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/CF985F.dir/CF985F.cpp.o -o CF985F 

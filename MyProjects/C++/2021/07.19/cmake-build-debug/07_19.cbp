@@ -37,6 +37,50 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="CF985F">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CF985F" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 CF985F"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CF985F/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CF985F" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 CF985F/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="test">
 				<Option output="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug"/>
@@ -164,6 +208,50 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZR850/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HDU6638">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/HDU6638" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 HDU6638"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HDU6638/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/HDU6638" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 HDU6638/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -302,6 +390,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/CF985F.cpp">
+			<Option target="CF985F"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/HDU6638.cpp">
+			<Option target="HDU6638"/>
+		</Unit>
 		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/2021/07.19/ZR1896.cpp">
 			<Option target="ZR1896"/>
 		</Unit>

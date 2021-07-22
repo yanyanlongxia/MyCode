@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/HDU6638.dir/HDU6638.cpp.o -o HDU6638 

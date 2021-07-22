@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CF985F
+
+# Build rule for target.
+CF985F: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CF985F
+.PHONY : CF985F
+
+# fast build rule for target.
+CF985F/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CF985F.dir/build.make CMakeFiles/CF985F.dir/build
+.PHONY : CF985F/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -169,6 +182,19 @@ ZR850/fast:
 .PHONY : ZR850/fast
 
 #=============================================================================
+# Target rules for targets named HDU6638
+
+# Build rule for target.
+HDU6638: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HDU6638
+.PHONY : HDU6638
+
+# fast build rule for target.
+HDU6638/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDU6638.dir/build.make CMakeFiles/HDU6638.dir/build
+.PHONY : HDU6638/fast
+
+#=============================================================================
 # Target rules for targets named tmp
 
 # Build rule for target.
@@ -206,6 +232,60 @@ ZR1896: cmake_check_build_system
 ZR1896/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1896.dir/build.make CMakeFiles/ZR1896.dir/build
 .PHONY : ZR1896/fast
+
+CF985F.o: CF985F.cpp.o
+
+.PHONY : CF985F.o
+
+# target to build an object file
+CF985F.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CF985F.dir/build.make CMakeFiles/CF985F.dir/CF985F.cpp.o
+.PHONY : CF985F.cpp.o
+
+CF985F.i: CF985F.cpp.i
+
+.PHONY : CF985F.i
+
+# target to preprocess a source file
+CF985F.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CF985F.dir/build.make CMakeFiles/CF985F.dir/CF985F.cpp.i
+.PHONY : CF985F.cpp.i
+
+CF985F.s: CF985F.cpp.s
+
+.PHONY : CF985F.s
+
+# target to generate assembly for a file
+CF985F.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CF985F.dir/build.make CMakeFiles/CF985F.dir/CF985F.cpp.s
+.PHONY : CF985F.cpp.s
+
+HDU6638.o: HDU6638.cpp.o
+
+.PHONY : HDU6638.o
+
+# target to build an object file
+HDU6638.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDU6638.dir/build.make CMakeFiles/HDU6638.dir/HDU6638.cpp.o
+.PHONY : HDU6638.cpp.o
+
+HDU6638.i: HDU6638.cpp.i
+
+.PHONY : HDU6638.i
+
+# target to preprocess a source file
+HDU6638.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDU6638.dir/build.make CMakeFiles/HDU6638.dir/HDU6638.cpp.i
+.PHONY : HDU6638.cpp.i
+
+HDU6638.s: HDU6638.cpp.s
+
+.PHONY : HDU6638.s
+
+# target to generate assembly for a file
+HDU6638.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDU6638.dir/build.make CMakeFiles/HDU6638.dir/HDU6638.cpp.s
+.PHONY : HDU6638.cpp.s
 
 ZR1896.o: ZR1896.cpp.o
 
@@ -378,11 +458,19 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 07_19"
+	@echo "... CF985F"
+	@echo "... HDU6638"
 	@echo "... ZR1896"
 	@echo "... ZR1897"
 	@echo "... ZR850"
 	@echo "... test"
 	@echo "... tmp"
+	@echo "... CF985F.o"
+	@echo "... CF985F.i"
+	@echo "... CF985F.s"
+	@echo "... HDU6638.o"
+	@echo "... HDU6638.i"
+	@echo "... HDU6638.s"
 	@echo "... ZR1896.o"
 	@echo "... ZR1896.i"
 	@echo "... ZR1896.s"
