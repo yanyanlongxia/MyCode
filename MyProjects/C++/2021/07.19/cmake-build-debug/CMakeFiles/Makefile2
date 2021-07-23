@@ -72,6 +72,8 @@ CMAKE_BINARY_DIR = /home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-d
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/POJ2752.dir/all
+all: CMakeFiles/P3435.dir/all
 all: CMakeFiles/ZR1896.dir/all
 all: CMakeFiles/07_19.dir/all
 all: CMakeFiles/tmp.dir/all
@@ -81,6 +83,7 @@ all: CMakeFiles/test.dir/all
 all: CMakeFiles/CF985F.dir/all
 all: CMakeFiles/ZR850.dir/all
 all: CMakeFiles/P3375.dir/all
+all: CMakeFiles/POJ2406.dir/all
 
 .PHONY : all
 
@@ -90,6 +93,8 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/POJ2752.dir/clean
+clean: CMakeFiles/P3435.dir/clean
 clean: CMakeFiles/ZR1896.dir/clean
 clean: CMakeFiles/07_19.dir/clean
 clean: CMakeFiles/tmp.dir/clean
@@ -99,8 +104,63 @@ clean: CMakeFiles/test.dir/clean
 clean: CMakeFiles/CF985F.dir/clean
 clean: CMakeFiles/ZR850.dir/clean
 clean: CMakeFiles/P3375.dir/clean
+clean: CMakeFiles/POJ2406.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/POJ2752.dir
+
+# All Build rule for target.
+CMakeFiles/POJ2752.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2752.dir/build.make CMakeFiles/POJ2752.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2752.dir/build.make CMakeFiles/POJ2752.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target POJ2752"
+.PHONY : CMakeFiles/POJ2752.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/POJ2752.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/POJ2752.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/POJ2752.dir/rule
+
+# Convenience name for target.
+POJ2752: CMakeFiles/POJ2752.dir/rule
+
+.PHONY : POJ2752
+
+# clean rule for target.
+CMakeFiles/POJ2752.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2752.dir/build.make CMakeFiles/POJ2752.dir/clean
+.PHONY : CMakeFiles/POJ2752.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3435.dir
+
+# All Build rule for target.
+CMakeFiles/P3435.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3435.dir/build.make CMakeFiles/P3435.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3435.dir/build.make CMakeFiles/P3435.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target P3435"
+.PHONY : CMakeFiles/P3435.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3435.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/P3435.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/P3435.dir/rule
+
+# Convenience name for target.
+P3435: CMakeFiles/P3435.dir/rule
+
+.PHONY : P3435
+
+# clean rule for target.
+CMakeFiles/P3435.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3435.dir/build.make CMakeFiles/P3435.dir/clean
+.PHONY : CMakeFiles/P3435.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ZR1896.dir
@@ -109,7 +169,7 @@ clean: CMakeFiles/P3375.dir/clean
 CMakeFiles/ZR1896.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1896.dir/build.make CMakeFiles/ZR1896.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1896.dir/build.make CMakeFiles/ZR1896.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target ZR1896"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target ZR1896"
 .PHONY : CMakeFiles/ZR1896.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +223,7 @@ CMakeFiles/07_19.dir/clean:
 CMakeFiles/tmp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target tmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target tmp"
 .PHONY : CMakeFiles/tmp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -217,7 +277,7 @@ CMakeFiles/HDU6638.dir/clean:
 CMakeFiles/ZR1897.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1897.dir/build.make CMakeFiles/ZR1897.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1897.dir/build.make CMakeFiles/ZR1897.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target ZR1897"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target ZR1897"
 .PHONY : CMakeFiles/ZR1897.dir/all
 
 # Build rule for subdir invocation for target.
@@ -244,7 +304,7 @@ CMakeFiles/ZR1897.dir/clean:
 CMakeFiles/test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -298,7 +358,7 @@ CMakeFiles/CF985F.dir/clean:
 CMakeFiles/ZR850.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR850.dir/build.make CMakeFiles/ZR850.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR850.dir/build.make CMakeFiles/ZR850.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target ZR850"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target ZR850"
 .PHONY : CMakeFiles/ZR850.dir/all
 
 # Build rule for subdir invocation for target.
@@ -344,6 +404,33 @@ P3375: CMakeFiles/P3375.dir/rule
 CMakeFiles/P3375.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3375.dir/build.make CMakeFiles/P3375.dir/clean
 .PHONY : CMakeFiles/P3375.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/POJ2406.dir
+
+# All Build rule for target.
+CMakeFiles/POJ2406.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2406.dir/build.make CMakeFiles/POJ2406.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2406.dir/build.make CMakeFiles/POJ2406.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target POJ2406"
+.PHONY : CMakeFiles/POJ2406.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/POJ2406.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/POJ2406.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/07.19/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/POJ2406.dir/rule
+
+# Convenience name for target.
+POJ2406: CMakeFiles/POJ2406.dir/rule
+
+.PHONY : POJ2406
+
+# clean rule for target.
+CMakeFiles/POJ2406.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2406.dir/build.make CMakeFiles/POJ2406.dir/clean
+.PHONY : CMakeFiles/POJ2406.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

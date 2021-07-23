@@ -130,6 +130,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named POJ2752
+
+# Build rule for target.
+POJ2752: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 POJ2752
+.PHONY : POJ2752
+
+# fast build rule for target.
+POJ2752/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2752.dir/build.make CMakeFiles/POJ2752.dir/build
+.PHONY : POJ2752/fast
+
+#=============================================================================
+# Target rules for targets named P3435
+
+# Build rule for target.
+P3435: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P3435
+.PHONY : P3435
+
+# fast build rule for target.
+P3435/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3435.dir/build.make CMakeFiles/P3435.dir/build
+.PHONY : P3435/fast
+
+#=============================================================================
 # Target rules for targets named ZR1896
 
 # Build rule for target.
@@ -246,6 +272,19 @@ P3375/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3375.dir/build.make CMakeFiles/P3375.dir/build
 .PHONY : P3375/fast
 
+#=============================================================================
+# Target rules for targets named POJ2406
+
+# Build rule for target.
+POJ2406: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 POJ2406
+.PHONY : POJ2406
+
+# fast build rule for target.
+POJ2406/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2406.dir/build.make CMakeFiles/POJ2406.dir/build
+.PHONY : POJ2406/fast
+
 CF985F.o: CF985F.cpp.o
 
 .PHONY : CF985F.o
@@ -326,6 +365,87 @@ P3375.s: P3375.cpp.s
 P3375.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3375.dir/build.make CMakeFiles/P3375.dir/P3375.cpp.s
 .PHONY : P3375.cpp.s
+
+P3435.o: P3435.cpp.o
+
+.PHONY : P3435.o
+
+# target to build an object file
+P3435.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3435.dir/build.make CMakeFiles/P3435.dir/P3435.cpp.o
+.PHONY : P3435.cpp.o
+
+P3435.i: P3435.cpp.i
+
+.PHONY : P3435.i
+
+# target to preprocess a source file
+P3435.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3435.dir/build.make CMakeFiles/P3435.dir/P3435.cpp.i
+.PHONY : P3435.cpp.i
+
+P3435.s: P3435.cpp.s
+
+.PHONY : P3435.s
+
+# target to generate assembly for a file
+P3435.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3435.dir/build.make CMakeFiles/P3435.dir/P3435.cpp.s
+.PHONY : P3435.cpp.s
+
+POJ2406.o: POJ2406.cpp.o
+
+.PHONY : POJ2406.o
+
+# target to build an object file
+POJ2406.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2406.dir/build.make CMakeFiles/POJ2406.dir/POJ2406.cpp.o
+.PHONY : POJ2406.cpp.o
+
+POJ2406.i: POJ2406.cpp.i
+
+.PHONY : POJ2406.i
+
+# target to preprocess a source file
+POJ2406.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2406.dir/build.make CMakeFiles/POJ2406.dir/POJ2406.cpp.i
+.PHONY : POJ2406.cpp.i
+
+POJ2406.s: POJ2406.cpp.s
+
+.PHONY : POJ2406.s
+
+# target to generate assembly for a file
+POJ2406.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2406.dir/build.make CMakeFiles/POJ2406.dir/POJ2406.cpp.s
+.PHONY : POJ2406.cpp.s
+
+POJ2752.o: POJ2752.cpp.o
+
+.PHONY : POJ2752.o
+
+# target to build an object file
+POJ2752.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2752.dir/build.make CMakeFiles/POJ2752.dir/POJ2752.cpp.o
+.PHONY : POJ2752.cpp.o
+
+POJ2752.i: POJ2752.cpp.i
+
+.PHONY : POJ2752.i
+
+# target to preprocess a source file
+POJ2752.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2752.dir/build.make CMakeFiles/POJ2752.dir/POJ2752.cpp.i
+.PHONY : POJ2752.cpp.i
+
+POJ2752.s: POJ2752.cpp.s
+
+.PHONY : POJ2752.s
+
+# target to generate assembly for a file
+POJ2752.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2752.dir/build.make CMakeFiles/POJ2752.dir/POJ2752.cpp.s
+.PHONY : POJ2752.cpp.s
 
 ZR1896.o: ZR1896.cpp.o
 
@@ -501,6 +621,9 @@ help:
 	@echo "... CF985F"
 	@echo "... HDU6638"
 	@echo "... P3375"
+	@echo "... P3435"
+	@echo "... POJ2406"
+	@echo "... POJ2752"
 	@echo "... ZR1896"
 	@echo "... ZR1897"
 	@echo "... ZR850"
@@ -515,6 +638,15 @@ help:
 	@echo "... P3375.o"
 	@echo "... P3375.i"
 	@echo "... P3375.s"
+	@echo "... P3435.o"
+	@echo "... P3435.i"
+	@echo "... P3435.s"
+	@echo "... POJ2406.o"
+	@echo "... POJ2406.i"
+	@echo "... POJ2406.s"
+	@echo "... POJ2752.o"
+	@echo "... POJ2752.i"
+	@echo "... POJ2752.s"
 	@echo "... ZR1896.o"
 	@echo "... ZR1896.i"
 	@echo "... ZR1896.s"

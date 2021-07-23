@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/POJ2752.dir/POJ2752.cpp.o -o POJ2752 

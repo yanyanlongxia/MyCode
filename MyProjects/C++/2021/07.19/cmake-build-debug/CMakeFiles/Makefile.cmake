@@ -46,6 +46,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/POJ2752.dir/DependInfo.cmake"
+  "CMakeFiles/P3435.dir/DependInfo.cmake"
   "CMakeFiles/ZR1896.dir/DependInfo.cmake"
   "CMakeFiles/07_19.dir/DependInfo.cmake"
   "CMakeFiles/tmp.dir/DependInfo.cmake"
@@ -55,4 +57,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CF985F.dir/DependInfo.cmake"
   "CMakeFiles/ZR850.dir/DependInfo.cmake"
   "CMakeFiles/P3375.dir/DependInfo.cmake"
+  "CMakeFiles/POJ2406.dir/DependInfo.cmake"
   )

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/POJ2406.dir/POJ2406.cpp.o -o POJ2406 
