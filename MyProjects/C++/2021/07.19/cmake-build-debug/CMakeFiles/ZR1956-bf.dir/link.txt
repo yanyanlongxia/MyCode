@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ZR1956-bf.dir/ZR1956-bf.cpp.o -o ZR1956-bf 

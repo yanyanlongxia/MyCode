@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ZR1955
+
+# Build rule for target.
+ZR1955: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1955
+.PHONY : ZR1955
+
+# fast build rule for target.
+ZR1955/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1955.dir/build.make CMakeFiles/ZR1955.dir/build
+.PHONY : ZR1955/fast
+
+#=============================================================================
 # Target rules for targets named POJ2752
 
 # Build rule for target.
@@ -141,6 +154,19 @@ POJ2752: cmake_check_build_system
 POJ2752/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POJ2752.dir/build.make CMakeFiles/POJ2752.dir/build
 .PHONY : POJ2752/fast
+
+#=============================================================================
+# Target rules for targets named ZR1954
+
+# Build rule for target.
+ZR1954: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1954
+.PHONY : ZR1954
+
+# fast build rule for target.
+ZR1954/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1954.dir/build.make CMakeFiles/ZR1954.dir/build
+.PHONY : ZR1954/fast
 
 #=============================================================================
 # Target rules for targets named P3435
@@ -180,6 +206,19 @@ ZR1896/fast:
 07_19/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_19.dir/build.make CMakeFiles/07_19.dir/build
 .PHONY : 07_19/fast
+
+#=============================================================================
+# Target rules for targets named ZR1956
+
+# Build rule for target.
+ZR1956: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1956
+.PHONY : ZR1956
+
+# fast build rule for target.
+ZR1956/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1956.dir/build.make CMakeFiles/ZR1956.dir/build
+.PHONY : ZR1956/fast
 
 #=============================================================================
 # Target rules for targets named tmp
@@ -232,6 +271,19 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named ZR1956-bf
+
+# Build rule for target.
+ZR1956-bf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1956-bf
+.PHONY : ZR1956-bf
+
+# fast build rule for target.
+ZR1956-bf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1956-bf.dir/build.make CMakeFiles/ZR1956-bf.dir/build
+.PHONY : ZR1956-bf/fast
 
 #=============================================================================
 # Target rules for targets named CF985F
@@ -501,6 +553,114 @@ ZR1897.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1897.dir/build.make CMakeFiles/ZR1897.dir/ZR1897.cpp.s
 .PHONY : ZR1897.cpp.s
 
+ZR1954.o: ZR1954.cpp.o
+
+.PHONY : ZR1954.o
+
+# target to build an object file
+ZR1954.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1954.dir/build.make CMakeFiles/ZR1954.dir/ZR1954.cpp.o
+.PHONY : ZR1954.cpp.o
+
+ZR1954.i: ZR1954.cpp.i
+
+.PHONY : ZR1954.i
+
+# target to preprocess a source file
+ZR1954.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1954.dir/build.make CMakeFiles/ZR1954.dir/ZR1954.cpp.i
+.PHONY : ZR1954.cpp.i
+
+ZR1954.s: ZR1954.cpp.s
+
+.PHONY : ZR1954.s
+
+# target to generate assembly for a file
+ZR1954.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1954.dir/build.make CMakeFiles/ZR1954.dir/ZR1954.cpp.s
+.PHONY : ZR1954.cpp.s
+
+ZR1955.o: ZR1955.cpp.o
+
+.PHONY : ZR1955.o
+
+# target to build an object file
+ZR1955.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1955.dir/build.make CMakeFiles/ZR1955.dir/ZR1955.cpp.o
+.PHONY : ZR1955.cpp.o
+
+ZR1955.i: ZR1955.cpp.i
+
+.PHONY : ZR1955.i
+
+# target to preprocess a source file
+ZR1955.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1955.dir/build.make CMakeFiles/ZR1955.dir/ZR1955.cpp.i
+.PHONY : ZR1955.cpp.i
+
+ZR1955.s: ZR1955.cpp.s
+
+.PHONY : ZR1955.s
+
+# target to generate assembly for a file
+ZR1955.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1955.dir/build.make CMakeFiles/ZR1955.dir/ZR1955.cpp.s
+.PHONY : ZR1955.cpp.s
+
+ZR1956-bf.o: ZR1956-bf.cpp.o
+
+.PHONY : ZR1956-bf.o
+
+# target to build an object file
+ZR1956-bf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1956-bf.dir/build.make CMakeFiles/ZR1956-bf.dir/ZR1956-bf.cpp.o
+.PHONY : ZR1956-bf.cpp.o
+
+ZR1956-bf.i: ZR1956-bf.cpp.i
+
+.PHONY : ZR1956-bf.i
+
+# target to preprocess a source file
+ZR1956-bf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1956-bf.dir/build.make CMakeFiles/ZR1956-bf.dir/ZR1956-bf.cpp.i
+.PHONY : ZR1956-bf.cpp.i
+
+ZR1956-bf.s: ZR1956-bf.cpp.s
+
+.PHONY : ZR1956-bf.s
+
+# target to generate assembly for a file
+ZR1956-bf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1956-bf.dir/build.make CMakeFiles/ZR1956-bf.dir/ZR1956-bf.cpp.s
+.PHONY : ZR1956-bf.cpp.s
+
+ZR1956.o: ZR1956.cpp.o
+
+.PHONY : ZR1956.o
+
+# target to build an object file
+ZR1956.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1956.dir/build.make CMakeFiles/ZR1956.dir/ZR1956.cpp.o
+.PHONY : ZR1956.cpp.o
+
+ZR1956.i: ZR1956.cpp.i
+
+.PHONY : ZR1956.i
+
+# target to preprocess a source file
+ZR1956.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1956.dir/build.make CMakeFiles/ZR1956.dir/ZR1956.cpp.i
+.PHONY : ZR1956.cpp.i
+
+ZR1956.s: ZR1956.cpp.s
+
+.PHONY : ZR1956.s
+
+# target to generate assembly for a file
+ZR1956.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1956.dir/build.make CMakeFiles/ZR1956.dir/ZR1956.cpp.s
+.PHONY : ZR1956.cpp.s
+
 ZR850.o: ZR850.cpp.o
 
 .PHONY : ZR850.o
@@ -626,6 +786,10 @@ help:
 	@echo "... POJ2752"
 	@echo "... ZR1896"
 	@echo "... ZR1897"
+	@echo "... ZR1954"
+	@echo "... ZR1955"
+	@echo "... ZR1956"
+	@echo "... ZR1956-bf"
 	@echo "... ZR850"
 	@echo "... test"
 	@echo "... tmp"
@@ -653,6 +817,18 @@ help:
 	@echo "... ZR1897.o"
 	@echo "... ZR1897.i"
 	@echo "... ZR1897.s"
+	@echo "... ZR1954.o"
+	@echo "... ZR1954.i"
+	@echo "... ZR1954.s"
+	@echo "... ZR1955.o"
+	@echo "... ZR1955.i"
+	@echo "... ZR1955.s"
+	@echo "... ZR1956-bf.o"
+	@echo "... ZR1956-bf.i"
+	@echo "... ZR1956-bf.s"
+	@echo "... ZR1956.o"
+	@echo "... ZR1956.i"
+	@echo "... ZR1956.s"
 	@echo "... ZR850.o"
 	@echo "... ZR850.i"
 	@echo "... ZR850.s"

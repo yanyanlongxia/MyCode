@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ZR1954.dir/ZR1954.cpp.o -o ZR1954 

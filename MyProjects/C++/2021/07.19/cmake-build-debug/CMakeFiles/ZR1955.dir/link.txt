@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ZR1955.dir/ZR1955.cpp.o -o ZR1955 
