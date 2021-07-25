@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.19)
+project(07_25)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(07_25 main.cpp)
+add_executable(P3369 P3369.cpp)
