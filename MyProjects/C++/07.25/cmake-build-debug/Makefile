@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ZR1884
+
+# Build rule for target.
+ZR1884: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1884
+.PHONY : ZR1884
+
+# fast build rule for target.
+ZR1884/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/build
+.PHONY : ZR1884/fast
+
+#=============================================================================
 # Target rules for targets named 07_25
 
 # Build rule for target.
@@ -207,6 +220,33 @@ P3369.s: P3369.cpp.s
 P3369.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3369.dir/build.make CMakeFiles/P3369.dir/P3369.cpp.s
 .PHONY : P3369.cpp.s
+
+ZR1884.o: ZR1884.cpp.o
+
+.PHONY : ZR1884.o
+
+# target to build an object file
+ZR1884.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/ZR1884.cpp.o
+.PHONY : ZR1884.cpp.o
+
+ZR1884.i: ZR1884.cpp.i
+
+.PHONY : ZR1884.i
+
+# target to preprocess a source file
+ZR1884.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/ZR1884.cpp.i
+.PHONY : ZR1884.cpp.i
+
+ZR1884.s: ZR1884.cpp.s
+
+.PHONY : ZR1884.s
+
+# target to generate assembly for a file
+ZR1884.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/ZR1884.cpp.s
+.PHONY : ZR1884.cpp.s
 
 kmp.o: kmp.cpp.o
 
@@ -299,11 +339,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 07_25"
 	@echo "... P3369"
+	@echo "... ZR1884"
 	@echo "... kmp"
 	@echo "... sa"
 	@echo "... P3369.o"
 	@echo "... P3369.i"
 	@echo "... P3369.s"
+	@echo "... ZR1884.o"
+	@echo "... ZR1884.i"
+	@echo "... ZR1884.s"
 	@echo "... kmp.o"
 	@echo "... kmp.i"
 	@echo "... kmp.s"

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ZR1884.dir/ZR1884.cpp.o -o ZR1884 
