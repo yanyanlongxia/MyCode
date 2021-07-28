@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/sa.dir/sa.cpp.o -o sa 

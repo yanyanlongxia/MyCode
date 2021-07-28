@@ -72,8 +72,10 @@ CMAKE_BINARY_DIR = /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/P3369.dir/all
 all: CMakeFiles/07_25.dir/all
+all: CMakeFiles/sa.dir/all
+all: CMakeFiles/P3369.dir/all
+all: CMakeFiles/kmp.dir/all
 
 .PHONY : all
 
@@ -83,10 +85,66 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/P3369.dir/clean
 clean: CMakeFiles/07_25.dir/clean
+clean: CMakeFiles/sa.dir/clean
+clean: CMakeFiles/P3369.dir/clean
+clean: CMakeFiles/kmp.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/07_25.dir
+
+# All Build rule for target.
+CMakeFiles/07_25.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 07_25"
+.PHONY : CMakeFiles/07_25.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/07_25.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/07_25.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/07_25.dir/rule
+
+# Convenience name for target.
+07_25: CMakeFiles/07_25.dir/rule
+
+.PHONY : 07_25
+
+# clean rule for target.
+CMakeFiles/07_25.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/clean
+.PHONY : CMakeFiles/07_25.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sa.dir
+
+# All Build rule for target.
+CMakeFiles/sa.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target sa"
+.PHONY : CMakeFiles/sa.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sa.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sa.dir/rule
+
+# Convenience name for target.
+sa: CMakeFiles/sa.dir/rule
+
+.PHONY : sa
+
+# clean rule for target.
+CMakeFiles/sa.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/clean
+.PHONY : CMakeFiles/sa.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/P3369.dir
@@ -116,31 +174,31 @@ CMakeFiles/P3369.dir/clean:
 .PHONY : CMakeFiles/P3369.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/07_25.dir
+# Target rules for target CMakeFiles/kmp.dir
 
 # All Build rule for target.
-CMakeFiles/07_25.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 07_25"
-.PHONY : CMakeFiles/07_25.dir/all
+CMakeFiles/kmp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target kmp"
+.PHONY : CMakeFiles/kmp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/07_25.dir/rule: cmake_check_build_system
+CMakeFiles/kmp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/07_25.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/kmp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/07_25.dir/rule
+.PHONY : CMakeFiles/kmp.dir/rule
 
 # Convenience name for target.
-07_25: CMakeFiles/07_25.dir/rule
+kmp: CMakeFiles/kmp.dir/rule
 
-.PHONY : 07_25
+.PHONY : kmp
 
 # clean rule for target.
-CMakeFiles/07_25.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/clean
-.PHONY : CMakeFiles/07_25.dir/clean
+CMakeFiles/kmp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/clean
+.PHONY : CMakeFiles/kmp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

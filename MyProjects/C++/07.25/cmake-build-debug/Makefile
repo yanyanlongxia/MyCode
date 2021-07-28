@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/noilinux/Apps/ideas/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/noilinux/Apps/ideas/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,6 +130,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 07_25
+
+# Build rule for target.
+07_25: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 07_25
+.PHONY : 07_25
+
+# fast build rule for target.
+07_25/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/build
+.PHONY : 07_25/fast
+
+#=============================================================================
+# Target rules for targets named sa
+
+# Build rule for target.
+sa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sa
+.PHONY : sa
+
+# fast build rule for target.
+sa/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/build
+.PHONY : sa/fast
+
+#=============================================================================
 # Target rules for targets named P3369
 
 # Build rule for target.
@@ -143,17 +169,17 @@ P3369/fast:
 .PHONY : P3369/fast
 
 #=============================================================================
-# Target rules for targets named 07_25
+# Target rules for targets named kmp
 
 # Build rule for target.
-07_25: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 07_25
-.PHONY : 07_25
+kmp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kmp
+.PHONY : kmp
 
 # fast build rule for target.
-07_25/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/build
-.PHONY : 07_25/fast
+kmp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
+.PHONY : kmp/fast
 
 P3369.o: P3369.cpp.o
 
@@ -182,6 +208,33 @@ P3369.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P3369.dir/build.make CMakeFiles/P3369.dir/P3369.cpp.s
 .PHONY : P3369.cpp.s
 
+kmp.o: kmp.cpp.o
+
+.PHONY : kmp.o
+
+# target to build an object file
+kmp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/kmp.cpp.o
+.PHONY : kmp.cpp.o
+
+kmp.i: kmp.cpp.i
+
+.PHONY : kmp.i
+
+# target to preprocess a source file
+kmp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/kmp.cpp.i
+.PHONY : kmp.cpp.i
+
+kmp.s: kmp.cpp.s
+
+.PHONY : kmp.s
+
+# target to generate assembly for a file
+kmp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/kmp.cpp.s
+.PHONY : kmp.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +262,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sa.o: sa.cpp.o
+
+.PHONY : sa.o
+
+# target to build an object file
+sa.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/sa.cpp.o
+.PHONY : sa.cpp.o
+
+sa.i: sa.cpp.i
+
+.PHONY : sa.i
+
+# target to preprocess a source file
+sa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/sa.cpp.i
+.PHONY : sa.cpp.i
+
+sa.s: sa.cpp.s
+
+.PHONY : sa.s
+
+# target to generate assembly for a file
+sa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/sa.cpp.s
+.PHONY : sa.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,12 +299,20 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 07_25"
 	@echo "... P3369"
+	@echo "... kmp"
+	@echo "... sa"
 	@echo "... P3369.o"
 	@echo "... P3369.i"
 	@echo "... P3369.s"
+	@echo "... kmp.o"
+	@echo "... kmp.i"
+	@echo "... kmp.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sa.o"
+	@echo "... sa.i"
+	@echo "... sa.s"
 .PHONY : help
 
 
