@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/acmG.dir/acmG.cpp.o -o acmG 

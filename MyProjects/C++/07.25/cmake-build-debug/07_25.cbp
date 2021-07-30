@@ -17,6 +17,182 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="testset">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/testset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 testset"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testset/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/testset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 testset/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/std" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 std"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/std" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 std/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maker">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/maker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 maker"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maker/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/maker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 maker/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acmP">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/acmP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 acmP"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acmP/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/acmP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 acmP/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
 				<Option type="4"/>
@@ -27,8 +203,8 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ZR1884">
-				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/ZR1884" prefix_auto="0" extension_auto="0"/>
+			<Target title="P3369">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/P3369" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -43,14 +219,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZR1884"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3369"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ZR1884/fast">
-				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/ZR1884" prefix_auto="0" extension_auto="0"/>
+			<Target title="P3369/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/P3369" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -65,51 +241,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZR1884/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="07_25">
-				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/07_25" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 07_25"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="07_25/fast">
-				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/07_25" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 07_25/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3369/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -169,8 +301,8 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="P3369">
-				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/P3369" prefix_auto="0" extension_auto="0"/>
+			<Target title="07_25">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/07_25" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -185,14 +317,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3369"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 07_25"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="P3369/fast">
-				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/P3369" prefix_auto="0" extension_auto="0"/>
+			<Target title="07_25/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/07_25" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -207,7 +339,183 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 P3369/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 07_25/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZR1884">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/ZR1884" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZR1884"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZR1884/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/ZR1884" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZR1884/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acmG">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/acmG" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 acmG"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acmG/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/acmG" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 acmG/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/tmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/tmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZR1965">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/ZR1965" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZR1965"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZR1965/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/ZR1965" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZR1965/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -257,12 +565,162 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ZR1962">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/ZR1962" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZR1962"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZR1962/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/ZR1962" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZR1962/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acmO">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/acmO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 acmO"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acmO/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/acmO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 acmO/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/P3369.cpp">
 			<Option target="P3369"/>
 		</Unit>
 		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/ZR1884.cpp">
 			<Option target="ZR1884"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/ZR1962.cpp">
+			<Option target="ZR1962"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/ZR1965.cpp">
+			<Option target="ZR1965"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/acmG.cpp">
+			<Option target="acmG"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/acmO.cpp">
+			<Option target="acmO"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/acmP.cpp">
+			<Option target="acmP"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/maker.cpp">
+			<Option target="maker"/>
 		</Unit>
 		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/kmp.cpp">
 			<Option target="kmp"/>
@@ -272,6 +730,18 @@
 		</Unit>
 		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/sa.cpp">
 			<Option target="sa"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/std.cpp">
+			<Option target="std"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/testset.cpp">
+			<Option target="testset"/>
+		</Unit>
+		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/tmp.cpp">
+			<Option target="tmp"/>
 		</Unit>
 		<Unit filename="/home/noilinux/MyCode/MyProjects/C++/07.25/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

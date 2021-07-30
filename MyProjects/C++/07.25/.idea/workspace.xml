@@ -2,11 +2,21 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="07_25" targetName="acmO" />
+      <config projectName="07_25" targetName="maker" />
+      <config projectName="07_25" targetName="tmp" />
       <config projectName="07_25" targetName="P3369" />
+      <config projectName="07_25" targetName="acmP" />
+      <config projectName="07_25" targetName="test" />
+      <config projectName="07_25" targetName="testset" />
       <config projectName="07_25" targetName="sa" />
-      <config projectName="07_25" targetName="07_25" />
+      <config projectName="07_25" targetName="acmG" />
       <config projectName="07_25" targetName="ZR1884" />
+      <config projectName="07_25" targetName="ZR1962" />
       <config projectName="07_25" targetName="kmp" />
+      <config projectName="07_25" targetName="ZR1965" />
+      <config projectName="07_25" targetName="std" />
+      <config projectName="07_25" targetName="07_25" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,10 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c6a367-54a1-4e6a-944f-7d1bd1eaeb3b" name="默认变更列表" comment="Update">
-      <change afterPath="$PROJECT_DIR$/ZR1884.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZR1962.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZR1965.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/07_25.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/07_25.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -68,9 +82,9 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="CMake 应用程序.ZR1884">
+  <component name="RunManager" selected="CMake 应用程序.acmG">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -97,7 +111,32 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZR1962" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="ZR1962" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="ZR1962">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZR1965" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="ZR1965" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="ZR1965">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="acmG" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="acmG" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="acmG">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="acmO" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="acmO" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="acmO">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="acmP" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="acmP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="acmP">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -107,7 +146,32 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="maker" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="maker" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="maker">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sa" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="sa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="sa">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="std" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="std">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testset" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="testset" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="testset">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tmp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_25" TARGET_NAME="tmp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_25" RUN_TARGET_NAME="tmp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -156,10 +220,20 @@
     </configuration>
     <list>
       <item itemvalue="CMake 应用程序.07_25" />
-      <item itemvalue="CMake 应用程序.kmp" />
+      <item itemvalue="CMake 应用程序.acmG" />
+      <item itemvalue="CMake 应用程序.acmO" />
+      <item itemvalue="CMake 应用程序.acmP" />
       <item itemvalue="CMake 应用程序.P3369" />
-      <item itemvalue="CMake 应用程序.sa" />
       <item itemvalue="CMake 应用程序.ZR1884" />
+      <item itemvalue="CMake 应用程序.ZR1962" />
+      <item itemvalue="CMake 应用程序.ZR1965" />
+      <item itemvalue="CMake 应用程序.kmp" />
+      <item itemvalue="CMake 应用程序.maker" />
+      <item itemvalue="CMake 应用程序.sa" />
+      <item itemvalue="CMake 应用程序.std" />
+      <item itemvalue="CMake 应用程序.test" />
+      <item itemvalue="CMake 应用程序.testset" />
+      <item itemvalue="CMake 应用程序.tmp" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -175,7 +249,13 @@
       <workItem from="1627346358664" duration="3789000" />
       <workItem from="1627364450721" duration="2476000" />
       <workItem from="1627432847037" duration="2996000" />
-      <workItem from="1627439455557" duration="1764000" />
+      <workItem from="1627439455557" duration="3696000" />
+      <workItem from="1627451109144" duration="742000" />
+      <workItem from="1627520212109" duration="54000" />
+      <workItem from="1627520289100" duration="39000" />
+      <workItem from="1627520347925" duration="235000" />
+      <workItem from="1627520596687" duration="2729000" />
+      <workItem from="1627552805069" duration="5767000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1627176679797</created>
@@ -198,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627432875432</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <created>1627441294005</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627441294005</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,16 +306,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ZR1884.cpp</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

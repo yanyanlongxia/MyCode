@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/testset.dir/testset.cpp.o -o testset 

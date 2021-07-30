@@ -130,43 +130,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ZR1884
+# Target rules for targets named testset
 
 # Build rule for target.
-ZR1884: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1884
-.PHONY : ZR1884
+testset: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testset
+.PHONY : testset
 
 # fast build rule for target.
-ZR1884/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/build
-.PHONY : ZR1884/fast
+testset/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testset.dir/build.make CMakeFiles/testset.dir/build
+.PHONY : testset/fast
 
 #=============================================================================
-# Target rules for targets named 07_25
+# Target rules for targets named std
 
 # Build rule for target.
-07_25: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 07_25
-.PHONY : 07_25
+std: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 std
+.PHONY : std
 
 # fast build rule for target.
-07_25/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/build
-.PHONY : 07_25/fast
+std/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std.dir/build.make CMakeFiles/std.dir/build
+.PHONY : std/fast
 
 #=============================================================================
-# Target rules for targets named sa
+# Target rules for targets named maker
 
 # Build rule for target.
-sa: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sa
-.PHONY : sa
+maker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maker
+.PHONY : maker
 
 # fast build rule for target.
-sa/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/build
-.PHONY : sa/fast
+maker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/build
+.PHONY : maker/fast
+
+#=============================================================================
+# Target rules for targets named acmP
+
+# Build rule for target.
+acmP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 acmP
+.PHONY : acmP
+
+# fast build rule for target.
+acmP/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmP.dir/build.make CMakeFiles/acmP.dir/build
+.PHONY : acmP/fast
 
 #=============================================================================
 # Target rules for targets named P3369
@@ -182,6 +195,84 @@ P3369/fast:
 .PHONY : P3369/fast
 
 #=============================================================================
+# Target rules for targets named sa
+
+# Build rule for target.
+sa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sa
+.PHONY : sa
+
+# fast build rule for target.
+sa/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/build
+.PHONY : sa/fast
+
+#=============================================================================
+# Target rules for targets named 07_25
+
+# Build rule for target.
+07_25: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 07_25
+.PHONY : 07_25
+
+# fast build rule for target.
+07_25/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/build
+.PHONY : 07_25/fast
+
+#=============================================================================
+# Target rules for targets named ZR1884
+
+# Build rule for target.
+ZR1884: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1884
+.PHONY : ZR1884
+
+# fast build rule for target.
+ZR1884/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/build
+.PHONY : ZR1884/fast
+
+#=============================================================================
+# Target rules for targets named acmG
+
+# Build rule for target.
+acmG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 acmG
+.PHONY : acmG
+
+# fast build rule for target.
+acmG/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmG.dir/build.make CMakeFiles/acmG.dir/build
+.PHONY : acmG/fast
+
+#=============================================================================
+# Target rules for targets named tmp
+
+# Build rule for target.
+tmp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tmp
+.PHONY : tmp
+
+# fast build rule for target.
+tmp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/build
+.PHONY : tmp/fast
+
+#=============================================================================
+# Target rules for targets named ZR1965
+
+# Build rule for target.
+ZR1965: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1965
+.PHONY : ZR1965
+
+# fast build rule for target.
+ZR1965/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1965.dir/build.make CMakeFiles/ZR1965.dir/build
+.PHONY : ZR1965/fast
+
+#=============================================================================
 # Target rules for targets named kmp
 
 # Build rule for target.
@@ -193,6 +284,45 @@ kmp: cmake_check_build_system
 kmp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
 .PHONY : kmp/fast
+
+#=============================================================================
+# Target rules for targets named ZR1962
+
+# Build rule for target.
+ZR1962: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1962
+.PHONY : ZR1962
+
+# fast build rule for target.
+ZR1962/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1962.dir/build.make CMakeFiles/ZR1962.dir/build
+.PHONY : ZR1962/fast
+
+#=============================================================================
+# Target rules for targets named acmO
+
+# Build rule for target.
+acmO: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 acmO
+.PHONY : acmO
+
+# fast build rule for target.
+acmO/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmO.dir/build.make CMakeFiles/acmO.dir/build
+.PHONY : acmO/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 P3369.o: P3369.cpp.o
 
@@ -248,6 +378,141 @@ ZR1884.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/ZR1884.cpp.s
 .PHONY : ZR1884.cpp.s
 
+ZR1962.o: ZR1962.cpp.o
+
+.PHONY : ZR1962.o
+
+# target to build an object file
+ZR1962.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1962.dir/build.make CMakeFiles/ZR1962.dir/ZR1962.cpp.o
+.PHONY : ZR1962.cpp.o
+
+ZR1962.i: ZR1962.cpp.i
+
+.PHONY : ZR1962.i
+
+# target to preprocess a source file
+ZR1962.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1962.dir/build.make CMakeFiles/ZR1962.dir/ZR1962.cpp.i
+.PHONY : ZR1962.cpp.i
+
+ZR1962.s: ZR1962.cpp.s
+
+.PHONY : ZR1962.s
+
+# target to generate assembly for a file
+ZR1962.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1962.dir/build.make CMakeFiles/ZR1962.dir/ZR1962.cpp.s
+.PHONY : ZR1962.cpp.s
+
+ZR1965.o: ZR1965.cpp.o
+
+.PHONY : ZR1965.o
+
+# target to build an object file
+ZR1965.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1965.dir/build.make CMakeFiles/ZR1965.dir/ZR1965.cpp.o
+.PHONY : ZR1965.cpp.o
+
+ZR1965.i: ZR1965.cpp.i
+
+.PHONY : ZR1965.i
+
+# target to preprocess a source file
+ZR1965.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1965.dir/build.make CMakeFiles/ZR1965.dir/ZR1965.cpp.i
+.PHONY : ZR1965.cpp.i
+
+ZR1965.s: ZR1965.cpp.s
+
+.PHONY : ZR1965.s
+
+# target to generate assembly for a file
+ZR1965.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1965.dir/build.make CMakeFiles/ZR1965.dir/ZR1965.cpp.s
+.PHONY : ZR1965.cpp.s
+
+acmG.o: acmG.cpp.o
+
+.PHONY : acmG.o
+
+# target to build an object file
+acmG.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmG.dir/build.make CMakeFiles/acmG.dir/acmG.cpp.o
+.PHONY : acmG.cpp.o
+
+acmG.i: acmG.cpp.i
+
+.PHONY : acmG.i
+
+# target to preprocess a source file
+acmG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmG.dir/build.make CMakeFiles/acmG.dir/acmG.cpp.i
+.PHONY : acmG.cpp.i
+
+acmG.s: acmG.cpp.s
+
+.PHONY : acmG.s
+
+# target to generate assembly for a file
+acmG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmG.dir/build.make CMakeFiles/acmG.dir/acmG.cpp.s
+.PHONY : acmG.cpp.s
+
+acmO.o: acmO.cpp.o
+
+.PHONY : acmO.o
+
+# target to build an object file
+acmO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmO.dir/build.make CMakeFiles/acmO.dir/acmO.cpp.o
+.PHONY : acmO.cpp.o
+
+acmO.i: acmO.cpp.i
+
+.PHONY : acmO.i
+
+# target to preprocess a source file
+acmO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmO.dir/build.make CMakeFiles/acmO.dir/acmO.cpp.i
+.PHONY : acmO.cpp.i
+
+acmO.s: acmO.cpp.s
+
+.PHONY : acmO.s
+
+# target to generate assembly for a file
+acmO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmO.dir/build.make CMakeFiles/acmO.dir/acmO.cpp.s
+.PHONY : acmO.cpp.s
+
+acmP.o: acmP.cpp.o
+
+.PHONY : acmP.o
+
+# target to build an object file
+acmP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmP.dir/build.make CMakeFiles/acmP.dir/acmP.cpp.o
+.PHONY : acmP.cpp.o
+
+acmP.i: acmP.cpp.i
+
+.PHONY : acmP.i
+
+# target to preprocess a source file
+acmP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmP.dir/build.make CMakeFiles/acmP.dir/acmP.cpp.i
+.PHONY : acmP.cpp.i
+
+acmP.s: acmP.cpp.s
+
+.PHONY : acmP.s
+
+# target to generate assembly for a file
+acmP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmP.dir/build.make CMakeFiles/acmP.dir/acmP.cpp.s
+.PHONY : acmP.cpp.s
+
 kmp.o: kmp.cpp.o
 
 .PHONY : kmp.o
@@ -302,6 +567,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+maker.o: maker.cpp.o
+
+.PHONY : maker.o
+
+# target to build an object file
+maker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/maker.cpp.o
+.PHONY : maker.cpp.o
+
+maker.i: maker.cpp.i
+
+.PHONY : maker.i
+
+# target to preprocess a source file
+maker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/maker.cpp.i
+.PHONY : maker.cpp.i
+
+maker.s: maker.cpp.s
+
+.PHONY : maker.s
+
+# target to generate assembly for a file
+maker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/maker.cpp.s
+.PHONY : maker.cpp.s
+
 sa.o: sa.cpp.o
 
 .PHONY : sa.o
@@ -329,6 +621,114 @@ sa.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/sa.cpp.s
 .PHONY : sa.cpp.s
 
+std.o: std.cpp.o
+
+.PHONY : std.o
+
+# target to build an object file
+std.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std.dir/build.make CMakeFiles/std.dir/std.cpp.o
+.PHONY : std.cpp.o
+
+std.i: std.cpp.i
+
+.PHONY : std.i
+
+# target to preprocess a source file
+std.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std.dir/build.make CMakeFiles/std.dir/std.cpp.i
+.PHONY : std.cpp.i
+
+std.s: std.cpp.s
+
+.PHONY : std.s
+
+# target to generate assembly for a file
+std.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std.dir/build.make CMakeFiles/std.dir/std.cpp.s
+.PHONY : std.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
+testset.o: testset.cpp.o
+
+.PHONY : testset.o
+
+# target to build an object file
+testset.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testset.dir/build.make CMakeFiles/testset.dir/testset.cpp.o
+.PHONY : testset.cpp.o
+
+testset.i: testset.cpp.i
+
+.PHONY : testset.i
+
+# target to preprocess a source file
+testset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testset.dir/build.make CMakeFiles/testset.dir/testset.cpp.i
+.PHONY : testset.cpp.i
+
+testset.s: testset.cpp.s
+
+.PHONY : testset.s
+
+# target to generate assembly for a file
+testset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testset.dir/build.make CMakeFiles/testset.dir/testset.cpp.s
+.PHONY : testset.cpp.s
+
+tmp.o: tmp.cpp.o
+
+.PHONY : tmp.o
+
+# target to build an object file
+tmp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/tmp.cpp.o
+.PHONY : tmp.cpp.o
+
+tmp.i: tmp.cpp.i
+
+.PHONY : tmp.i
+
+# target to preprocess a source file
+tmp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/tmp.cpp.i
+.PHONY : tmp.cpp.i
+
+tmp.s: tmp.cpp.s
+
+.PHONY : tmp.s
+
+# target to generate assembly for a file
+tmp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/tmp.cpp.s
+.PHONY : tmp.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -340,23 +740,63 @@ help:
 	@echo "... 07_25"
 	@echo "... P3369"
 	@echo "... ZR1884"
+	@echo "... ZR1962"
+	@echo "... ZR1965"
+	@echo "... acmG"
+	@echo "... acmO"
+	@echo "... acmP"
 	@echo "... kmp"
+	@echo "... maker"
 	@echo "... sa"
+	@echo "... std"
+	@echo "... test"
+	@echo "... testset"
+	@echo "... tmp"
 	@echo "... P3369.o"
 	@echo "... P3369.i"
 	@echo "... P3369.s"
 	@echo "... ZR1884.o"
 	@echo "... ZR1884.i"
 	@echo "... ZR1884.s"
+	@echo "... ZR1962.o"
+	@echo "... ZR1962.i"
+	@echo "... ZR1962.s"
+	@echo "... ZR1965.o"
+	@echo "... ZR1965.i"
+	@echo "... ZR1965.s"
+	@echo "... acmG.o"
+	@echo "... acmG.i"
+	@echo "... acmG.s"
+	@echo "... acmO.o"
+	@echo "... acmO.i"
+	@echo "... acmO.s"
+	@echo "... acmP.o"
+	@echo "... acmP.i"
+	@echo "... acmP.s"
 	@echo "... kmp.o"
 	@echo "... kmp.i"
 	@echo "... kmp.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... maker.o"
+	@echo "... maker.i"
+	@echo "... maker.s"
 	@echo "... sa.o"
 	@echo "... sa.i"
 	@echo "... sa.s"
+	@echo "... std.o"
+	@echo "... std.i"
+	@echo "... std.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
+	@echo "... testset.o"
+	@echo "... testset.i"
+	@echo "... testset.s"
+	@echo "... tmp.o"
+	@echo "... tmp.i"
+	@echo "... tmp.s"
 .PHONY : help
 
 

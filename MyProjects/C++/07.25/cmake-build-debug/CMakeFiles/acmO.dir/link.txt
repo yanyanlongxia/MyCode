@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/acmO.dir/acmO.cpp.o -o acmO 

@@ -72,11 +72,21 @@ CMAKE_BINARY_DIR = /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ZR1884.dir/all
-all: CMakeFiles/07_25.dir/all
-all: CMakeFiles/sa.dir/all
+all: CMakeFiles/testset.dir/all
+all: CMakeFiles/std.dir/all
+all: CMakeFiles/maker.dir/all
+all: CMakeFiles/acmP.dir/all
 all: CMakeFiles/P3369.dir/all
+all: CMakeFiles/sa.dir/all
+all: CMakeFiles/07_25.dir/all
+all: CMakeFiles/ZR1884.dir/all
+all: CMakeFiles/acmG.dir/all
+all: CMakeFiles/tmp.dir/all
+all: CMakeFiles/ZR1965.dir/all
 all: CMakeFiles/kmp.dir/all
+all: CMakeFiles/ZR1962.dir/all
+all: CMakeFiles/acmO.dir/all
+all: CMakeFiles/test.dir/all
 
 .PHONY : all
 
@@ -86,94 +96,131 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ZR1884.dir/clean
-clean: CMakeFiles/07_25.dir/clean
-clean: CMakeFiles/sa.dir/clean
+clean: CMakeFiles/testset.dir/clean
+clean: CMakeFiles/std.dir/clean
+clean: CMakeFiles/maker.dir/clean
+clean: CMakeFiles/acmP.dir/clean
 clean: CMakeFiles/P3369.dir/clean
+clean: CMakeFiles/sa.dir/clean
+clean: CMakeFiles/07_25.dir/clean
+clean: CMakeFiles/ZR1884.dir/clean
+clean: CMakeFiles/acmG.dir/clean
+clean: CMakeFiles/tmp.dir/clean
+clean: CMakeFiles/ZR1965.dir/clean
 clean: CMakeFiles/kmp.dir/clean
+clean: CMakeFiles/ZR1962.dir/clean
+clean: CMakeFiles/acmO.dir/clean
+clean: CMakeFiles/test.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ZR1884.dir
+# Target rules for target CMakeFiles/testset.dir
 
 # All Build rule for target.
-CMakeFiles/ZR1884.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target ZR1884"
-.PHONY : CMakeFiles/ZR1884.dir/all
+CMakeFiles/testset.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testset.dir/build.make CMakeFiles/testset.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testset.dir/build.make CMakeFiles/testset.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target testset"
+.PHONY : CMakeFiles/testset.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ZR1884.dir/rule: cmake_check_build_system
+CMakeFiles/testset.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR1884.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/testset.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ZR1884.dir/rule
+.PHONY : CMakeFiles/testset.dir/rule
 
 # Convenience name for target.
-ZR1884: CMakeFiles/ZR1884.dir/rule
+testset: CMakeFiles/testset.dir/rule
 
-.PHONY : ZR1884
+.PHONY : testset
 
 # clean rule for target.
-CMakeFiles/ZR1884.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/clean
-.PHONY : CMakeFiles/ZR1884.dir/clean
+CMakeFiles/testset.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testset.dir/build.make CMakeFiles/testset.dir/clean
+.PHONY : CMakeFiles/testset.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/07_25.dir
+# Target rules for target CMakeFiles/std.dir
 
 # All Build rule for target.
-CMakeFiles/07_25.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 07_25"
-.PHONY : CMakeFiles/07_25.dir/all
+CMakeFiles/std.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std.dir/build.make CMakeFiles/std.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std.dir/build.make CMakeFiles/std.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target std"
+.PHONY : CMakeFiles/std.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/07_25.dir/rule: cmake_check_build_system
+CMakeFiles/std.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/07_25.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/std.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/07_25.dir/rule
+.PHONY : CMakeFiles/std.dir/rule
 
 # Convenience name for target.
-07_25: CMakeFiles/07_25.dir/rule
+std: CMakeFiles/std.dir/rule
 
-.PHONY : 07_25
+.PHONY : std
 
 # clean rule for target.
-CMakeFiles/07_25.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/clean
-.PHONY : CMakeFiles/07_25.dir/clean
+CMakeFiles/std.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std.dir/build.make CMakeFiles/std.dir/clean
+.PHONY : CMakeFiles/std.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sa.dir
+# Target rules for target CMakeFiles/maker.dir
 
 # All Build rule for target.
-CMakeFiles/sa.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target sa"
-.PHONY : CMakeFiles/sa.dir/all
+CMakeFiles/maker.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target maker"
+.PHONY : CMakeFiles/maker.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sa.dir/rule: cmake_check_build_system
+CMakeFiles/maker.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sa.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/maker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/sa.dir/rule
+.PHONY : CMakeFiles/maker.dir/rule
 
 # Convenience name for target.
-sa: CMakeFiles/sa.dir/rule
+maker: CMakeFiles/maker.dir/rule
 
-.PHONY : sa
+.PHONY : maker
 
 # clean rule for target.
-CMakeFiles/sa.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/clean
-.PHONY : CMakeFiles/sa.dir/clean
+CMakeFiles/maker.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maker.dir/build.make CMakeFiles/maker.dir/clean
+.PHONY : CMakeFiles/maker.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/acmP.dir
+
+# All Build rule for target.
+CMakeFiles/acmP.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmP.dir/build.make CMakeFiles/acmP.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmP.dir/build.make CMakeFiles/acmP.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target acmP"
+.PHONY : CMakeFiles/acmP.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/acmP.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/acmP.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/acmP.dir/rule
+
+# Convenience name for target.
+acmP: CMakeFiles/acmP.dir/rule
+
+.PHONY : acmP
+
+# clean rule for target.
+CMakeFiles/acmP.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmP.dir/build.make CMakeFiles/acmP.dir/clean
+.PHONY : CMakeFiles/acmP.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/P3369.dir
@@ -203,13 +250,175 @@ CMakeFiles/P3369.dir/clean:
 .PHONY : CMakeFiles/P3369.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sa.dir
+
+# All Build rule for target.
+CMakeFiles/sa.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target sa"
+.PHONY : CMakeFiles/sa.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sa.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sa.dir/rule
+
+# Convenience name for target.
+sa: CMakeFiles/sa.dir/rule
+
+.PHONY : sa
+
+# clean rule for target.
+CMakeFiles/sa.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sa.dir/build.make CMakeFiles/sa.dir/clean
+.PHONY : CMakeFiles/sa.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/07_25.dir
+
+# All Build rule for target.
+CMakeFiles/07_25.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 07_25"
+.PHONY : CMakeFiles/07_25.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/07_25.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/07_25.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/07_25.dir/rule
+
+# Convenience name for target.
+07_25: CMakeFiles/07_25.dir/rule
+
+.PHONY : 07_25
+
+# clean rule for target.
+CMakeFiles/07_25.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_25.dir/build.make CMakeFiles/07_25.dir/clean
+.PHONY : CMakeFiles/07_25.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR1884.dir
+
+# All Build rule for target.
+CMakeFiles/ZR1884.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target ZR1884"
+.PHONY : CMakeFiles/ZR1884.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR1884.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR1884.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR1884.dir/rule
+
+# Convenience name for target.
+ZR1884: CMakeFiles/ZR1884.dir/rule
+
+.PHONY : ZR1884
+
+# clean rule for target.
+CMakeFiles/ZR1884.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1884.dir/build.make CMakeFiles/ZR1884.dir/clean
+.PHONY : CMakeFiles/ZR1884.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/acmG.dir
+
+# All Build rule for target.
+CMakeFiles/acmG.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmG.dir/build.make CMakeFiles/acmG.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmG.dir/build.make CMakeFiles/acmG.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target acmG"
+.PHONY : CMakeFiles/acmG.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/acmG.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/acmG.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/acmG.dir/rule
+
+# Convenience name for target.
+acmG: CMakeFiles/acmG.dir/rule
+
+.PHONY : acmG
+
+# clean rule for target.
+CMakeFiles/acmG.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmG.dir/build.make CMakeFiles/acmG.dir/clean
+.PHONY : CMakeFiles/acmG.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tmp.dir
+
+# All Build rule for target.
+CMakeFiles/tmp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target tmp"
+.PHONY : CMakeFiles/tmp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tmp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tmp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tmp.dir/rule
+
+# Convenience name for target.
+tmp: CMakeFiles/tmp.dir/rule
+
+.PHONY : tmp
+
+# clean rule for target.
+CMakeFiles/tmp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmp.dir/build.make CMakeFiles/tmp.dir/clean
+.PHONY : CMakeFiles/tmp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR1965.dir
+
+# All Build rule for target.
+CMakeFiles/ZR1965.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1965.dir/build.make CMakeFiles/ZR1965.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1965.dir/build.make CMakeFiles/ZR1965.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target ZR1965"
+.PHONY : CMakeFiles/ZR1965.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR1965.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR1965.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR1965.dir/rule
+
+# Convenience name for target.
+ZR1965: CMakeFiles/ZR1965.dir/rule
+
+.PHONY : ZR1965
+
+# clean rule for target.
+CMakeFiles/ZR1965.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1965.dir/build.make CMakeFiles/ZR1965.dir/clean
+.PHONY : CMakeFiles/ZR1965.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/kmp.dir
 
 # All Build rule for target.
 CMakeFiles/kmp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target kmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target kmp"
 .PHONY : CMakeFiles/kmp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -228,6 +437,87 @@ kmp: CMakeFiles/kmp.dir/rule
 CMakeFiles/kmp.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kmp.dir/build.make CMakeFiles/kmp.dir/clean
 .PHONY : CMakeFiles/kmp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR1962.dir
+
+# All Build rule for target.
+CMakeFiles/ZR1962.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1962.dir/build.make CMakeFiles/ZR1962.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1962.dir/build.make CMakeFiles/ZR1962.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target ZR1962"
+.PHONY : CMakeFiles/ZR1962.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR1962.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR1962.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR1962.dir/rule
+
+# Convenience name for target.
+ZR1962: CMakeFiles/ZR1962.dir/rule
+
+.PHONY : ZR1962
+
+# clean rule for target.
+CMakeFiles/ZR1962.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1962.dir/build.make CMakeFiles/ZR1962.dir/clean
+.PHONY : CMakeFiles/ZR1962.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/acmO.dir
+
+# All Build rule for target.
+CMakeFiles/acmO.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmO.dir/build.make CMakeFiles/acmO.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmO.dir/build.make CMakeFiles/acmO.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target acmO"
+.PHONY : CMakeFiles/acmO.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/acmO.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/acmO.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/acmO.dir/rule
+
+# Convenience name for target.
+acmO: CMakeFiles/acmO.dir/rule
+
+.PHONY : acmO
+
+# clean rule for target.
+CMakeFiles/acmO.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acmO.dir/build.make CMakeFiles/acmO.dir/clean
+.PHONY : CMakeFiles/acmO.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
