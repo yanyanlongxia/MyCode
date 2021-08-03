@@ -1,4 +1,1 @@
-/home/noilinux/Apps/ideas/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/noilinux/MyCode/MyProjects/C++/07.25
--- Configuring done
--- Generating done
--- Build files have been written to: /home/noilinux/MyCode/MyProjects/C++/07.25/cmake-build-debug
+在 /home/noilinux/MyCode/MyProjects/C++/07.25 中找不到 CMakeLists.txt 选择 CMakeLists.txt
