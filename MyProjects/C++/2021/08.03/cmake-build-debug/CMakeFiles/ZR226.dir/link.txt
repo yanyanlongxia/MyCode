@@ -1,0 +1,1 @@
+/usr/bin/c++  -mcmodel=medium -g CMakeFiles/ZR226.dir/ZR226.cpp.o -o ZR226 

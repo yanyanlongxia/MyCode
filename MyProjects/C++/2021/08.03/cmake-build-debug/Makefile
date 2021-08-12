@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-d
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/noilinux/Apps/ideas/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/noilinux/Apps/ideas/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,6 +130,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ZR297
+
+# Build rule for target.
+ZR297: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR297
+.PHONY : ZR297
+
+# fast build rule for target.
+ZR297/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR297.dir/build.make CMakeFiles/ZR297.dir/build
+.PHONY : ZR297/fast
+
+#=============================================================================
+# Target rules for targets named ZR1948
+
+# Build rule for target.
+ZR1948: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1948
+.PHONY : ZR1948
+
+# fast build rule for target.
+ZR1948/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1948.dir/build.make CMakeFiles/ZR1948.dir/build
+.PHONY : ZR1948/fast
+
+#=============================================================================
+# Target rules for targets named ZR226
+
+# Build rule for target.
+ZR226: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR226
+.PHONY : ZR226
+
+# fast build rule for target.
+ZR226/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR226.dir/build.make CMakeFiles/ZR226.dir/build
+.PHONY : ZR226/fast
+
+#=============================================================================
 # Target rules for targets named 08_03
 
 # Build rule for target.
@@ -141,6 +180,327 @@ depend:
 08_03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_03.dir/build.make CMakeFiles/08_03.dir/build
 .PHONY : 08_03/fast
+
+#=============================================================================
+# Target rules for targets named ZR303
+
+# Build rule for target.
+ZR303: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR303
+.PHONY : ZR303
+
+# fast build rule for target.
+ZR303/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR303.dir/build.make CMakeFiles/ZR303.dir/build
+.PHONY : ZR303/fast
+
+#=============================================================================
+# Target rules for targets named ACM_C
+
+# Build rule for target.
+ACM_C: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ACM_C
+.PHONY : ACM_C
+
+# fast build rule for target.
+ACM_C/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_C.dir/build.make CMakeFiles/ACM_C.dir/build
+.PHONY : ACM_C/fast
+
+#=============================================================================
+# Target rules for targets named ZR1946
+
+# Build rule for target.
+ZR1946: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR1946
+.PHONY : ZR1946
+
+# fast build rule for target.
+ZR1946/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1946.dir/build.make CMakeFiles/ZR1946.dir/build
+.PHONY : ZR1946/fast
+
+#=============================================================================
+# Target rules for targets named ZR225
+
+# Build rule for target.
+ZR225: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR225
+.PHONY : ZR225
+
+# fast build rule for target.
+ZR225/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR225.dir/build.make CMakeFiles/ZR225.dir/build
+.PHONY : ZR225/fast
+
+#=============================================================================
+# Target rules for targets named ACM_F
+
+# Build rule for target.
+ACM_F: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ACM_F
+.PHONY : ACM_F
+
+# fast build rule for target.
+ACM_F/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_F.dir/build.make CMakeFiles/ACM_F.dir/build
+.PHONY : ACM_F/fast
+
+#=============================================================================
+# Target rules for targets named ZR115
+
+# Build rule for target.
+ZR115: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZR115
+.PHONY : ZR115
+
+# fast build rule for target.
+ZR115/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR115.dir/build.make CMakeFiles/ZR115.dir/build
+.PHONY : ZR115/fast
+
+ACM_C.o: ACM_C.cpp.o
+
+.PHONY : ACM_C.o
+
+# target to build an object file
+ACM_C.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_C.dir/build.make CMakeFiles/ACM_C.dir/ACM_C.cpp.o
+.PHONY : ACM_C.cpp.o
+
+ACM_C.i: ACM_C.cpp.i
+
+.PHONY : ACM_C.i
+
+# target to preprocess a source file
+ACM_C.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_C.dir/build.make CMakeFiles/ACM_C.dir/ACM_C.cpp.i
+.PHONY : ACM_C.cpp.i
+
+ACM_C.s: ACM_C.cpp.s
+
+.PHONY : ACM_C.s
+
+# target to generate assembly for a file
+ACM_C.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_C.dir/build.make CMakeFiles/ACM_C.dir/ACM_C.cpp.s
+.PHONY : ACM_C.cpp.s
+
+ACM_F.o: ACM_F.cpp.o
+
+.PHONY : ACM_F.o
+
+# target to build an object file
+ACM_F.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_F.dir/build.make CMakeFiles/ACM_F.dir/ACM_F.cpp.o
+.PHONY : ACM_F.cpp.o
+
+ACM_F.i: ACM_F.cpp.i
+
+.PHONY : ACM_F.i
+
+# target to preprocess a source file
+ACM_F.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_F.dir/build.make CMakeFiles/ACM_F.dir/ACM_F.cpp.i
+.PHONY : ACM_F.cpp.i
+
+ACM_F.s: ACM_F.cpp.s
+
+.PHONY : ACM_F.s
+
+# target to generate assembly for a file
+ACM_F.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_F.dir/build.make CMakeFiles/ACM_F.dir/ACM_F.cpp.s
+.PHONY : ACM_F.cpp.s
+
+ZR115.o: ZR115.cpp.o
+
+.PHONY : ZR115.o
+
+# target to build an object file
+ZR115.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR115.dir/build.make CMakeFiles/ZR115.dir/ZR115.cpp.o
+.PHONY : ZR115.cpp.o
+
+ZR115.i: ZR115.cpp.i
+
+.PHONY : ZR115.i
+
+# target to preprocess a source file
+ZR115.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR115.dir/build.make CMakeFiles/ZR115.dir/ZR115.cpp.i
+.PHONY : ZR115.cpp.i
+
+ZR115.s: ZR115.cpp.s
+
+.PHONY : ZR115.s
+
+# target to generate assembly for a file
+ZR115.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR115.dir/build.make CMakeFiles/ZR115.dir/ZR115.cpp.s
+.PHONY : ZR115.cpp.s
+
+ZR1946.o: ZR1946.cpp.o
+
+.PHONY : ZR1946.o
+
+# target to build an object file
+ZR1946.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1946.dir/build.make CMakeFiles/ZR1946.dir/ZR1946.cpp.o
+.PHONY : ZR1946.cpp.o
+
+ZR1946.i: ZR1946.cpp.i
+
+.PHONY : ZR1946.i
+
+# target to preprocess a source file
+ZR1946.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1946.dir/build.make CMakeFiles/ZR1946.dir/ZR1946.cpp.i
+.PHONY : ZR1946.cpp.i
+
+ZR1946.s: ZR1946.cpp.s
+
+.PHONY : ZR1946.s
+
+# target to generate assembly for a file
+ZR1946.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1946.dir/build.make CMakeFiles/ZR1946.dir/ZR1946.cpp.s
+.PHONY : ZR1946.cpp.s
+
+ZR1948.o: ZR1948.cpp.o
+
+.PHONY : ZR1948.o
+
+# target to build an object file
+ZR1948.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1948.dir/build.make CMakeFiles/ZR1948.dir/ZR1948.cpp.o
+.PHONY : ZR1948.cpp.o
+
+ZR1948.i: ZR1948.cpp.i
+
+.PHONY : ZR1948.i
+
+# target to preprocess a source file
+ZR1948.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1948.dir/build.make CMakeFiles/ZR1948.dir/ZR1948.cpp.i
+.PHONY : ZR1948.cpp.i
+
+ZR1948.s: ZR1948.cpp.s
+
+.PHONY : ZR1948.s
+
+# target to generate assembly for a file
+ZR1948.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1948.dir/build.make CMakeFiles/ZR1948.dir/ZR1948.cpp.s
+.PHONY : ZR1948.cpp.s
+
+ZR225.o: ZR225.cpp.o
+
+.PHONY : ZR225.o
+
+# target to build an object file
+ZR225.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR225.dir/build.make CMakeFiles/ZR225.dir/ZR225.cpp.o
+.PHONY : ZR225.cpp.o
+
+ZR225.i: ZR225.cpp.i
+
+.PHONY : ZR225.i
+
+# target to preprocess a source file
+ZR225.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR225.dir/build.make CMakeFiles/ZR225.dir/ZR225.cpp.i
+.PHONY : ZR225.cpp.i
+
+ZR225.s: ZR225.cpp.s
+
+.PHONY : ZR225.s
+
+# target to generate assembly for a file
+ZR225.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR225.dir/build.make CMakeFiles/ZR225.dir/ZR225.cpp.s
+.PHONY : ZR225.cpp.s
+
+ZR226.o: ZR226.cpp.o
+
+.PHONY : ZR226.o
+
+# target to build an object file
+ZR226.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR226.dir/build.make CMakeFiles/ZR226.dir/ZR226.cpp.o
+.PHONY : ZR226.cpp.o
+
+ZR226.i: ZR226.cpp.i
+
+.PHONY : ZR226.i
+
+# target to preprocess a source file
+ZR226.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR226.dir/build.make CMakeFiles/ZR226.dir/ZR226.cpp.i
+.PHONY : ZR226.cpp.i
+
+ZR226.s: ZR226.cpp.s
+
+.PHONY : ZR226.s
+
+# target to generate assembly for a file
+ZR226.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR226.dir/build.make CMakeFiles/ZR226.dir/ZR226.cpp.s
+.PHONY : ZR226.cpp.s
+
+ZR297.o: ZR297.cpp.o
+
+.PHONY : ZR297.o
+
+# target to build an object file
+ZR297.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR297.dir/build.make CMakeFiles/ZR297.dir/ZR297.cpp.o
+.PHONY : ZR297.cpp.o
+
+ZR297.i: ZR297.cpp.i
+
+.PHONY : ZR297.i
+
+# target to preprocess a source file
+ZR297.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR297.dir/build.make CMakeFiles/ZR297.dir/ZR297.cpp.i
+.PHONY : ZR297.cpp.i
+
+ZR297.s: ZR297.cpp.s
+
+.PHONY : ZR297.s
+
+# target to generate assembly for a file
+ZR297.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR297.dir/build.make CMakeFiles/ZR297.dir/ZR297.cpp.s
+.PHONY : ZR297.cpp.s
+
+ZR303.o: ZR303.cpp.o
+
+.PHONY : ZR303.o
+
+# target to build an object file
+ZR303.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR303.dir/build.make CMakeFiles/ZR303.dir/ZR303.cpp.o
+.PHONY : ZR303.cpp.o
+
+ZR303.i: ZR303.cpp.i
+
+.PHONY : ZR303.i
+
+# target to preprocess a source file
+ZR303.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR303.dir/build.make CMakeFiles/ZR303.dir/ZR303.cpp.i
+.PHONY : ZR303.cpp.i
+
+ZR303.s: ZR303.cpp.s
+
+.PHONY : ZR303.s
+
+# target to generate assembly for a file
+ZR303.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR303.dir/build.make CMakeFiles/ZR303.dir/ZR303.cpp.s
+.PHONY : ZR303.cpp.s
 
 main.o: main.cpp.o
 
@@ -178,6 +538,42 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 08_03"
+	@echo "... ACM_C"
+	@echo "... ACM_F"
+	@echo "... ZR115"
+	@echo "... ZR1946"
+	@echo "... ZR1948"
+	@echo "... ZR225"
+	@echo "... ZR226"
+	@echo "... ZR297"
+	@echo "... ZR303"
+	@echo "... ACM_C.o"
+	@echo "... ACM_C.i"
+	@echo "... ACM_C.s"
+	@echo "... ACM_F.o"
+	@echo "... ACM_F.i"
+	@echo "... ACM_F.s"
+	@echo "... ZR115.o"
+	@echo "... ZR115.i"
+	@echo "... ZR115.s"
+	@echo "... ZR1946.o"
+	@echo "... ZR1946.i"
+	@echo "... ZR1946.s"
+	@echo "... ZR1948.o"
+	@echo "... ZR1948.i"
+	@echo "... ZR1948.s"
+	@echo "... ZR225.o"
+	@echo "... ZR225.i"
+	@echo "... ZR225.s"
+	@echo "... ZR226.o"
+	@echo "... ZR226.i"
+	@echo "... ZR226.s"
+	@echo "... ZR297.o"
+	@echo "... ZR297.i"
+	@echo "... ZR297.s"
+	@echo "... ZR303.o"
+	@echo "... ZR303.i"
+	@echo "... ZR303.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

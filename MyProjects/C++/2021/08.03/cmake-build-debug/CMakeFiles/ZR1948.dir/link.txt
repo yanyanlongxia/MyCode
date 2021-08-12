@@ -1,0 +1,1 @@
+/usr/bin/c++  -mcmodel=medium -g CMakeFiles/ZR1948.dir/ZR1948.cpp.o -o ZR1948 

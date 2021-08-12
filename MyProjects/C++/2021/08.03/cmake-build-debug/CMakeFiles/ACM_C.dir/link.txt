@@ -1,0 +1,1 @@
+/usr/bin/c++  -mcmodel=medium -g CMakeFiles/ACM_C.dir/ACM_C.cpp.o -o ACM_C 

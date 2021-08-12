@@ -1,3 +1,12 @@
-/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/ZR297.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/ZR1948.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/ZR226.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/08_03.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/ZR303.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/ACM_C.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/ZR1946.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/ZR225.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/ACM_F.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles/ZR115.dir

@@ -72,7 +72,16 @@ CMAKE_BINARY_DIR = /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-d
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/ZR297.dir/all
+all: CMakeFiles/ZR1948.dir/all
+all: CMakeFiles/ZR226.dir/all
 all: CMakeFiles/08_03.dir/all
+all: CMakeFiles/ZR303.dir/all
+all: CMakeFiles/ACM_C.dir/all
+all: CMakeFiles/ZR1946.dir/all
+all: CMakeFiles/ZR225.dir/all
+all: CMakeFiles/ACM_F.dir/all
+all: CMakeFiles/ZR115.dir/all
 
 .PHONY : all
 
@@ -82,9 +91,99 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/ZR297.dir/clean
+clean: CMakeFiles/ZR1948.dir/clean
+clean: CMakeFiles/ZR226.dir/clean
 clean: CMakeFiles/08_03.dir/clean
+clean: CMakeFiles/ZR303.dir/clean
+clean: CMakeFiles/ACM_C.dir/clean
+clean: CMakeFiles/ZR1946.dir/clean
+clean: CMakeFiles/ZR225.dir/clean
+clean: CMakeFiles/ACM_F.dir/clean
+clean: CMakeFiles/ZR115.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR297.dir
+
+# All Build rule for target.
+CMakeFiles/ZR297.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR297.dir/build.make CMakeFiles/ZR297.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR297.dir/build.make CMakeFiles/ZR297.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target ZR297"
+.PHONY : CMakeFiles/ZR297.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR297.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR297.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR297.dir/rule
+
+# Convenience name for target.
+ZR297: CMakeFiles/ZR297.dir/rule
+
+.PHONY : ZR297
+
+# clean rule for target.
+CMakeFiles/ZR297.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR297.dir/build.make CMakeFiles/ZR297.dir/clean
+.PHONY : CMakeFiles/ZR297.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR1948.dir
+
+# All Build rule for target.
+CMakeFiles/ZR1948.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1948.dir/build.make CMakeFiles/ZR1948.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1948.dir/build.make CMakeFiles/ZR1948.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target ZR1948"
+.PHONY : CMakeFiles/ZR1948.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR1948.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR1948.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR1948.dir/rule
+
+# Convenience name for target.
+ZR1948: CMakeFiles/ZR1948.dir/rule
+
+.PHONY : ZR1948
+
+# clean rule for target.
+CMakeFiles/ZR1948.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1948.dir/build.make CMakeFiles/ZR1948.dir/clean
+.PHONY : CMakeFiles/ZR1948.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR226.dir
+
+# All Build rule for target.
+CMakeFiles/ZR226.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR226.dir/build.make CMakeFiles/ZR226.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR226.dir/build.make CMakeFiles/ZR226.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target ZR226"
+.PHONY : CMakeFiles/ZR226.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR226.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR226.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR226.dir/rule
+
+# Convenience name for target.
+ZR226: CMakeFiles/ZR226.dir/rule
+
+.PHONY : ZR226
+
+# clean rule for target.
+CMakeFiles/ZR226.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR226.dir/build.make CMakeFiles/ZR226.dir/clean
+.PHONY : CMakeFiles/ZR226.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/08_03.dir
@@ -112,6 +211,168 @@ CMakeFiles/08_03.dir/rule: cmake_check_build_system
 CMakeFiles/08_03.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_03.dir/build.make CMakeFiles/08_03.dir/clean
 .PHONY : CMakeFiles/08_03.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR303.dir
+
+# All Build rule for target.
+CMakeFiles/ZR303.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR303.dir/build.make CMakeFiles/ZR303.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR303.dir/build.make CMakeFiles/ZR303.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target ZR303"
+.PHONY : CMakeFiles/ZR303.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR303.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR303.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR303.dir/rule
+
+# Convenience name for target.
+ZR303: CMakeFiles/ZR303.dir/rule
+
+.PHONY : ZR303
+
+# clean rule for target.
+CMakeFiles/ZR303.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR303.dir/build.make CMakeFiles/ZR303.dir/clean
+.PHONY : CMakeFiles/ZR303.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ACM_C.dir
+
+# All Build rule for target.
+CMakeFiles/ACM_C.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_C.dir/build.make CMakeFiles/ACM_C.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_C.dir/build.make CMakeFiles/ACM_C.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target ACM_C"
+.PHONY : CMakeFiles/ACM_C.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ACM_C.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ACM_C.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ACM_C.dir/rule
+
+# Convenience name for target.
+ACM_C: CMakeFiles/ACM_C.dir/rule
+
+.PHONY : ACM_C
+
+# clean rule for target.
+CMakeFiles/ACM_C.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_C.dir/build.make CMakeFiles/ACM_C.dir/clean
+.PHONY : CMakeFiles/ACM_C.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR1946.dir
+
+# All Build rule for target.
+CMakeFiles/ZR1946.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1946.dir/build.make CMakeFiles/ZR1946.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1946.dir/build.make CMakeFiles/ZR1946.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target ZR1946"
+.PHONY : CMakeFiles/ZR1946.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR1946.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR1946.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR1946.dir/rule
+
+# Convenience name for target.
+ZR1946: CMakeFiles/ZR1946.dir/rule
+
+.PHONY : ZR1946
+
+# clean rule for target.
+CMakeFiles/ZR1946.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR1946.dir/build.make CMakeFiles/ZR1946.dir/clean
+.PHONY : CMakeFiles/ZR1946.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR225.dir
+
+# All Build rule for target.
+CMakeFiles/ZR225.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR225.dir/build.make CMakeFiles/ZR225.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR225.dir/build.make CMakeFiles/ZR225.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target ZR225"
+.PHONY : CMakeFiles/ZR225.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR225.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR225.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR225.dir/rule
+
+# Convenience name for target.
+ZR225: CMakeFiles/ZR225.dir/rule
+
+.PHONY : ZR225
+
+# clean rule for target.
+CMakeFiles/ZR225.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR225.dir/build.make CMakeFiles/ZR225.dir/clean
+.PHONY : CMakeFiles/ZR225.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ACM_F.dir
+
+# All Build rule for target.
+CMakeFiles/ACM_F.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_F.dir/build.make CMakeFiles/ACM_F.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_F.dir/build.make CMakeFiles/ACM_F.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target ACM_F"
+.PHONY : CMakeFiles/ACM_F.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ACM_F.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ACM_F.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ACM_F.dir/rule
+
+# Convenience name for target.
+ACM_F: CMakeFiles/ACM_F.dir/rule
+
+.PHONY : ACM_F
+
+# clean rule for target.
+CMakeFiles/ACM_F.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACM_F.dir/build.make CMakeFiles/ACM_F.dir/clean
+.PHONY : CMakeFiles/ACM_F.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ZR115.dir
+
+# All Build rule for target.
+CMakeFiles/ZR115.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR115.dir/build.make CMakeFiles/ZR115.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR115.dir/build.make CMakeFiles/ZR115.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target ZR115"
+.PHONY : CMakeFiles/ZR115.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ZR115.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ZR115.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noilinux/MyCode/MyProjects/C++/2021/08.03/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ZR115.dir/rule
+
+# Convenience name for target.
+ZR115: CMakeFiles/ZR115.dir/rule
+
+.PHONY : ZR115
+
+# clean rule for target.
+CMakeFiles/ZR115.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZR115.dir/build.make CMakeFiles/ZR115.dir/clean
+.PHONY : CMakeFiles/ZR115.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

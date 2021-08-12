@@ -1,0 +1,1 @@
+/usr/bin/c++  -mcmodel=medium -g CMakeFiles/ZR303.dir/ZR303.cpp.o -o ZR303 
