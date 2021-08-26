@@ -1,1 +1,1 @@
-/usr/bin/c++  -mcmodel=medium -g CMakeFiles/08_03.dir/main.cpp.o -o 08_03 
+/usr/bin/c++ -g CMakeFiles/08_03.dir/main.cpp.o -o 08_03 

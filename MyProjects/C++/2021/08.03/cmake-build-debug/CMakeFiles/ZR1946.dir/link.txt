@@ -1,1 +1,1 @@
-/usr/bin/c++  -mcmodel=medium -g CMakeFiles/ZR1946.dir/ZR1946.cpp.o -o ZR1946 
+/usr/bin/c++ -g CMakeFiles/ZR1946.dir/ZR1946.cpp.o -o ZR1946 

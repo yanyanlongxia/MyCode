@@ -1,1 +1,1 @@
-/usr/bin/c++  -mcmodel=medium -g CMakeFiles/ZR115.dir/ZR115.cpp.o -o ZR115 
+/usr/bin/c++ -g CMakeFiles/ZR115.dir/ZR115.cpp.o -o ZR115 

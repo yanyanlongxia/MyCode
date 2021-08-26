@@ -1,0 +1,5 @@
+/home/noilinux/MyCode/MyProjects/C++/2021/08.26/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.26/cmake-build-debug/CMakeFiles/08_26.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.26/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.26/cmake-build-debug/CMakeFiles/test.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/08.26/cmake-build-debug/CMakeFiles/mult.dir

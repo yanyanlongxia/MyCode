@@ -1,0 +1,4 @@
+/home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/noilinux/MyCode/MyProjects/C++/2021/08.26
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/noilinux/MyCode/MyProjects/C++/2021/08.26/cmake-build-debug

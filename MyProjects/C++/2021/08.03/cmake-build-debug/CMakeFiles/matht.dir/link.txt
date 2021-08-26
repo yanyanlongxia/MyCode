@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/matht.dir/matht.cpp.o -o matht 

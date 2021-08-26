@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ZR401.dir/ZR401.cpp.o -o ZR401 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/bf.dir/bf.cpp.o -o bf 
