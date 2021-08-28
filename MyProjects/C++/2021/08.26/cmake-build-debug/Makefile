@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /home/noilinux/MyCode/MyProjects/C++/2021/08.26/cmake-build-d
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -84,6 +74,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -154,6 +154,43 @@ mult: cmake_check_build_system
 mult/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mult.dir/build.make CMakeFiles/mult.dir/build
 .PHONY : mult/fast
+
+#=============================================================================
+# Target rules for targets named collect
+
+# Build rule for target.
+collect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 collect
+.PHONY : collect
+
+# fast build rule for target.
+collect/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/collect.dir/build.make CMakeFiles/collect.dir/build
+.PHONY : collect/fast
+
+collect.o: collect.cpp.o
+.PHONY : collect.o
+
+# target to build an object file
+collect.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/collect.dir/build.make CMakeFiles/collect.dir/collect.cpp.o
+.PHONY : collect.cpp.o
+
+collect.i: collect.cpp.i
+.PHONY : collect.i
+
+# target to preprocess a source file
+collect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/collect.dir/build.make CMakeFiles/collect.dir/collect.cpp.i
+.PHONY : collect.cpp.i
+
+collect.s: collect.cpp.s
+.PHONY : collect.s
+
+# target to generate assembly for a file
+collect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/collect.dir/build.make CMakeFiles/collect.dir/collect.cpp.s
+.PHONY : collect.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -236,8 +273,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 08_26"
+	@echo "... collect"
 	@echo "... mult"
 	@echo "... test"
+	@echo "... collect.o"
+	@echo "... collect.i"
+	@echo "... collect.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

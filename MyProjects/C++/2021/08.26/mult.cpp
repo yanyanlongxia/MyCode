@@ -3,6 +3,7 @@
 #include <bits/stdc++.h>
 
 #define ll long long
+#define ull unsigned long long
 #define clm(x) memset(x,0,sizeof(x))
 #define infm(x) memset(x,0x3f3f3f3f,sizeof(x))
 #define minfm(x) memset(x,0xcf,sizeof(x))
@@ -33,8 +34,8 @@ int main() {
             continue;
         }
         if(n%3==0){
-            ll res=1ll*(n/3)*(n/3)*(n/3);
-            printf("%lld\n",res);
+            ull res=1ll*(n/3)*(n/3)*(n/3);
+            printf("%llu\n",res);
             continue;
         }
         if(n&1){
@@ -45,8 +46,8 @@ int main() {
             puts("-1");
             continue;
         }
-        ll res=1ll*(n/2)*(n/4)*(n/4);
-        printf("%lld\n",res);
+        ull res=1ll*(n/2)*(n/4)*(n/4);
+        printf("%llu\n",res);
     }
     return 0;
 }

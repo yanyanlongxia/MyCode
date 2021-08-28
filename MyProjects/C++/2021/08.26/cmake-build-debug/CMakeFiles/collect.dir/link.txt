@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/collect.dir/collect.cpp.o -o collect 

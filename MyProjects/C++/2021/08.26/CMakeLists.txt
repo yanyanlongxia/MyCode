@@ -7,3 +7,4 @@ add_executable(08_26 main.cpp)
 
 add_executable(test test.cpp)
 add_executable(mult mult.cpp)
+add_executable(collect collect.cpp)
