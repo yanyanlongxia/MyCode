@@ -8,29 +8,22 @@
 #define infm(x) memset(x,0x3f3f3f3f,sizeof(x))
 #define minfm(x) memset(x,0xcf,sizeof(x))
 using namespace std;
-int las=0;
+const int N=2e4;
+int n,m,mat[N][N];
 int main() {
-    //freopen("data.in","r",stdin);
-    //freopen("test.out","w",stdout);
-    /*for(int i=1;i<=1000;i++){
-        for(int j=i;j<=1000;j++)
-            for(int k=j;k<=1000;k++){
-                int res=i+j+k;
-                if(res%i!=0)
-                    continue;
-                if(res%j!=0)
-                    continue;
-                if(res%k!=0)
-                    continue;
-                if(res%3==0)
-                    continue;
-                if(res==las)
-                    printf("FALSE");
-                las=res;
-                printf("%d %d %d %d\n",i,j,k,res);
+    freopen("data.in","r",stdin);
+    scanf("%d%d",&n,&m);
+    for(int i=1;i<=n;i++)
+        for(int j=1;j<=m;j++){
+            scanf("%d",&mat[i][j]);
+        }
+    printf("%d ",mat[1][1]);
+    for(int i=1;i<=100;i++){
+        for(int v=1;v<=n;v++)
+            for(int u=1;u<=n;u++){
+                mat[u][v]=mat[u][v]^mat[u][v+1]^mat[u+1][v]^mat[u+1][v+1];
             }
-    }*/
-    ull res=1ll*2222222*2222222*2222222;
-    printf("%llu\n",res);
+        printf("%d ",mat[1][1]);
+    }
     return 0;
 }

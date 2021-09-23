@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/P2746.dir/P2746.cpp.o -o P2746 

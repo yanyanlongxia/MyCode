@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/qd.dir/qd.cpp.o -o qd 

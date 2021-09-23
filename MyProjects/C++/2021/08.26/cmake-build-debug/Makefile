@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/noilinux/MyCode/MyProjects/C++/2021/08.26/cmake-build-d
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/noilinux/Apps/ideas/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -117,30 +117,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 08_26
+# Target rules for targets named kor
 
 # Build rule for target.
-08_26: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_26
-.PHONY : 08_26
+kor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kor
+.PHONY : kor
 
 # fast build rule for target.
-08_26/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_26.dir/build.make CMakeFiles/08_26.dir/build
-.PHONY : 08_26/fast
+kor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kor.dir/build.make CMakeFiles/kor.dir/build
+.PHONY : kor/fast
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named P2746
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
+P2746: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P2746
+.PHONY : P2746
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+P2746/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2746.dir/build.make CMakeFiles/P2746.dir/build
+.PHONY : P2746/fast
+
+#=============================================================================
+# Target rules for targets named collect
+
+# Build rule for target.
+collect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 collect
+.PHONY : collect
+
+# fast build rule for target.
+collect/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/collect.dir/build.make CMakeFiles/collect.dir/build
+.PHONY : collect/fast
 
 #=============================================================================
 # Target rules for targets named mult
@@ -156,17 +169,132 @@ mult/fast:
 .PHONY : mult/fast
 
 #=============================================================================
-# Target rules for targets named collect
+# Target rules for targets named test
 
 # Build rule for target.
-collect: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 collect
-.PHONY : collect
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-collect/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/collect.dir/build.make CMakeFiles/collect.dir/build
-.PHONY : collect/fast
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named tesahsfd
+
+# Build rule for target.
+tesahsfd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tesahsfd
+.PHONY : tesahsfd
+
+# fast build rule for target.
+tesahsfd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesahsfd.dir/build.make CMakeFiles/tesahsfd.dir/build
+.PHONY : tesahsfd/fast
+
+#=============================================================================
+# Target rules for targets named kk
+
+# Build rule for target.
+kk: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kk
+.PHONY : kk
+
+# fast build rule for target.
+kk/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kk.dir/build.make CMakeFiles/kk.dir/build
+.PHONY : kk/fast
+
+#=============================================================================
+# Target rules for targets named qd
+
+# Build rule for target.
+qd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qd
+.PHONY : qd
+
+# fast build rule for target.
+qd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qd.dir/build.make CMakeFiles/qd.dir/build
+.PHONY : qd/fast
+
+#=============================================================================
+# Target rules for targets named 08_26
+
+# Build rule for target.
+08_26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_26
+.PHONY : 08_26
+
+# fast build rule for target.
+08_26/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_26.dir/build.make CMakeFiles/08_26.dir/build
+.PHONY : 08_26/fast
+
+#=============================================================================
+# Target rules for targets named kk_sample
+
+# Build rule for target.
+kk_sample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kk_sample
+.PHONY : kk_sample
+
+# fast build rule for target.
+kk_sample/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kk_sample.dir/build.make CMakeFiles/kk_sample.dir/build
+.PHONY : kk_sample/fast
+
+#=============================================================================
+# Target rules for targets named matmaker
+
+# Build rule for target.
+matmaker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matmaker
+.PHONY : matmaker
+
+# fast build rule for target.
+matmaker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matmaker.dir/build.make CMakeFiles/matmaker.dir/build
+.PHONY : matmaker/fast
+
+#=============================================================================
+# Target rules for targets named test3
+
+# Build rule for target.
+test3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test3
+.PHONY : test3
+
+# fast build rule for target.
+test3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/build
+.PHONY : test3/fast
+
+P2746.o: P2746.cpp.o
+.PHONY : P2746.o
+
+# target to build an object file
+P2746.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2746.dir/build.make CMakeFiles/P2746.dir/P2746.cpp.o
+.PHONY : P2746.cpp.o
+
+P2746.i: P2746.cpp.i
+.PHONY : P2746.i
+
+# target to preprocess a source file
+P2746.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2746.dir/build.make CMakeFiles/P2746.dir/P2746.cpp.i
+.PHONY : P2746.cpp.i
+
+P2746.s: P2746.cpp.s
+.PHONY : P2746.s
+
+# target to generate assembly for a file
+P2746.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2746.dir/build.make CMakeFiles/P2746.dir/P2746.cpp.s
+.PHONY : P2746.cpp.s
 
 collect.o: collect.cpp.o
 .PHONY : collect.o
@@ -192,6 +320,78 @@ collect.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/collect.dir/build.make CMakeFiles/collect.dir/collect.cpp.s
 .PHONY : collect.cpp.s
 
+kk.o: kk.cpp.o
+.PHONY : kk.o
+
+# target to build an object file
+kk.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kk.dir/build.make CMakeFiles/kk.dir/kk.cpp.o
+.PHONY : kk.cpp.o
+
+kk.i: kk.cpp.i
+.PHONY : kk.i
+
+# target to preprocess a source file
+kk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kk.dir/build.make CMakeFiles/kk.dir/kk.cpp.i
+.PHONY : kk.cpp.i
+
+kk.s: kk.cpp.s
+.PHONY : kk.s
+
+# target to generate assembly for a file
+kk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kk.dir/build.make CMakeFiles/kk.dir/kk.cpp.s
+.PHONY : kk.cpp.s
+
+kk_sample.o: kk_sample.cpp.o
+.PHONY : kk_sample.o
+
+# target to build an object file
+kk_sample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kk_sample.dir/build.make CMakeFiles/kk_sample.dir/kk_sample.cpp.o
+.PHONY : kk_sample.cpp.o
+
+kk_sample.i: kk_sample.cpp.i
+.PHONY : kk_sample.i
+
+# target to preprocess a source file
+kk_sample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kk_sample.dir/build.make CMakeFiles/kk_sample.dir/kk_sample.cpp.i
+.PHONY : kk_sample.cpp.i
+
+kk_sample.s: kk_sample.cpp.s
+.PHONY : kk_sample.s
+
+# target to generate assembly for a file
+kk_sample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kk_sample.dir/build.make CMakeFiles/kk_sample.dir/kk_sample.cpp.s
+.PHONY : kk_sample.cpp.s
+
+kor.o: kor.cpp.o
+.PHONY : kor.o
+
+# target to build an object file
+kor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kor.dir/build.make CMakeFiles/kor.dir/kor.cpp.o
+.PHONY : kor.cpp.o
+
+kor.i: kor.cpp.i
+.PHONY : kor.i
+
+# target to preprocess a source file
+kor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kor.dir/build.make CMakeFiles/kor.dir/kor.cpp.i
+.PHONY : kor.cpp.i
+
+kor.s: kor.cpp.s
+.PHONY : kor.s
+
+# target to generate assembly for a file
+kor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kor.dir/build.make CMakeFiles/kor.dir/kor.cpp.s
+.PHONY : kor.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -215,6 +415,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_26.dir/build.make CMakeFiles/08_26.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matmaker.o: matmaker.cpp.o
+.PHONY : matmaker.o
+
+# target to build an object file
+matmaker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matmaker.dir/build.make CMakeFiles/matmaker.dir/matmaker.cpp.o
+.PHONY : matmaker.cpp.o
+
+matmaker.i: matmaker.cpp.i
+.PHONY : matmaker.i
+
+# target to preprocess a source file
+matmaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matmaker.dir/build.make CMakeFiles/matmaker.dir/matmaker.cpp.i
+.PHONY : matmaker.cpp.i
+
+matmaker.s: matmaker.cpp.s
+.PHONY : matmaker.s
+
+# target to generate assembly for a file
+matmaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matmaker.dir/build.make CMakeFiles/matmaker.dir/matmaker.cpp.s
+.PHONY : matmaker.cpp.s
 
 mult.o: mult.cpp.o
 .PHONY : mult.o
@@ -240,6 +464,54 @@ mult.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mult.dir/build.make CMakeFiles/mult.dir/mult.cpp.s
 .PHONY : mult.cpp.s
 
+qd.o: qd.cpp.o
+.PHONY : qd.o
+
+# target to build an object file
+qd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qd.dir/build.make CMakeFiles/qd.dir/qd.cpp.o
+.PHONY : qd.cpp.o
+
+qd.i: qd.cpp.i
+.PHONY : qd.i
+
+# target to preprocess a source file
+qd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qd.dir/build.make CMakeFiles/qd.dir/qd.cpp.i
+.PHONY : qd.cpp.i
+
+qd.s: qd.cpp.s
+.PHONY : qd.s
+
+# target to generate assembly for a file
+qd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qd.dir/build.make CMakeFiles/qd.dir/qd.cpp.s
+.PHONY : qd.cpp.s
+
+tesahsfd.o: tesahsfd.cpp.o
+.PHONY : tesahsfd.o
+
+# target to build an object file
+tesahsfd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesahsfd.dir/build.make CMakeFiles/tesahsfd.dir/tesahsfd.cpp.o
+.PHONY : tesahsfd.cpp.o
+
+tesahsfd.i: tesahsfd.cpp.i
+.PHONY : tesahsfd.i
+
+# target to preprocess a source file
+tesahsfd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesahsfd.dir/build.make CMakeFiles/tesahsfd.dir/tesahsfd.cpp.i
+.PHONY : tesahsfd.cpp.i
+
+tesahsfd.s: tesahsfd.cpp.s
+.PHONY : tesahsfd.s
+
+# target to generate assembly for a file
+tesahsfd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesahsfd.dir/build.make CMakeFiles/tesahsfd.dir/tesahsfd.cpp.s
+.PHONY : tesahsfd.cpp.s
+
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -264,6 +536,30 @@ test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
 .PHONY : test.cpp.s
 
+test3.o: test3.cpp.o
+.PHONY : test3.o
+
+# target to build an object file
+test3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/test3.cpp.o
+.PHONY : test3.cpp.o
+
+test3.i: test3.cpp.i
+.PHONY : test3.i
+
+# target to preprocess a source file
+test3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/test3.cpp.i
+.PHONY : test3.cpp.i
+
+test3.s: test3.cpp.s
+.PHONY : test3.s
+
+# target to generate assembly for a file
+test3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/test3.cpp.s
+.PHONY : test3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,21 +569,53 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 08_26"
+	@echo "... P2746"
 	@echo "... collect"
+	@echo "... kk"
+	@echo "... kk_sample"
+	@echo "... kor"
+	@echo "... matmaker"
 	@echo "... mult"
+	@echo "... qd"
+	@echo "... tesahsfd"
 	@echo "... test"
+	@echo "... test3"
+	@echo "... P2746.o"
+	@echo "... P2746.i"
+	@echo "... P2746.s"
 	@echo "... collect.o"
 	@echo "... collect.i"
 	@echo "... collect.s"
+	@echo "... kk.o"
+	@echo "... kk.i"
+	@echo "... kk.s"
+	@echo "... kk_sample.o"
+	@echo "... kk_sample.i"
+	@echo "... kk_sample.s"
+	@echo "... kor.o"
+	@echo "... kor.i"
+	@echo "... kor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matmaker.o"
+	@echo "... matmaker.i"
+	@echo "... matmaker.s"
 	@echo "... mult.o"
 	@echo "... mult.i"
 	@echo "... mult.s"
+	@echo "... qd.o"
+	@echo "... qd.i"
+	@echo "... qd.s"
+	@echo "... tesahsfd.o"
+	@echo "... tesahsfd.i"
+	@echo "... tesahsfd.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... test3.o"
+	@echo "... test3.i"
+	@echo "... test3.s"
 .PHONY : help
 
 

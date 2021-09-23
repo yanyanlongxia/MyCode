@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/kk_sample.dir/kk_sample.cpp.o -o kk_sample 
