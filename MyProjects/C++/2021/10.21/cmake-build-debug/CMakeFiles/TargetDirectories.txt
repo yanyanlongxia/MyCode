@@ -1,0 +1,4 @@
+/home/noilinux/MyCode/MyProjects/C++/2021/10.21/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/10.21/cmake-build-debug/CMakeFiles/travel.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/10.21/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/noilinux/MyCode/MyProjects/C++/2021/10.21/cmake-build-debug/CMakeFiles/10_21.dir
